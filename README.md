@@ -15,6 +15,8 @@ e.g.: ./calculateXSectionAndFilterEfficiency.sh -f DYJetsToLL.txt -d DYJetsToLL 
 Set maximum number of events to -1 to run all the events in each root file
 In the example, DYJetsToLL.txt contains a list of root files in the format of "root://eospublic.cern.ch//eos/opendata/"
 
+If you get an error saying "Permisson denied", type "chmod 777 calculateXSectionAndFilterEfficiency.sh" to give the permission to the .sh file first and then rerun the above command.
+
 If we already have .log files, we can run "python output_to_numpy.py" by itself to get the numpy arrays, but the name of the .log file should have the format of xsec_<dataset_name>.log
 
 ### To use the outputs:
