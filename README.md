@@ -36,7 +36,7 @@ To check the metadata for a specific column:
 print(xsec_arr.dtype.metadata["<column_name>"])
 e.g.: print(xsec_arr.dtype.metadata["equivLumi"])
 
-### Overview of what's in the numpy array:
+### Column names of the numpy array:
   - total cross sections before matchhing (column name in the output numpy array: 'totX_beforeMat')                                         
   - total cross sections after matching ('totX_afterMat')                                                                                   
   - matching efficiency ('matchingEff')                                                                                                                  
