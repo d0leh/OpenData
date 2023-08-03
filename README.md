@@ -44,4 +44,8 @@ e.g.: print(xsec_arr.dtype.metadata["equivLumi"])
   - filter efficiency (event) ('filterEff(event)')                                                                                          
   - final total cross section ('totX_final')                                                                                                
   - negative weight fraction ('negWeightFrac')                                                                                              
-  - equivalent luminosity ('equivLumi') 
+  - equivalent luminosity ('equivLumi')
+
+### Compatible CMSSW versions
+Tested with CMSSW_10_6_0
+Will test it with other versions soon
