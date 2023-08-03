@@ -39,14 +39,14 @@ print(xsec_arr.dtype.metadata["<column_name>"])
 e.g.: print(xsec_arr.dtype.metadata["equivLumi"])
 
 ### Column names of the numpy array:
-  - total cross sections before matchhing ('totX_beforeMat')                                         
-  - total cross sections after matching ('totX_afterMat')                                                                                   
-  - matching efficiency ('matchingEff')                                                                                                                  
-  - filter efficiency (weights) ('filterEff(weights)')                                                                                      
-  - filter efficiency (event) ('filterEff(event)')                                                                                          
-  - final total cross section ('totX_final')                                                                                                
-  - negative weight fraction ('negWeightFrac')                                                                                              
-  - equivalent luminosity ('equivLumi')
+  - 'totX_beforeMat': total cross sections before matchhing 'totX_beforeMat'                                         
+  - 'totX_afterMat' : total cross sections after matching                                                                                  
+  - 'matchingEff' : matching efficiency                                                                                                                   
+  - 'filterEff(weights)' : filter efficiency (weights)                                                                                    
+  - 'filterEff(event)' : filter efficiency (event)                                                                                          
+  - 'totX_final' : final total cross section                                                                                                 
+  - 'negWeightFrac' : negative weight fraction                                                                                              
+  - 'equivLumi' : equivalent luminosity 
 
 ### Compatible CMSSW versions
 Tested with CMSSW_10_6_0
