@@ -21,14 +21,8 @@
 # For each sample, it produces a .npy file with the name of the dataset                                                                      #
 ##############################################################################################################################################
 
-
-#import subprocess
 import os
 import numpy as np
-
-#subprocess.call(['sh', './calculateXSectionAndFilterEfficiency.sh'])
-#process = subprocess.Popen(['calculateXSectionAndFilterEfficiency.sh', 'datasets.txt', 'Moriond17', 'MINIAODSIM', '1000000'])
-#process.wait()
 
 file_list = [f for f in os.listdir(".") if f.startswith("xsec") and f.endswith(".log")]
 
