@@ -28,12 +28,12 @@ file_list = [f for f in os.listdir(".") if f.startswith("xsec") and f.endswith("
 
 dt = {'names':['totX_beforeMat', 'totX_afterMat', 'matchingEff', 'filterEff(weights)', 'filterEff(event)', 'totX_final', 'negWeightFrac', 'equivLumi'], 
       'formats':[np.float64, np.float64, np.float64, np.float64, np.float64, np.float64, np.float64, np.float64],
-      'metadata':{"totX_beforeMat":"Total cross section before matching",
-                  "totX_afterMat":"Total cross section after matching",
+      'metadata':{"totX_beforeMat":"Total cross section before matching (pb)",
+                  "totX_afterMat":"Total cross section after matching (pb)",
                   "matchingEff":"Matching efficiency",
                   "filterEff(weights)":"Filter efficiency (taking into account weights)",
                   "filterEff(event)":"Filter efficiency (event-level)",
-                  "totX_final":"Final cross senction after filter",
+                  "totX_final":"Final cross senction after filter (pb)",
                   "negWeightFrac":"Final fraction of events with negative weights after filter",
                   "equivLumi":"Final equivalent lumi for 1M events (1/fb)"
               }

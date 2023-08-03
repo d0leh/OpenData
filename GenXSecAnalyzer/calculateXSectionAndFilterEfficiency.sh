@@ -27,4 +27,4 @@ else
 fi
 echo ""
 
-python output_to_numpy.py
+python output_to_json.py
