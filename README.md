@@ -21,8 +21,11 @@ If we already have .log files, we can run "python output_to_numpy.py" by itself 
 
 ### To use the outputs:
 One .log file and one .npy file for each input filelist (irrelevant unless debugging)
-The .npy file is automatically generated from the .log file
+By default, the .json file is automatically generated from the .log file
 
+There are other output formats available, which can be realized by running output_to_csv.py or output_to_numpy.py instead of the dafualt output_to_json.py.
+
+#### For numpy outputs:
 To use the output of the GenXSecAnalyzer, we only need to do:
 import numpy as np
 result = np.load("<dataset_name>.npy")
