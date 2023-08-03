@@ -1,5 +1,6 @@
 # OpenData
 GenXSecAnalyzer for OpenData
+
 Takes a list files (.txt) and outputs the interesting values as a numpy array by one single command line.
 
 ### To get everything we need:
