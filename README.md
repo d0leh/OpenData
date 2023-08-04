@@ -30,11 +30,12 @@ To use the output of the GenXSecAnalyzer, we only need to do:
 import numpy as np
 result = np.load("<dataset_name>.npy")
 
+The output is a 16 column array.
 To access the columns:
 result["<column_name>"][0] for value
 result["<column_name>"][1] for error
-e.g. result["totX_final"][0] gives the value of the final total cross section
-     result["totX_final"][0] gives its error
+e.g. result["totX_final"] gives the value of the final total cross section
+     result["totX_final_err"] gives its error
 
 To check all the metadata:
 print(result.dtype.metadata)
@@ -44,14 +45,14 @@ print(xsec_arr.dtype.metadata["<column_name>"])
 e.g.: print(xsec_arr.dtype.metadata["equivLumi"])
 
 ### Column names of the numpy array:
-  - 'totX_beforeMat': total cross sections before matchhing 'totX_beforeMat'                                         
-  - 'totX_afterMat' : total cross sections after matching                                                                                  
+  - 'totX_beforeMat': total cross sections before matchhing 'totX_beforeMat'  (pb)                                        
+  - 'totX_afterMat' : total cross sections after matching (pb)                                                                                 
   - 'matchingEff' : matching efficiency                                                                                                                   
   - 'filterEff(weights)' : filter efficiency (weights)                                                                                    
   - 'filterEff(event)' : filter efficiency (event)                                                                                          
-  - 'totX_final' : final total cross section                                                                                                 
-  - 'negWeightFrac' : negative weight fraction                                                                                              
-  - 'equivLumi' : equivalent luminosity 
+  - 'totX_final' : final total cross section (pb)                                                                                                
+  - 'negWeightFrac' : negative weight fraction (pb)                                                                                             
+  - 'equivLumi' : equivalent luminosity (pb)
 
 ### Compatible CMSSW versions
 Tested with CMSSW_10_6_0
