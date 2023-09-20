@@ -30,6 +30,11 @@ import json
 f = open('<sample_name>_<recid>.json')
 data = json.load(f)
 
+### To access the full name and description of the dataset:
+data["Dataset"]
+It will return a string in format:
+/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM
+
 ### To access a specific value:
 result["<column_name>"] for value
 result["<column_name_err>"] for error
