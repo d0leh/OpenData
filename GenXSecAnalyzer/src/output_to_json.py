@@ -132,7 +132,7 @@ except:
                 json.dump(metadata, jsonfile)
                 print("Saved to {}".format(outfile))
     except:
-        print("Failed saving {} in format 2. Trying case 3.".format(fname))
+        print("Failed saving {} in format 2. Trying format 3.".format(fname))
         try: # saw in MinimumBias
             fields = ['totX_beforeFilter', 'totX_beforeFilter_err', 'filterEff(weights)', 'filterEff(weights)_err', 'filterEff(event)', 'filterEff(event)_err', 'totX_final', 'totX_final_err']
             metadata = [{"metadata":{"Dataset":dataset,
@@ -148,7 +148,7 @@ except:
             with open(fname) as f:
                 contents = f.read().split("\n")
                 
-                totX_beforeFilter = [c for c in contents if "Before Filter: total cross section" in c][0].split("= ")[-1].split() # val and err
+                totX_beforeFilter = [c for c in contents if "Before Filtrer: total cross section" in c][0].split("= ")[-1].split() # val and err
                 filterEffWeights = [c for c in contents if "Filter efficiency (taking into account weights)" in c][0].split("= ")[-1].split()
                 filterEffEvent = [c for c in contents if "Filter efficiency (event-level)" in c][0].split("= ")[-1].split()
                 totX_final = [c for c in contents if "After filter: final cross section" in c][0].split("= ")[-1].split()
