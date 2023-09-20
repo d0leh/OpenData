@@ -12,18 +12,6 @@ MC2015/ -> StandardModelPhysics/ -> Drell-Yan/
 Under each subfolder, the json files are stored under the name <sample_name>_<recid>.json. (e.g. DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json)
 
 ## Access the data in the output files:
-
-### Setup instruction (lxplus)
-To use slc6 on Singularity (need to execute everytime when you login):
-cmssw-el6
-
-To download the CMSSW folder (only need to execute once): (CMSSW_7_6_7 is recommended for MC2015)
-cmsrel CMSSW_7_6_7
-
-To setup the CMSSW environment (need to execute everytime when you login):
-cd CMSSW_7_6_7/src
-cmsenv
-
 ### Loading the output json files:
 import json
 
@@ -86,6 +74,17 @@ Format 3:
 
 
 ### To run the GenXSecAnalyhzer:
+### Setup instruction (lxplus)
+To use slc6 on Singularity (need to execute everytime when you login):
+cmssw-el6
+
+To download the CMSSW folder (only need to execute once): (CMSSW_7_6_7 is recommended for MC2015)
+cmsrel CMSSW_7_6_7
+
+To setup the CMSSW environment (need to execute everytime when you login):
+cd CMSSW_7_6_7/src
+cmsenv
+
 ./calculateXSectionAndFilterEfficiency.sh -f <list_of_root_files.txt> -d <name_of_the_dataset/process> -n <maximum_num_of_events> 
 
 e.g.: ./calculateXSectionAndFilterEfficiency.sh -f DYJetsToLL.txt -d DYJetsToLL -n 10000
