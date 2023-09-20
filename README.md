@@ -1,12 +1,84 @@
 # OpenData
-GenXSecAnalyzer for OpenData
+Runs GenXSecAnalyzer and stores the result in json files
 
-Takes a list of root files (.txt) and outputs the interesting values as a numpy array by one single command line.
+Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/
 
-### Setup instruction
-cmsrel CMSSW_10_6_0
-cd CMSSW_10_6_0/src
+Folder Hierarchy:
+MC2015/ -> StandardModelPhysics/ -> Drell-Yan/
+                                    ElectroWeak/
+                                    MinimumBias/
+                                    QCD/
+                                    TopPhysics/
+Under each subfolder, the json files are stored under the name <sample_name>_<recid>.json. (e.g. DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json)
+
+## Access the data in the output files:
+
+### Setup instruction (lxplus)
+To use slc6 on Singularity (need to execute everytime when you login):
+cmssw-el6
+
+To download the CMSSW folder (only need to execute once): (CMSSW_7_6_7 is recommended for MC2015)
+cmsrel CMSSW_7_6_7
+
+To setup the CMSSW environment (need to execute everytime when you login):
+cd CMSSW_7_6_7/src
 cmsenv
+
+### Loading the output json files:
+import json
+
+f = open('<sample_name>_<recid>.json')
+data = json.load(f)
+
+### To access a specific value:
+result["<column_name>"] for value
+result["<column_name_err>"] for error
+
+#### Available column names:
+GenXSecAnalyzer gives outputs in 3 possible formats (some information is not available for some datasets).
+
+Format 1:
+- "totX_beforeMat":"Total cross section before matching (pb)",
+- "totX_beforeMat_err":"(+-) Error of total cross section before matching (pb)",
+- "totX_afterMat":"Total cross section after matching (pb)",
+- "totX_afterMat_err":"(+-) Error of total cross section after matching (pb)",
+- "matchingEff":"Matching efficiency",
+- "matchingEff_err":"(+-) Error of matching efficiency",
+- "filterEff_weights":"Filter efficiency (taking into account weights)",
+- "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+- "filterEff_event":"Filter efficiency (event-level)",
+- "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+- "totX_final":"Final cross senction after filter (pb)",
+- "totX_final_err":"(+-) Error of final cross section after filter (pb)",
+- "negWeightFrac":"Final fraction of events with negative weights after filter",
+- "negWeightFrac_err":"(+-) Error of final fraction of events with negative weights after filter",
+- "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
+- "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)"
+
+Format 2:
+- "totX_beforeFilter":"Total cross section before filter (pb)",
+- "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
+- "filterEff_weights":"Filter efficiency (taking into account weights)",
+- "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+- "filterEff_event":"Filter efficiency (event-level)",
+- "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+- "totX_final":"Final cross senction after filter (pb)",
+- "totX_final_err":"(+-) Error of final cross section after filter (pb)",
+- "negWeightFrac":"Final fraction of events with negative weights after filter",
+- "negWeightFrac_err":"(+-) Error of final fraction of events with negative weights after filter",
+- "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
+- "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)"
+
+Format 3:
+- "totX_beforeFilter":"Total cross section before filter (pb)",
+- "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
+- "filterEff_weights":"Filter efficiency (taking into account weights)",
+- "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+- "filterEff_event":"Filter efficiency (event-level)",
+- "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+- "totX_final":"Final cross senction after filter (pb)",
+- "totX_final_err":"(+-) Error of final cross senction after filter (pb)"
+
 
 ### To run the GenXSecAnalyhzer:
 ./calculateXSectionAndFilterEfficiency.sh -f <list_of_root_files.txt> -d <name_of_the_dataset/process> -n <maximum_num_of_events> 
