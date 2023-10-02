@@ -80,6 +80,8 @@ python makeFileLists.py [physics_process]
 e.g. python makeFileLists.py Drell-Yan
 Choose from: Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics
 
+Running this command results .txt files in the fileLists/ folder. Each recid_{id}.txt file contains the address of all the files under that recid.
+
 ### Setup the environment (lxplus)
 To use slc6 on Singularity (need to execute everytime when you login):
 cmssw-el6
