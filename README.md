@@ -74,7 +74,13 @@ Format 3:
 
 
 ### To run the GenXSecAnalyhzer:
-### Setup instruction (lxplus)
+### Prepare the input filelists for the GenXSecAnalyzer
+python makeFileLists.py [physics_process]
+
+e.g. python makeFileLists.py Drell-Yan
+Choose from: Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics
+
+### Setup the environment (lxplus)
 To use slc6 on Singularity (need to execute everytime when you login):
 cmssw-el6
 
@@ -97,7 +103,7 @@ If you get an error saying "Permisson denied", type "chmod 777 calculateXSection
 ##### To run all the datasets under a category (Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics):
 python src/runRecursive.py [physics_category]
 
-e.g.: python src/runRecursive.py QCD
+e.g.: python src/runRecursive.py Drell-Yan
 
 If we already have .log files, we can run "python output_to_json.py recid_16785.txt Drell-Yan" by itself to get the json files, with the second argument being consistent with the name of the destination directory.
 
