@@ -129,3 +129,6 @@ print(result.dtype.metadata)
 To check the metadata for a specific column:
 print(xsec_arr.dtype.metadata["<column_name>"])
 e.g.: print(xsec_arr.dtype.metadata["equivLumi"])
+
+#### Note:
+output_to_numpy.py and output_to_csv.py have not been updated to be compatible with the most recent changes.
