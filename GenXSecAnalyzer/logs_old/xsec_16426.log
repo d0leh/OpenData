@@ -1,0 +1,66 @@
+21-Sep-2023 14:37:48 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/88B5D9C6-5FD5-E511-BD52-00304834BB18.root
+%MSG-w XrdAdaptor:  file_open 21-Sep-2023 14:37:48 CEST pre-events
+Data is served from cern.ch instead of original site eospublic
+%MSG
+21-Sep-2023 14:37:51 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/88B5D9C6-5FD5-E511-BD52-00304834BB18.root
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 21-Sep-2023 14:37:52.490 CEST
+21-Sep-2023 14:37:54 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/88B5D9C6-5FD5-E511-BD52-00304834BB18.root
+21-Sep-2023 14:37:54 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/A8393ED2-5FD5-E511-ABCB-0CC47A57CCEA.root
+%MSG-w XrdAdaptor:  file_open 21-Sep-2023 14:37:54 CEST PostProcessEvent
+Data is served from cern.ch instead of original site eospublic
+%MSG
+21-Sep-2023 14:37:54 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/A8393ED2-5FD5-E511-ABCB-0CC47A57CCEA.root
+21-Sep-2023 14:37:57 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/A8393ED2-5FD5-E511-ABCB-0CC47A57CCEA.root
+21-Sep-2023 14:37:57 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/D42398D5-5FD5-E511-8F30-002590D9D966.root
+%MSG-w XrdAdaptor:  file_open 21-Sep-2023 14:37:57 CEST PostProcessEvent
+Data is served from cern.ch instead of original site eospublic
+%MSG
+21-Sep-2023 14:37:57 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/D42398D5-5FD5-E511-8F30-002590D9D966.root
+Begin processing the 100001st record. Run 1, Event 271663, LumiSection 494 at 21-Sep-2023 14:37:59.773 CEST
+    222.662820      0.359035    963.769110             0
+    135.168530      0.388808    963.769110             1
+     67.298497      0.386299    963.769110             2
+ 
+21-Sep-2023 14:37:59 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/D42398D5-5FD5-E511-8F30-002590D9D966.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		2.227e+02 +/- 3.590e-01		60600	55597	5003	76725	70622	6103	1.746e+02 +/- 4.806e-01		78.4 +/- 0.2	79.0 +/- 0.1
+1		1.352e+02 +/- 3.888e-01		24912	18057	6855	104001	71748	32253	3.834e+01 +/- 4.862e-01		28.4 +/- 0.4	24.0 +/- 0.1
+2		6.730e+01 +/- 3.863e-01		16415	10557	5858	97274	58726	38548	1.567e+01 +/- 4.054e-01		23.3 +/- 0.6	16.9 +/- 0.1
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		4.251e+02 +/- 6.552e-01		101927	84211	17716	278000	201096	76904	2.276e+02 +/- 9.861e-01		53.5 +/- 0.2	36.7 +/- 0.1
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 4.251e+02 +- 6.552e-01 pb
+After matching: total cross section = 2.276e+02 +- 9.861e-01 pb
+Filter efficiency (taking into account weights)= (6.40858e+07) / (6.40858e+07) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (101927) / (101927) = 1.000e+00 +- 0.000e+00
+After filter: final cross section = 2.276e+02 +- 9.861e-01 pb
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      14       14
+    2 XrdAdaptor           -w file_open                              3        3
+    3 fileAction           -s file_close                             3        3
+    4 fileAction           -s file_open                              6        6
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostEndRun       PostEndRun       PostEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  9                   9

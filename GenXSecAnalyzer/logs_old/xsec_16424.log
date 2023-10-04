@@ -1,0 +1,59 @@
+21-Sep-2023 14:29:30 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-1000to1500_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/3CBBFCB6-7DB8-E511-92E5-0CC47A4D7668.root
+%MSG-w XrdAdaptor:  file_open 21-Sep-2023 14:29:31 CEST pre-events
+Data is served from cern.ch instead of original site eospublic
+%MSG
+21-Sep-2023 14:29:33 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-1000to1500_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/3CBBFCB6-7DB8-E511-92E5-0CC47A4D7668.root
+Begin processing the 1st record. Run 1, Event 304574, LumiSection 461 at 21-Sep-2023 14:29:34.532 CEST
+21-Sep-2023 14:29:34 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-1000to1500_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/3CBBFCB6-7DB8-E511-92E5-0CC47A4D7668.root
+21-Sep-2023 14:29:34 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-1000to1500_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/F2086B4B-8BB8-E511-BB67-001EC9ADDB5F.root
+%MSG-w XrdAdaptor:  file_open 21-Sep-2023 14:29:34 CEST PostProcessEvent
+Data is served from cern.ch instead of original site eospublic
+%MSG
+21-Sep-2023 14:29:34 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-1000to1500_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/F2086B4B-8BB8-E511-BB67-001EC9ADDB5F.root
+      0.015659      0.000060      0.121011             1
+      0.009468      0.000056      0.121011             2
+      0.017141      0.000024      0.121011             0
+ 
+21-Sep-2023 14:29:35 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-1000to1500_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/60000/F2086B4B-8BB8-E511-BB67-001EC9ADDB5F.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.714e-02 +/- 2.391e-05		2084	2030	54	4982	4761	221	7.460e-03 +/- 1.319e-04		43.5 +/- 0.8	41.8 +/- 0.7
+1		1.566e-02 +/- 5.977e-05		3785	2619	1166	14020	9105	4915	5.430e-03 +/- 2.004e-04		34.7 +/- 1.3	27.0 +/- 0.4
+2		9.468e-03 +/- 5.607e-05		3563	2285	1278	13090	7967	5123	3.352e-03 +/- 1.735e-04		35.4 +/- 1.8	27.2 +/- 0.4
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		4.227e-02 +/- 8.537e-05		9432	6934	2498	32092	21833	10259	1.620e-02 +/- 3.055e-04		38.3 +/- 0.7	29.4 +/- 0.3
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 4.227e-02 +- 8.537e-05 pb
+After matching: total cross section = 1.620e-02 +- 3.055e-04 pb
+Filter efficiency (taking into account weights)= (536.807) / (536.807) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (9432) / (9432) = 1.000e+00 +- 0.000e+00
+After filter: final cross section = 1.620e-02 +- 3.055e-04 pb
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      14       14
+    2 XrdAdaptor           -w file_open                              2        2
+    3 fileAction           -s file_close                             2        2
+    4 fileAction           -s file_open                              4        4
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostEndRun       PostEndRun       PostEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent 
+    3 fileAction           PostProcessEvent PostEndRun       
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  6                   6

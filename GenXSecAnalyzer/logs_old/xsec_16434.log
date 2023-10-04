@@ -1,0 +1,53 @@
+21-Sep-2023 06:29:10 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-2000to3000_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/70000/DCB473D6-C5B8-E511-AC17-F46D0450CEA0.root
+%MSG-w XrdAdaptor:  file_open 21-Sep-2023 06:29:11 CEST pre-events
+Data is served from cern.ch instead of original site eospublic
+%MSG
+21-Sep-2023 06:29:12 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-2000to3000_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/70000/DCB473D6-C5B8-E511-AC17-F46D0450CEA0.root
+Begin processing the 1st record. Run 1, Event 16037, LumiSection 26 at 21-Sep-2023 06:29:13.355 CEST
+      0.000551      0.000002      0.004678             1
+      0.000320      0.000002      0.004678             2
+      0.000576      0.000001      0.004678             0
+ 
+21-Sep-2023 06:29:13 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/DYJetsToLL_M-2000to3000_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/70000/DCB473D6-C5B8-E511-AC17-F46D0450CEA0.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		5.759e-04 +/- 8.232e-07		1509	1476	33	4336	4156	180	2.090e-04 +/- 4.555e-06		36.3 +/- 0.8	34.8 +/- 0.7
+1		5.514e-04 +/- 2.296e-06		3662	2507	1155	14211	8969	5242	2.000e-04 +/- 7.977e-06		36.3 +/- 1.4	25.8 +/- 0.4
+2		3.197e-04 +/- 2.367e-06		3890	2324	1566	13525	7965	5560	1.008e-04 +/- 7.050e-06		31.5 +/- 2.2	28.8 +/- 0.4
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.447e-03 +/- 3.399e-06		9061	6307	2754	32072	21090	10982	5.086e-04 +/- 1.174e-05		35.2 +/- 0.8	28.3 +/- 0.3
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.447e-03 +- 3.399e-06 pb
+After matching: total cross section = 5.086e-04 +- 1.174e-05 pb
+Filter efficiency (taking into account weights)= (16.6207) / (16.6207) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (9061) / (9061) = 1.000e+00 +- 0.000e+00
+After filter: final cross section = 5.086e-04 +- 1.174e-05 pb
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      14       14
+    2 XrdAdaptor           -w file_open                              1        1
+    3 fileAction           -s file_close                             1        1
+    4 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostEndRun       PostEndRun       PostEndRun
+    2 XrdAdaptor           pre-events                        
+    3 fileAction           PostEndRun                        
+    4 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                15                  15
+System                  3                   3

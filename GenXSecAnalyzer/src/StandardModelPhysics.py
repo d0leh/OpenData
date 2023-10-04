@@ -326,7 +326,7 @@ sampleInfo = {"Drell-Yan": {"16446":"/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_1
                              "18188":"/MinBias_chMulti85_TuneCUETP8M1_13TeV-pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM",
                              "18187":"/MinBias_chMulti85_TuneCUETP8M1_13TeV-pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1FSQ_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM",
                              "18185":"/MinBias_TuneCUETHS1-13TeV-herwigpp/RunIIFall15MiniAODv2-PU25nsData2015v1_castor_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM",
-                             "22314":"/MinBias_TuneCUETP8M1_13TeV-pythia8/RunIISummer15GS-MCRUN2_71_V1-v2/GEN-SIM", #FIXME
+                             #"22314":"/MinBias_TuneCUETP8M1_13TeV-pythia8/RunIISummer15GS-MCRUN2_71_V1-v2/GEN-SIM", #FIXME
                          },
 
               "QCD":{"18378":"/QCD_Pt_80to120_TuneCUETP8M1_13TeV_pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM",
