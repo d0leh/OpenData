@@ -6,7 +6,7 @@ recid = sys.argv[1].split('_')[1].split('.')[0]
 process = sys.argv[2]
 dataset = StandardModelPhysics.sampleInfo[process][recid]
 dname = dataset.split('/')[1]
-fname = 'logs/xsec_{}.log'.format(recid)
+fname = 'logs/{}/xsec_{}.log'.format(process, recid)
 print("Processing log file: ", fname)
 
 try:
@@ -198,8 +198,8 @@ except:
                 
                 with open(fname) as f:
                     contents = f.read().split("\n")
-                    
-                    totX_beforeFilter = [c for c in contents if "Before Filter: total cross section" in c][0].split("= ")[-1].split() # val and err
+            
+                    totX_beforeFilter = [c for c in contents if "Before Filtrer: total cross section" in c][0].split("= ")[-1].split() # val and err
                     filterEffWeights = [c for c in contents if "Filter efficiency (taking into account weights)" in c][0].split("= ")[-1].split()
                     filterEffEvent = [c for c in contents if "Filter efficiency (event-level)" in c][0].split("= ")[-1].split()
                     totX_final = [c for c in contents if "After filter: final cross section" in c][0].split("= ")[-1].split()

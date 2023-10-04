@@ -1,5 +1,5 @@
 # EXAMPLE ON HOW TO RUN
-# python ./compute_cross_section.py -f datasets.txt 
+# python ./compute_cross_section.py -f datasets.txt -d process
 
 from optparse import OptionParser
 import os
@@ -39,5 +39,6 @@ if __name__ == "__main__":
         # compute cross section
         recId = args.inputFilelist.split('_')[1].split('.')[0]
 
-        command = 'cmsRun src/genXSecAnalyzer_cfg.py'+inputFiles+' maxEvents='+str(args.events)+" 2>&1 | tee logs/xsec_"+recId+".log"
+        command = 'cmsRun src/genXSecAnalyzer_cfg.py {} maxEvents={} 2>&1 | tee logs/{}/xsec_{}.log'.format(inputFiles, str(args.events), args.datasetName, recId)
+        #command = 'cmsRun src/genXSecAnalyzer_cfg.py'+inputFiles+' maxEvents='+str(args.events)+" 2>&1 | tee logs/"+args.datasetName+"/xsec_"+recId+".log"
         print command

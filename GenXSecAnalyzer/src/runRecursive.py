@@ -15,7 +15,7 @@ process = sys.argv[1]
 count = 0
 
 for recid in samples[process]:
-    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f fileLists/recid_{}.txt -d {} -n 10000000".format(recid, process)
+    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f fileLists/{}/recid_{}.txt -d {} -n 10000000".format(process, recid, process)
     os.system(cmd)
     count+=1
     print("Processed {} samples.".format(count))

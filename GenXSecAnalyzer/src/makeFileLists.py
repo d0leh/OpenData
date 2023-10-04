@@ -11,11 +11,12 @@ samples = {"Drell-Yan"  :StandardModelPhysics.sampleInfo["Drell-Yan"],
            "TopPhysics" :StandardModelPhysics.sampleInfo["TopPhysics"],
        }
 
+process = sys.argv[1]
 count = 0
 
-for recid in samples[sys.argv[1]]:
+for recid in samples[process]:
     try:
-        cmd = "cernopendata-client get-file-locations --recid {} --protocol xrootd > fileLists/recid_{}.txt".format(recid, recid)
+        cmd = "cernopendata-client get-file-locations --recid {} --protocol xrootd > fileLists/{}/recid_{}.txt".format(recid, process, recid)
         os.system(cmd)
         count+=1
     except:
