@@ -49,6 +49,18 @@ Format 1:
 - "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)"
 
 Format 2:
+- "totX_beforeMat":"Total cross section before matching (pb)",
+- "totX_beforeMat_err":"(+-) Error of total cross section before matching (pb)",
+- "totX_afterMat":"Total cross section after matching (pb)",
+- "totX_afterMat_err":"(+-) Error of total cross section after matching (pb)",
+- "filterEff_weights":"Filter efficiency (taking into account weights)",
+- "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+- "filterEff_event":"Filter efficiency (event-level)",
+- "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+- "totX_final":"Final cross senction after filter (pb)",
+- "totX_final_err":"(+-) Error of final cross section after filter (pb)"
+
+Format 3:
 - "totX_beforeFilter":"Total cross section before filter (pb)",
 - "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
 - "filterEff_weights":"Filter efficiency (taking into account weights)",
@@ -62,7 +74,7 @@ Format 2:
 - "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
 - "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)"
 
-Format 3:
+Format 4:
 - "totX_beforeFilter":"Total cross section before filter (pb)",
 - "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
 - "filterEff_weights":"Filter efficiency (taking into account weights)",
