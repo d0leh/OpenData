@@ -11,11 +11,14 @@ samples = {"Drell-Yan"  :StandardModelPhysics.sampleInfo["Drell-Yan"],
            "TopPhysics" :StandardModelPhysics.sampleInfo["TopPhysics"],
        }
 
+skipexisting = False
+
 process = sys.argv[1]
 count = 0
 
 for recid in samples[process]:
-    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f fileLists/{}/recid_{}.txt -d {} -n 10000000".format(process, recid, process)
+    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f fileLists/{}/recid_{}.txt -d {} -n 10000000 -s {}".format(process, recid, process, skipexisting)
+    print(cmd)
     os.system(cmd)
     count+=1
     print("Processed {} samples.".format(count))

@@ -19,6 +19,8 @@ for recid in samples[process]:
         cmd = "cernopendata-client get-file-locations --recid {} --protocol xrootd > fileLists/{}/recid_{}.txt".format(recid, process, recid)
         os.system(cmd)
         count+=1
+        #if (count%10==0):
+        print("Created {} lists.".format(count))
     except:
         print("Failed to create recid_{}.txt".format(recid))
 

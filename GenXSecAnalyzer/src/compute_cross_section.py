@@ -25,10 +25,12 @@ if __name__ == "__main__":
 
     (args, opts) = parser.parse_args(sys.argv)
 
+    recId = args.inputFilelist.split('_')[1].split('.')[0]
+    outfileName = "logs/{}/xsec_{}.log".format(args.datasetName, recId)
     skipexisting = str_to_bool(str(args.skipexisting))
-    
-    if skipexisting and os.path.isfile("xsec_"+str(args.datasetName)+".log"): 
-        print "xsec_"+str(args.datasetName)+".log existing and NO skipexisting asked, skipping"
+
+    if skipexisting and os.path.isfile(outfileName): 
+        print "{} existing and NO skipexisting asked, skipping".format(outfileName)
     else:
         filelist = open(args.inputFilelist, 'r').read().split('\n')
         inputFiles = ""
@@ -37,8 +39,5 @@ if __name__ == "__main__":
                 inputFiles += ' inputFiles='+rootfile + ' '
    
         # compute cross section
-        recId = args.inputFilelist.split('_')[1].split('.')[0]
-
-        command = 'cmsRun src/genXSecAnalyzer_cfg.py {} maxEvents={} 2>&1 | tee logs/{}/xsec_{}.log'.format(inputFiles, str(args.events), args.datasetName, recId)
-        #command = 'cmsRun src/genXSecAnalyzer_cfg.py'+inputFiles+' maxEvents='+str(args.events)+" 2>&1 | tee logs/"+args.datasetName+"/xsec_"+recId+".log"
+        command = 'cmsRun src/genXSecAnalyzer_cfg.py {} maxEvents={} 2>&1 | tee {}'.format(inputFiles, str(args.events), outfileName)
         print command
