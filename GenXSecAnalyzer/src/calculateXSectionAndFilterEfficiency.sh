@@ -2,7 +2,7 @@ FILE='recid_16421.txt'
 DATANAME='Drell-Yan'
 EVENTS='10'
 
-SKIPEXISTING=False
+#SKIPEXISTING=False
 
 while getopts f:d:n:s option
 do
@@ -11,11 +11,11 @@ do
             f) FILE=${OPTARG};;
             d) DATANAME=${OPTARG};;
             n) EVENTS=${OPTARG};;
-            s) SKIPEXISTING=True;;
+            s) SKIPEXISTING=False;;
     esac
 done
 
-echo 'python src/compute_cross_section.py -f '${FILE}' -d '${DATANAME}' -n '${EVENTS}' --skipexisting "'${SKIPEXISTING}'"'
+echo "python src/compute_cross_section.py -f '${FILE}' -d '${DATANAME}' -n '${EVENTS}' --skipexisting '${SKIPEXISTING}'"
 output="$(python src/compute_cross_section.py -f "${FILE}" -d "${DATANAME}" -n "${EVENTS}" --skipexisting "${SKIPEXISTING}")"
 output="${output#*.txt}"
 output="${output#*.txt}"
