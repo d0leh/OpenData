@@ -84,6 +84,13 @@ Format 4:
 - "totX_final":"Final cross senction after filter (pb)",
 - "totX_final_err":"(+-) Error of final cross senction after filter (pb)"
 
+Format 5:
+- "filterEff_weights":"Filter efficiency (taking into account weights)",
+- "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+- "filterEff_event":"Filter efficiency (event-level)",
+- "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+- "totX_final":"Final cross senction after filter (pb)",
+- "totX_final_err":"(+-) Error of final cross senction after filter (pb)"
 
 ### To run the GenXSecAnalyhzer:
 ### Prepare the input filelists for the GenXSecAnalyzer
