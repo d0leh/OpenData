@@ -1,0 +1,44 @@
+19-Oct-2023 07:19:03 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/PhotonIndBkgGGToMuMu_M-60To500_TuneCUETP8M1_13TeV-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/86476B94-2F39-E611-85A7-008CFA582D78.root
+%MSG-w XrdAdaptor:  file_open 19-Oct-2023 07:19:04 CEST pre-events
+Data is served from cern.ch instead of original site eospublic
+%MSG
+19-Oct-2023 07:19:06 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/PhotonIndBkgGGToMuMu_M-60To500_TuneCUETP8M1_13TeV-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/86476B94-2F39-E611-85A7-008CFA582D78.root
+Begin processing the 1st record. Run 1, Event 1, LumiSection 1 at 19-Oct-2023 07:19:07.388 CEST
+19-Oct-2023 07:19:08 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/PhotonIndBkgGGToMuMu_M-60To500_TuneCUETP8M1_13TeV-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/86476B94-2F39-E611-85A7-008CFA582D78.root
+19-Oct-2023 07:19:08 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/PhotonIndBkgGGToMuMu_M-60To500_TuneCUETP8M1_13TeV-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/E20C649F-203C-E611-BE98-003048CB8610.root
+%MSG-w XrdAdaptor:  file_open 19-Oct-2023 07:19:08 CEST PostProcessEvent
+Data is served from cern.ch instead of original site eospublic
+%MSG
+19-Oct-2023 07:19:08 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/PhotonIndBkgGGToMuMu_M-60To500_TuneCUETP8M1_13TeV-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/E20C649F-203C-E611-BE98-003048CB8610.root
+19-Oct-2023 07:19:09 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/PhotonIndBkgGGToMuMu_M-60To500_TuneCUETP8M1_13TeV-pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/80000/E20C649F-203C-E611-BE98-003048CB8610.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+Before Filtrer: total cross section = 4.162e+00 +- 2.180e-02 pb
+Filter efficiency (taking into account weights)= (10000) / (10000) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (10000) / (10000) = 1.000e+00 +- 0.000e+00
+After filter: final cross section = 4.162e+00 +- 2.180e-02 pb
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                       5        5
+    2 XrdAdaptor           -w file_open                              2        2
+    3 fileAction           -s file_close                             2        2
+    4 fileAction           -s file_open                              4        4
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostEndRun       PostEndRun       PostEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent 
+    3 fileAction           PostProcessEvent PostEndRun       
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 7                   7
+System                  6                   6

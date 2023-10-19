@@ -1,0 +1,50 @@
+19-Oct-2023 00:05:43 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/1C0F8160-18D5-E511-9640-00259029ED1A.root
+%MSG-w XrdAdaptor:  file_open 19-Oct-2023 00:05:43 CEST pre-events
+Data is served from cern.ch instead of original site eospublic
+%MSG
+19-Oct-2023 00:05:45 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/1C0F8160-18D5-E511-9640-00259029ED1A.root
+Begin processing the 1st record. Run 1, Event 2305, LumiSection 28 at 19-Oct-2023 00:05:47.019 CEST
+19-Oct-2023 00:05:50 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/1C0F8160-18D5-E511-9640-00259029ED1A.root
+19-Oct-2023 00:05:50 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/2EEFE288-19D5-E511-B361-00304867FDCF.root
+%MSG-w XrdAdaptor:  file_open 19-Oct-2023 00:05:50 CEST PostProcessEvent
+Data is served from cern.ch instead of original site eospublic
+%MSG
+19-Oct-2023 00:05:50 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/2EEFE288-19D5-E511-B361-00304867FDCF.root
+19-Oct-2023 00:05:52 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/2EEFE288-19D5-E511-B361-00304867FDCF.root
+19-Oct-2023 00:05:52 CEST  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/D4F96E61-18D5-E511-BE60-0CC47A57CE00.root
+%MSG-w XrdAdaptor:  file_open 19-Oct-2023 00:05:52 CEST PostProcessEvent
+Data is served from cern.ch instead of original site eospublic
+%MSG
+19-Oct-2023 00:05:52 CEST  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/D4F96E61-18D5-E511-BE60-0CC47A57CE00.root
+19-Oct-2023 00:05:57 CEST  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/GG_M-1000To2000_Pt-70_13TeV-sherpa/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/10000/D4F96E61-18D5-E511-BE60-0CC47A57CE00.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+Before Filtrer: total cross section = 6.292e-03 +- 1.322e-05 pb
+Filter efficiency (taking into account weights)= (13459.8) / (13459.8) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (99999) / (99999) = 1.000e+00 +- 0.000e+00
+After filter: final cross section = 6.292e-03 +- 1.322e-05 pb
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                       5        5
+    2 XrdAdaptor           -w file_open                              3        3
+    3 fileAction           -s file_close                             3        3
+    4 fileAction           -s file_open                              6        6
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostEndRun       PostEndRun       PostEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 8                   8
+System                  9                   9

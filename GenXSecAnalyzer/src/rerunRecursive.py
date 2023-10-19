@@ -11,6 +11,7 @@ for recid in dataset:
     if os.path.isfile(fname):
         pass
     else:
+        #print(recid)
         cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f fileLists/{}/recid_{}.txt -d {} -n 10000000 -s {}".format(process, recid, process, skipexisting)
         print(cmd)
         os.system(cmd)

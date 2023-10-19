@@ -196,6 +196,7 @@ except:
                                          "totX_final":"Final cross senction after filter (pb)",
                                          "totX_final_err":"(+-) Error of final cross senction after filter (pb)", }}]
                 
+                
                 with open(fname) as f:
                     contents = f.read().split("\n")
             
@@ -226,4 +227,40 @@ except:
                         json.dump(metadata, jsonfile)
                         print("Saved to {}".format(outfile))
             except:
-                print("Saving to json failed {} due to an unexpected error".format(fname))
+                print("Failed saving {} in format 4. Trying format 5.".format(fname))
+                try: # saw in ElectroWeak
+                    fields = ['filterEff(weights)', 'filterEff(weights)_err', 'filterEff(event)', 'filterEff(event)_err', 'totX_final', 'totX_final_err']
+                    metadata = [{"metadata":{"Dataset":dataset,
+                                             "filterEff_weights":"Filter efficiency (taking into account weights)",
+                                             "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+                                             "filterEff_event":"Filter efficiency (event-level)",
+                                             "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+                                             "totX_final":"Final cross senction after filter (pb)",
+                                             "totX_final_err":"(+-) Error of final cross senction after filter (pb)", }}]
+                    with open(fname) as f:
+                        contents = f.read().split("\n")
+
+                        filterEffWeights = [c for c in contents if "Filter efficiency (taking into account weights)" in c][0].split("= ")[-1].split()
+                        filterEffEvent = [c for c in contents if "Filter efficiency (event-level)" in c][0].split("= ")[-1].split()
+                        totX_final = [c for c in contents if "After filter: final cross section" in c][0].split("= ")[-1].split()
+                        
+                        rows = ['0.0']*6
+                        
+                        rows[0] = filterEffWeights[0]
+                        rows[1] = filterEffWeights[2]
+                        
+                        rows[2] = filterEffEvent[0]
+                        rows[3] = filterEffEvent[2]
+                        
+                        rows[4] = totX_final[0]
+                        rows[5] = totX_final[2]
+                        
+                        data = dict(zip(fields, rows))
+                        metadata.append(data)
+                        
+                        outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
+                        with open(outfile, 'w') as jsonfile:
+                            json.dump(metadata, jsonfile)
+                            print("Saved to {}".format(outfile))
+                except:
+                    print("Saving to json failed {} due to an unexpected error".format(fname))
