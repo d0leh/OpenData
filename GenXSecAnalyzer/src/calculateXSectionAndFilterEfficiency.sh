@@ -1,7 +1,3 @@
-FILE='recid_16421.txt'
-DATANAME='Drell-Yan'
-EVENTS='10'
-
 #SKIPEXISTING=False
 
 while getopts f:d:n:s option
@@ -9,13 +5,14 @@ do
     case "${option}"
     in
             f) FILE=${OPTARG};;
-            d) DATANAME=${OPTARG};;
+            s) SECTIONNAME=${OPTARG};;
+	    p) PROCESSNAME=${OPTARG};;
             n) EVENTS=${OPTARG};;
-            s) SKIPEXISTING=False;;
+            k) SKIPEXISTING=False;;
     esac
 done
 
-echo "python src/compute_cross_section.py -f '${FILE}' -d '${DATANAME}' -n '${EVENTS}' --skipexisting '${SKIPEXISTING}'"
+echo "python src/compute_cross_section.py -f '${FILE}' -s '${SECTIONNAME}' -p '${PROCESSNAME}' -n '${EVENTS}' --skipexisting '${SKIPEXISTING}'"
 output="$(python src/compute_cross_section.py -f "${FILE}" -d "${DATANAME}" -n "${EVENTS}" --skipexisting "${SKIPEXISTING}")"
 output="${output#*.txt}"
 output="${output#*.txt}"
@@ -27,4 +24,4 @@ else
 fi
 echo ""
 
-python src/output_to_json.py "${FILE}" "${DATANAME}"
+python src/output_to_json.py "${FILE}" "${SECTIONNAME}" "${PROCESSNAME}"

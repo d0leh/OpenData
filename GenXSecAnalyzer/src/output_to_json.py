@@ -1,38 +1,46 @@
+# python output_to_json.py recid_.txt StandardModelPhysics Drell-Yan
+
 import os, sys
 import json
-import StandardModelPhysics
 
 recid = sys.argv[1].split('_')[1].split('.')[0]
-process = sys.argv[2]
+section = sys.argv[2]
+process = sys.argv[3]
+
+if (section == "StandardModelPhysics"):
+    import StandardModelPhysics
+if (section == "HiggsPhysics"):
+    import HiggsPhysics
+
 dataset = StandardModelPhysics.sampleInfo[process][recid]
 dname = dataset.split('/')[1]
-fname = 'logs/{}/xsec_{}.log'.format(process, recid)
+fname = 'logs/{}/{}/xsec_{}.log'.format(section, process, recid)
 print("Processing log file: ", fname)
 
-try:
-    fields = ['totX_beforeMat', 'totX_beforeMat_err', 'totX_afterMat', 'totX_afterMat_err', 'matchingEff', 'matchingEff_err', 'filterEff_weights', 'filterEff_weights_err', 'filterEff_event', 'filterEff_event_err', 'totX_final', 'totX_final_err', 'negWeightFrac', 'negWeightFrac_err', 'equivLumi', 'equivLumi_err']
+with open(fname) as f:
+    contents = f.read().split("\n")
 
-    metadata = [{"metadata":{"Dataset":dataset,
-                             "totX_beforeMat":"Total cross section before matching (pb)",
-                             "totX_beforeMat_err":"(+-) Error of total cross section before matching (pb)",
-                             "totX_afterMat":"Total cross section after matching (pb)",
-                             "totX_afterMat_err":"(+-) Error of total cross section after matching (pb)",
-                             "matchingEff":"Matching efficiency",
-                             "matchingEff_err":"(+-) Error of matching efficiency",
-                             "filterEff_weights":"Filter efficiency (taking into account weights)",
-                             "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
-                             "filterEff_event":"Filter efficiency (event-level)",
-                             "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
-                             "totX_final":"Final cross senction after filter (pb)",
-                             "totX_final_err":"(+-) Error of final cross section after filter (pb)",
-                             "negWeightFrac":"Final fraction of events with negative weights after filter",
-                             "negWeightFrac_err":"(+-) Error of final fraction of events with negative weights after filter",
-                             "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
-                             "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)", }}]
+    try:
+        fields = ['totX_beforeMat', 'totX_beforeMat_err', 'totX_afterMat', 'totX_afterMat_err', 'matchingEff', 'matchingEff_err', 'filterEff_weights', 'filterEff_weights_err', 'filterEff_event', 'filterEff_event_err', 'totX_final', 'totX_final_err', 'negWeightFrac', 'negWeightFrac_err', 'equivLumi', 'equivLumi_err']
 
-    with open(fname) as f:
-        contents = f.read().split("\n")
-        
+        metadata = [{"metadata":{"Dataset":dataset,
+                                 "totX_beforeMat":"Total cross section before matching (pb)",
+                                 "totX_beforeMat_err":"(+-) Error of total cross section before matching (pb)",
+                                 "totX_afterMat":"Total cross section after matching (pb)",
+                                 "totX_afterMat_err":"(+-) Error of total cross section after matching (pb)",
+                                 "matchingEff":"Matching efficiency",
+                                 "matchingEff_err":"(+-) Error of matching efficiency",
+                                 "filterEff_weights":"Filter efficiency (taking into account weights)",
+                                 "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+                                 "filterEff_event":"Filter efficiency (event-level)",
+                                 "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+                                 "totX_final":"Final cross senction after filter (pb)",
+                                 "totX_final_err":"(+-) Error of final cross section after filter (pb)",
+                                 "negWeightFrac":"Final fraction of events with negative weights after filter",
+                                 "negWeightFrac_err":"(+-) Error of final fraction of events with negative weights after filter",
+                                 "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
+                                 "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)", }}]
+    
         totX_beforeMat = [c for c in contents if "Before matching: total cross section" in c][0].split("= ")[-1].split() # val and err
         totX_afterMat = [c for c in contents if "After matching: total cross section" in c][0].split("= ")[-1].split()
         matchingEff = [c for c in contents if "Matching efficiency" in c][0].split("= ")[-1].split()
@@ -71,30 +79,27 @@ try:
         data = dict(zip(fields, rows))
         metadata.append(data)
     
-        outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
-        with open(outfile, 'w') as jsonfile:
-            json.dump(metadata, jsonfile)
-            print("Saved to {}".format(outfile))
-except:
-    print("Failed saving {} in format 1. Trying format 2.".format(fname))
+        #outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
+        #with open(outfile, 'w') as jsonfile:
+            #json.dump(metadata, jsonfile)
+            #print("Saved to {}".format(outfile))
+    except:
+        print("Failed saving {} in format 1. Trying format 2.".format(fname))
 
-    try: # saw in Drell-Yan (not full sample)
-        fields = ['totX_beforeMat', 'totX_beforeMat_err', 'totX_afterMat', 'totX_afterMat_err', 'filterEff_weights', 'filterEff_weights_err', 'filterEff_event', 'filterEff_event_err', 'totX_final', 'totX_final_err']
+        try: # saw in Drell-Yan (not full sample)
+            fields = ['totX_beforeMat', 'totX_beforeMat_err', 'totX_afterMat', 'totX_afterMat_err', 'filterEff_weights', 'filterEff_weights_err', 'filterEff_event', 'filterEff_event_err', 'totX_final', 'totX_final_err']
 
-        metadata = [{"metadata":{"Dataset":dataset,
-                                 "totX_beforeMat":"Total cross section before matching (pb)",
-                                 "totX_beforeMat_err":"(+-) Error of total cross section before matching (pb)",
-                                 "totX_afterMat":"Total cross section after matching (pb)",
-                                 "totX_afterMat_err":"(+-) Error of total cross section after matching (pb)",
-                                 "filterEff_weights":"Filter efficiency (taking into account weights)",
-                                 "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
-                                 "filterEff_event":"Filter efficiency (event-level)",
-                                 "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
-                                 "totX_final":"Final cross senction after filter (pb)",
-                                 "totX_final_err":"(+-) Error of final cross section after filter (pb)", }}]
-    
-        with open(fname) as f:
-            contents = f.read().split("\n")
+            metadata = [{"metadata":{"Dataset":dataset,
+                                     "totX_beforeMat":"Total cross section before matching (pb)",
+                                     "totX_beforeMat_err":"(+-) Error of total cross section before matching (pb)",
+                                     "totX_afterMat":"Total cross section after matching (pb)",
+                                     "totX_afterMat_err":"(+-) Error of total cross section after matching (pb)",
+                                     "filterEff_weights":"Filter efficiency (taking into account weights)",
+                                     "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+                                     "filterEff_event":"Filter efficiency (event-level)",
+                                     "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+                                     "totX_final":"Final cross senction after filter (pb)",
+                                     "totX_final_err":"(+-) Error of final cross section after filter (pb)", }}]
 
             totX_beforeMat = [c for c in contents if "Before matching: total cross section" in c][0].split("= ")[-1].split()
             totX_afterMat = [c for c in contents if "After matching: total cross section" in c][0].split("= ")[-1].split()
@@ -122,31 +127,28 @@ except:
             data = dict(zip(fields, rows))
             metadata.append(data)
 
-            outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
-            with open(outfile, 'w') as jsonfile:
-                json.dump(metadata, jsonfile)
-            print("Saved to {}".format(outfile))
-    except:
-        print("Failed saving {} in format 2. Trying format 3.".format(fname))
+            #outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
+            #with open(outfile, 'w') as jsonfile:
+                #json.dump(metadata, jsonfile)
+            #print("Saved to {}".format(outfile))
+        except:
+            print("Failed saving {} in format 2. Trying format 3.".format(fname))
 
-        try: # saw in QCD
-            fields = ['totX_beforeFilter', 'totX_beforeFilter_err', 'filterEff_weights', 'filterEff_weights_err', 'filterEff_event', 'filterEff_event_err', 'totX_final', 'totX_final_err', 'negWeightFrac', 'negWeightFrac_err', 'equivLumi', 'equivLumi_err']
-            metadata = [{"metadata":{"Dataset":dataset,
-                                     "totX_beforeFilter":"Total cross section before filter (pb)",
-                                     "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
-                                     "filterEff_weights":"Filter efficiency (taking into account weights)",
-                                     "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
-                                     "filterEff_event":"Filter efficiency (event-level)",
-                                     "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
-                                     "totX_final":"Final cross senction after filter (pb)",
-                                     "totX_final_err":"(+-) Error of final cross section after filter (pb)",
-                                     "negWeightFrac":"Final fraction of events with negative weights after filter",
-                                     "negWeightFrac_err":"(+-) Error of final fraction of events with negative weights after filter",
-                                     "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
-                                     "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)", }}]
-            
-            with open(fname) as f:
-                contents = f.read().split("\n")
+            try: # saw in QCD
+                fields = ['totX_beforeFilter', 'totX_beforeFilter_err', 'filterEff_weights', 'filterEff_weights_err', 'filterEff_event', 'filterEff_event_err', 'totX_final', 'totX_final_err', 'negWeightFrac', 'negWeightFrac_err', 'equivLumi', 'equivLumi_err']
+                metadata = [{"metadata":{"Dataset":dataset,
+                                         "totX_beforeFilter":"Total cross section before filter (pb)",
+                                         "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
+                                         "filterEff_weights":"Filter efficiency (taking into account weights)",
+                                         "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+                                         "filterEff_event":"Filter efficiency (event-level)",
+                                         "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+                                         "totX_final":"Final cross senction after filter (pb)",
+                                         "totX_final_err":"(+-) Error of final cross section after filter (pb)",
+                                         "negWeightFrac":"Final fraction of events with negative weights after filter",
+                                         "negWeightFrac_err":"(+-) Error of final fraction of events with negative weights after filter",
+                                         "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
+                                         "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)", }}]
                 
                 totX_beforeFilter = [c for c in contents if "Before Filter: total cross section" in c][0].split("= ")[-1].split()
                 filterEffWeights = [c for c in contents if "Filter efficiency (taking into account weights)" in c][0].split("= ")[-1].split()
@@ -178,27 +180,23 @@ except:
                 data = dict(zip(fields, rows))
                 metadata.append(data)
 
-                outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
-                with open(outfile, 'w') as jsonfile:
-                    json.dump(metadata, jsonfile)
-                    print("Saved to {}".format(outfile))
-        except:
-            print("Failed saving {} in format 3. Trying format 4.".format(fname))
-            try: # saw in MinimumBias
-                fields = ['totX_beforeFilter', 'totX_beforeFilter_err', 'filterEff(weights)', 'filterEff(weights)_err', 'filterEff(event)', 'filterEff(event)_err', 'totX_final', 'totX_final_err']
-                metadata = [{"metadata":{"Dataset":dataset,
-                                         "totX_beforeFilter":"Total cross section before filter (pb)",
-                                         "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
-                                         "filterEff_weights":"Filter efficiency (taking into account weights)",
-                                         "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
-                                         "filterEff_event":"Filter efficiency (event-level)",
-                                         "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
-                                         "totX_final":"Final cross senction after filter (pb)",
-                                         "totX_final_err":"(+-) Error of final cross senction after filter (pb)", }}]
-                
-                
-                with open(fname) as f:
-                    contents = f.read().split("\n")
+                #outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
+                #with open(outfile, 'w') as jsonfile:
+                    #json.dump(metadata, jsonfile)
+                    #print("Saved to {}".format(outfile))
+            except:
+                print("Failed saving {} in format 3. Trying format 4.".format(fname))
+                try: # saw in MinimumBias
+                    fields = ['totX_beforeFilter', 'totX_beforeFilter_err', 'filterEff(weights)', 'filterEff(weights)_err', 'filterEff(event)', 'filterEff(event)_err', 'totX_final', 'totX_final_err']
+                    metadata = [{"metadata":{"Dataset":dataset,
+                                             "totX_beforeFilter":"Total cross section before filter (pb)",
+                                             "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
+                                             "filterEff_weights":"Filter efficiency (taking into account weights)",
+                                             "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+                                             "filterEff_event":"Filter efficiency (event-level)",
+                                             "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+                                             "totX_final":"Final cross senction after filter (pb)",
+                                             "totX_final_err":"(+-) Error of final cross senction after filter (pb)", }}]
             
                     totX_beforeFilter = [c for c in contents if "Before Filtrer: total cross section" in c][0].split("= ")[-1].split() # val and err
                     filterEffWeights = [c for c in contents if "Filter efficiency (taking into account weights)" in c][0].split("= ")[-1].split()
@@ -222,24 +220,22 @@ except:
                     data = dict(zip(fields, rows))        
                     metadata.append(data)
                     
-                    outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
-                    with open(outfile, 'w') as jsonfile:
-                        json.dump(metadata, jsonfile)
-                        print("Saved to {}".format(outfile))
-            except:
-                print("Failed saving {} in format 4. Trying format 5.".format(fname))
-                try: # saw in ElectroWeak
-                    fields = ['filterEff(weights)', 'filterEff(weights)_err', 'filterEff(event)', 'filterEff(event)_err', 'totX_final', 'totX_final_err']
-                    metadata = [{"metadata":{"Dataset":dataset,
-                                             "filterEff_weights":"Filter efficiency (taking into account weights)",
-                                             "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
-                                             "filterEff_event":"Filter efficiency (event-level)",
-                                             "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
-                                             "totX_final":"Final cross senction after filter (pb)",
-                                             "totX_final_err":"(+-) Error of final cross senction after filter (pb)", }}]
-                    with open(fname) as f:
-                        contents = f.read().split("\n")
-
+                    #outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
+                    #with open(outfile, 'w') as jsonfile:
+                        #json.dump(metadata, jsonfile)
+                        #print("Saved to {}".format(outfile))
+                except:
+                    print("Failed saving {} in format 4. Trying format 5.".format(fname))
+                    try: # saw in ElectroWeak
+                        fields = ['filterEff(weights)', 'filterEff(weights)_err', 'filterEff(event)', 'filterEff(event)_err', 'totX_final', 'totX_final_err']
+                        metadata = [{"metadata":{"Dataset":dataset,
+                                                 "filterEff_weights":"Filter efficiency (taking into account weights)",
+                                                 "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+                                                 "filterEff_event":"Filter efficiency (event-level)",
+                                                 "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+                                                 "totX_final":"Final cross senction after filter (pb)",
+                                                 "totX_final_err":"(+-) Error of final cross senction after filter (pb)", }}]
+                       
                         filterEffWeights = [c for c in contents if "Filter efficiency (taking into account weights)" in c][0].split("= ")[-1].split()
                         filterEffEvent = [c for c in contents if "Filter efficiency (event-level)" in c][0].split("= ")[-1].split()
                         totX_final = [c for c in contents if "After filter: final cross section" in c][0].split("= ")[-1].split()
@@ -258,9 +254,14 @@ except:
                         data = dict(zip(fields, rows))
                         metadata.append(data)
                         
-                        outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
-                        with open(outfile, 'w') as jsonfile:
-                            json.dump(metadata, jsonfile)
-                            print("Saved to {}".format(outfile))
-                except:
-                    print("Saving to json failed {} due to an unexpected error".format(fname))
+                        #outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/{}/{}_{}.json'.format(process, dname, recid)
+                        #with open(outfile, 'w') as jsonfile:
+                            #json.dump(metadata, jsonfile)
+                            #print("Saved to {}".format(outfile))
+                    except:
+                        print("Saving to json failed {} due to an unexpected error".format(fname))
+
+outfile = '/eos/user/s/sxiaohe/OpenData/MC2015/{}/{}/{}_{}.json'.format(section, process, dname, recid)
+with open(outfile, 'w') as jsonfile:
+    json.dump(metadata, jsonfile)
+    print("Saved to {}".format(outfile))

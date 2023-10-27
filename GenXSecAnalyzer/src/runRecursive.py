@@ -1,23 +1,28 @@
 # cd ..
-# python runRecursive.py Drell-Yan
+# python runRecursive.py StandardModelPhysics Drell-Yan
 
 import os, sys
-import StandardModelPhysics
 
-samples = {"Drell-Yan"  :StandardModelPhysics.sampleInfo["Drell-Yan"],
+section = sys.argv[1]
+process = sys.argv[2]
+skipexisting = False
+if (process == "StandardModelPhysics"):
+    import StandardModelPhysics
+    samples = {"Drell-Yan"  :StandardModelPhysics.sampleInfo["Drell-Yan"],
            "ElectroWeak":StandardModelPhysics.sampleInfo["ElectroWeak"],
            "MinimumBias":StandardModelPhysics.sampleInfo["MinimumBias"],
            "QCD"        :StandardModelPhysics.sampleInfo["QCD"],
            "TopPhysics" :StandardModelPhysics.sampleInfo["TopPhysics"],
        }
+if (process == "HiggsPhysics"):
+    import HiggsPhysics
+    samples = {#"BeyondStandardModel": HiggsPhysics.sampleInfo["BeyondStandardModel"],
+               "StandardModel": HiggsPhysics.sampleInfo["StandardModel"],
+    }
 
-skipexisting = False
-
-process = sys.argv[1]
 count = 0
-
 for recid in samples[process]:
-    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f fileLists/{}/recid_{}.txt -d {} -n 10000000 -s {}".format(process, recid, process, skipexisting)
+    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 10000000".format(recid, section, process)
     print(cmd)
     os.system(cmd)
     count+=1
