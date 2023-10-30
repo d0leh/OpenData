@@ -9,23 +9,15 @@ skipexisting = False
 
 if (section == "StandardModelPhysics"):
     import StandardModelPhysics
-    samples = {"Drell-Yan"  :StandardModelPhysics.sampleInfo["Drell-Yan"],
-               "ElectroWeak":StandardModelPhysics.sampleInfo["ElectroWeak"],
-               "MinimumBias":StandardModelPhysics.sampleInfo["MinimumBias"],
-               "QCD"        :StandardModelPhysics.sampleInfo["QCD"],
-               "TopPhysics" :StandardModelPhysics.sampleInfo["TopPhysics"],
-           }
+    samples = StandardModelPhysics.sampleInfo[process]
 
 if (section == "HiggsPhysics"):
     import HiggsPhysics
-    samples = {"BeyondStandardModel": HiggsPhysics.sampleInfo["BeyondStandardModel"],
-               "StandardModel": HiggsPhysics.sampleInfo["StandardModel"],
-    }
+    samples = HiggsPhysics.sampleInfo[process]
 
 count = 0
-for recid in samples[process]:
-    #cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 10000000 -k {}".format(recid, section, process, skipexisting)
-    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 1 -k False".format(recid, section, process)
+for recid in samples:
+    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 10000000 -k {}".format(recid, section, process, skipexisting)
     print(cmd)
     os.system(cmd)
     count+=1

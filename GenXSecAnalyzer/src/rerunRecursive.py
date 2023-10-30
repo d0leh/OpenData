@@ -9,27 +9,18 @@ skipexisting = False
 
 if (section == "StandardModelPhysics"):
     import StandardModelPhysics
-    samples = {"Drell-Yan"  :StandardModelPhysics.sampleInfo["Drell-Yan"],
-           "ElectroWeak":StandardModelPhysics.sampleInfo["ElectroWeak"],
-           "MinimumBias":StandardModelPhysics.sampleInfo["MinimumBias"],
-           "QCD"        :StandardModelPhysics.sampleInfo["QCD"],
-           "TopPhysics" :StandardModelPhysics.sampleInfo["TopPhysics"],
-       }
+    samples = StandardModelPhysics.sampleInfo[process]
 
 if (section == "HiggsPhysics"):
     import HiggsPhysics
-    samples = {#"BeyondStandardModel": HiggsPhysics.sampleInfo["BeyondStandardModel"],
-               "StandardModel": HiggsPhysics.sampleInfo["StandardModel"],
-    }
+    samples = HiggsPhysics.sampleInfo[process]
 
-dataset = StandardModelPhysics.sampleInfo[process]
-
-for recid in dataset:
-    dname = dataset[recid].split('/')[1]
+for recid in samples:
+    dname = samples[recid].split('/')[1]
     fname = '/eos/user/s/sxiaohe/OpenData/MC2015/{}/{}/{}_{}.json'.format(section, process, dname, recid)
     if os.path.isfile(fname):
         pass
     else:
-        cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 10000000".format(recid, section, process)
+        cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 10000000 -k {}".format(recid, section, process, skipexisting)
         print(cmd)
         os.system(cmd)
