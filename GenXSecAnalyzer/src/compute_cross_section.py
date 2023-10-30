@@ -27,7 +27,6 @@ if __name__ == "__main__":
     (args, opts) = parser.parse_args(sys.argv)
 
     inputFilelist = "fileLists/{}/{}/{}".format(args.sectionName, args.processName, args.inputFilelist)
-    print(args.inputFilelist.split('_'))
     recid = args.inputFilelist.split('_')[1].split('.')[0]
     outfileName = "logs/{}/{}/xsec_{}.log".format(args.sectionName, args.processName, recid)
     skipexisting = str_to_bool(str(args.skipexisting))

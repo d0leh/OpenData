@@ -24,8 +24,8 @@ if (section == "HiggsPhysics"):
 
 count = 0
 for recid in samples[process]:
-    #cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 10000000".format(recid, section, process)
-    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 1".format(recid, section, process)
+    #cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 10000000 -k {}".format(recid, section, process, skipexisting)
+    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 1 -k False".format(recid, section, process)
     print(cmd)
     os.system(cmd)
     count+=1

@@ -1,0 +1,49 @@
+30-Oct-2023 20:30:22 CET  Initiating request to open file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/VBF_HToZZTo4L_M3000_13TeV_powheg2_JHUgenV6_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/527976F1-AEB8-E511-8706-002590775016.root
+%MSG-w XrdAdaptor:  file_open 30-Oct-2023 20:30:22 CET pre-events
+Data is served from cern.ch instead of original site eospublic
+%MSG
+30-Oct-2023 20:30:24 CET  Successfully opened file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/VBF_HToZZTo4L_M3000_13TeV_powheg2_JHUgenV6_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/527976F1-AEB8-E511-8706-002590775016.root
+Begin processing the 1st record. Run 1, Event 63039, LumiSection 321 at 30-Oct-2023 20:30:25.716 CET
+      0.013993      0.000062      1.000000          9999
+ 
+30-Oct-2023 20:30:25 CET  Closed file root://eospublic.cern.ch//eos/opendata/cms/mc/RunIIFall15MiniAODv2/VBF_HToZZTo4L_M3000_13TeV_powheg2_JHUgenV6_pythia8/MINIAODSIM/PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/20000/527976F1-AEB8-E511-8706-002590775016.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.399e-02 +/- 6.232e-05		200	200	0	200	200	0	1.399e-02 +/- 6.232e-05		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.399e-02 +/- 6.232e-05		200	200	0	200	200	0	1.399e-02 +/- 6.232e-05		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.399e-02 +- 6.232e-05 pb
+After matching: total cross section = 1.399e-02 +- 6.232e-05 pb
+Filter efficiency (taking into account weights)= (2.8104) / (2.8104) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (200) / (200) = 1.000e+00 +- 0.000e+00
+After filter: final cross section = 1.399e-02 +- 6.232e-05 pb
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      12       12
+    2 XrdAdaptor           -w file_open                              1        1
+    3 fileAction           -s file_close                             1        1
+    4 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostEndRun       PostEndRun       PostEndRun
+    2 XrdAdaptor           pre-events                        
+    3 fileAction           PostEndRun                        
+    4 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                13                  13
+System                  3                   3
