@@ -7,7 +7,7 @@ section = sys.argv[1]
 process = sys.argv[2]
 skipexisting = False
 
-if (process == "StandardModelPhysics"):
+if (section == "StandardModelPhysics"):
     import StandardModelPhysics
     samples = {"Drell-Yan"  :StandardModelPhysics.sampleInfo["Drell-Yan"],
            "ElectroWeak":StandardModelPhysics.sampleInfo["ElectroWeak"],
@@ -16,7 +16,7 @@ if (process == "StandardModelPhysics"):
            "TopPhysics" :StandardModelPhysics.sampleInfo["TopPhysics"],
        }
 
-if (process == "HiggsPhysics"):
+if (section == "HiggsPhysics"):
     import HiggsPhysics
     samples = {#"BeyondStandardModel": HiggsPhysics.sampleInfo["BeyondStandardModel"],
                "StandardModel": HiggsPhysics.sampleInfo["StandardModel"],

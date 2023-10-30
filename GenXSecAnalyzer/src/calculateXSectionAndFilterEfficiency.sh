@@ -1,19 +1,19 @@
 #SKIPEXISTING=False
 
-while getopts f:d:n:s option
+while getopts f:s:p:n:k: option
 do
     case "${option}"
-    in
-            f) FILE=${OPTARG};;
-            s) SECTIONNAME=${OPTARG};;
-	    p) PROCESSNAME=${OPTARG};;
-            n) EVENTS=${OPTARG};;
-            k) SKIPEXISTING=False;;
+	in
+        f) FILE=${OPTARG};;
+        s) SECTIONNAME=${OPTARG};;
+	p) PROCESSNAME=${OPTARG};;
+        n) EVENTS=${OPTARG};;
+        k) SKIPEXISTING=False;;
     esac
 done
 
-echo "python src/compute_cross_section.py -f '${FILE}' -s '${SECTIONNAME}' -p '${PROCESSNAME}' -n '${EVENTS}' --skipexisting '${SKIPEXISTING}'"
-output="$(python src/compute_cross_section.py -f "${FILE}" -d "${DATANAME}" -n "${EVENTS}" --skipexisting "${SKIPEXISTING}")"
+echo "python src/compute_cross_section.py -f '${FILE}' -s '${SECTIONNAME}' -p '${PROCESSNAME}' -n '${EVENTS}' -k '${SKIPEXISTING}'"
+output="$(python src/compute_cross_section.py -f '${FILE}' -s '${SECTIONNAME}' -p '${PROCESSNAME}' -n '${EVENTS}' -k '${SKIPEXISTING}')"
 output="${output#*.txt}"
 output="${output#*.txt}"
 

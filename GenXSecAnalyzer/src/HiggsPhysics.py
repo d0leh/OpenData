@@ -1,4 +1,4 @@
-sampleInfo = {"BeyondStandardModel":{"recid":"samplename"},
+sampleInfo = {"BeyondStandardModel":{"":""},
               "StandardModel":{"22056":"/bbHToBB_M-125_4FS_yb2_13TeV_amcatnlo/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM",
                                "22057":"/bbHToBB_M-125_4FS_ybyt_13TeV_amcatnlo/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM",
                                "16813":"/GluGluHToGG_M124_13TeV_amcatnloFXFX_pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM",

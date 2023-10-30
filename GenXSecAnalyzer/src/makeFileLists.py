@@ -8,29 +8,16 @@ process = sys.argv[2]
 
 if (section == "StandardModelPhysics"):
     import StandardModelPhysics
-    samples = {"Drell-Yan"  :StandardModelPhysics.sampleInfo["Drell-Yan"],
-               "ElectroWeak":StandardModelPhysics.sampleInfo["ElectroWeak"],
-               "MinimumBias":StandardModelPhysics.sampleInfo["MinimumBias"],
-               "QCD"        :StandardModelPhysics.sampleInfo["QCD"],
-               "TopPhysics" :StandardModelPhysics.sampleInfo["TopPhysics"],
-           }
+    samples = StandardModelPhysics.sampleInfo[process]
 
 if (section == "HiggsPhysics"):
     import HiggsPhysics
-    samples = {#"BeyondStandardModel": HiggsPhysics.sampleInfo["BeyondStandardModel"],
-               "StandardModel": HiggsPhysics.sampleInfo["StandardModel"],
-}
+    samples = HiggsPhysics.sampleInfo[process]
 
 count = 0
+for recid in samples:
+    os.system("cernopendata-client get-file-locations --recid {} --protocol xrootd > fileLists/{}/{}/recid_{}.txt".format(recid, section, process, recid))
+    count+=1
+    if (count%10==0): print("Created {} lists.".format(count))
 
-for recid in samples[process]:
-    try:
-        cmd = "cernopendata-client get-file-locations --recid {} --protocol xrootd > fileLists/{}/{}/recid_{}.txt".format(recid, section, process, recid)
-        os.system(cmd)
-        count+=1
-        if (count%10==0):
-            print("Created {} lists.".format(count))
-    except:
-        print("Failed to create recid_{}.txt".format(recid))
-
-print("{} {} filelists created.".format(count, process))
+print("{} file lists created for {} {}.".format(count, section, process))

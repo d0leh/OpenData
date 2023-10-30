@@ -9,10 +9,11 @@ process = sys.argv[3]
 
 if (section == "StandardModelPhysics"):
     import StandardModelPhysics
+    dataset = StandardModelPhysics.sampleInfo[process][recid]
 if (section == "HiggsPhysics"):
     import HiggsPhysics
+    dataset = HiggsPhysics.sampleInfo[process][recid]
 
-dataset = StandardModelPhysics.sampleInfo[process][recid]
 dname = dataset.split('/')[1]
 fname = 'logs/{}/{}/xsec_{}.log'.format(section, process, recid)
 print("Processing log file: ", fname)
