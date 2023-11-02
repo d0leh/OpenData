@@ -126,11 +126,11 @@ In the example, recid_16785.txt contains a list of root files in the format of "
 If you get an error saying "Permisson denied", type "chmod 777 calculateXSectionAndFilterEfficiency.sh" to give the permission to the .sh file first and then rerun the above command.
 
 ##### To run all the datasets under a category (Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics):
-python src/runRecursive.py [physics_category]
+python src/runRecursive.py <Section> <Subsection>
 
-e.g.: python src/runRecursive.py Drell-Yan
+e.g.: python src/runRecursive.py StandardModel Drell-Yan
 
-If we already have .log files, we can run "python output_to_json.py recid_16785.txt Drell-Yan" by itself to get the json files, with the second argument being consistent with the name of the destination directory.
+If we already have .log files, we can run "python output_to_json.py recid_16785.txt StandardModel Drell-Yan" by itself to get the json files, with the second argument being consistent with the name of the destination directory.
 
 output_to_numpy.py and output_to_csv.py, which coverts the log files into numpy and csv files, have not been updated yet.
 
