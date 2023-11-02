@@ -1,7 +1,11 @@
 # OpenData
 Runs GenXSecAnalyzer and stores the result in json files
 
-Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/
+Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2015/<Section>/<Subsection>/
+e.g. /eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan for all Standard Model Drell-Yan samples
+The Section and Susection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
+Under "Filter by category", there is a list of all the sections and subsections for the 2015 MC samples.
+Removing the spaces between words gives the section name. e.g. Standard Model Physics -> StandardModelPhysics
 
 Folder Hierarchy:
 MC2015/ -> StandardModelPhysics/ -> Drell-Yan/
@@ -113,9 +117,9 @@ cd CMSSW_7_6_7/src
 cmsenv
 
 ##### To run on a single dataset:
-./calculateXSectionAndFilterEfficiency.sh -f <list_of_root_files.txt> -d <name_of_the_dataset/process> -n <maximum_num_of_events> 
+./calculateXSectionAndFilterEfficiency.sh -f <list_of_root_files.txt> -s <section_name> -p <subsection_name> -n <maximum_num_of_events> -k <True_to_skipExistingLogFiles/False_to_NOT_skipExistingLogFiles>
 
-e.g.: ./src/calculateXSectionAndFilterEfficiency.sh -f log/recid_16785.txt -d Drell-Yan -n 10000
+e.g.: ./src/calculateXSectionAndFilterEfficiency.sh -f recid_16785.txt -s StandardModelPhysics -p Drell-Yan -n 10000 -k False
 Set maximum number of events to -1 to run all the events in each root file
 In the example, recid_16785.txt contains a list of root files in the format of "root://eospublic.cern.ch//eos/opendata/".
 
@@ -130,7 +134,7 @@ If we already have .log files, we can run "python output_to_json.py recid_16785.
 
 output_to_numpy.py and output_to_csv.py, which coverts the log files into numpy and csv files, have not been updated yet.
 
-#### For numpy outputs:
+#### For numpy outputs (OUTDATED):
 To use the output of the GenXSecAnalyzer, we only need to do:
 import numpy as np
 result = np.load("<dataset_name>.npy")
