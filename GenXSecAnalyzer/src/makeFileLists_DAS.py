@@ -9,6 +9,8 @@ year    = sys.argv[1]
 section = sys.argv[2]
 process = sys.argv[3]
 
+prefix = "root://cmsxrootd.fnal.gov/"
+
 if (section == "StandardModelPhysics"):
     import StandardModelPhysics2016
     samples = StandardModelPhysics2016.sampleInfo[process]
@@ -27,3 +29,12 @@ for sample in samples:
     if (count%10==0): print("Created {} lists.".format(count))
 
 print("{} file lists created for {} {}.".format(count, section, process))
+print("Now appending prefix...")
+
+files = os.listdir("fileLists/{}/{}/{}/".format(year, section, process))
+for ftxt in files:
+    os.system("sed -i -e 's#^#{}#' fileLists/{}/{}/{}/{}".format(prefix, year, section, process, ftxt))
+    #print("sed -i -e 's#^#{}#' {}".format(prefix, ftxt))
+    #exit()
+
+print("Appended prefix to all files.")

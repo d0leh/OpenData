@@ -1,1 +1,85 @@
-./src/calculateXSectionAndFilterEfficiency.sh: line 19: cmsRun: command not found
+13-Dec-2023 21:01:34 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/F990F926-8C86-2A46-82ED-37D4D3F9E870.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 13-Dec-2023 21:01:38 CET pre-events
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+13-Dec-2023 21:01:41 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/F990F926-8C86-2A46-82ED-37D4D3F9E870.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 1st record. Run 1, Event 5, LumiSection 1 on stream 0 at 13-Dec-2023 21:01:47.305 CET
+13-Dec-2023 21:01:49 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/F990F926-8C86-2A46-82ED-37D4D3F9E870.root
+13-Dec-2023 21:01:49 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/8AC5317E-C3BF-A048-AF17-809B35997468.root
+%MSG-w XrdAdaptor:  file_open 13-Dec-2023 21:01:51 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+13-Dec-2023 21:01:51 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/8AC5317E-C3BF-A048-AF17-809B35997468.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 100001st record. Run 1, Event 19004, LumiSection 20 on stream 0 at 13-Dec-2023 21:01:59.692 CET
+13-Dec-2023 21:01:59 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/8AC5317E-C3BF-A048-AF17-809B35997468.root
+13-Dec-2023 21:01:59 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/1C7C4B81-B495-C04B-89F5-4E15B6348EDC.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 13-Dec-2023 21:02:03 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+13-Dec-2023 21:02:03 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/1C7C4B81-B495-C04B-89F5-4E15B6348EDC.root
+13-Dec-2023 21:02:10 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/1C7C4B81-B495-C04B-89F5-4E15B6348EDC.root
+13-Dec-2023 21:02:10 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/FFB18282-E1E3-3245-8677-019FD3301CDF.root
+%MSG-w XrdAdaptor:  file_open 13-Dec-2023 21:02:12 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+13-Dec-2023 21:02:13 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/FFB18282-E1E3-3245-8677-019FD3301CDF.root
+Begin processing the 200001st record. Run 1, Event 202009, LumiSection 203 on stream 0 at 13-Dec-2023 21:02:19.980 CET
+13-Dec-2023 21:02:20 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/FFB18282-E1E3-3245-8677-019FD3301CDF.root
+13-Dec-2023 21:02:20 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/7E72775C-62E3-7244-97A6-C0C511B24E78.root
+%MSG-w XrdAdaptor:  file_open 13-Dec-2023 21:02:22 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+13-Dec-2023 21:02:23 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/7E72775C-62E3-7244-97A6-C0C511B24E78.root
+      0.327942      0.003006      0.000328             1
+ 
+13-Dec-2023 21:02:28 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-200to400_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/40000/7E72775C-62E3-7244-97A6-C0C511B24E78.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		3.319e-01 +/- 1.958e-04		250000	250000	0	250000	250000	0	3.319e-01 +/- 1.958e-04		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		3.319e-01 +/- 1.958e-04		250000	250000	0	250000	250000	0	3.319e-01 +/- 1.958e-04		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 3.319e-01 +- 1.958e-04 pb
+After matching: total cross section = 3.319e-01 +- 1.958e-04 pb
+Matching efficiency = 1.0 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (250000) / (250000) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (250000) / (250000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 3.319e-01 +- 1.958e-04 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 3.013e+03 +- 3.499e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      15       15
+    2 XrdAdaptor           -w file_open                              5        5
+    3 fileAction           -s file_close                             5        5
+    4 fileAction           -s file_open                             10       10
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 fileAction           PostProcessEvent PostProcessEvent PostGlobalEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                20                  20
+System                 15                  15
+
+dropped waiting message count 0

@@ -40,7 +40,7 @@ if __name__ == "__main__":
     skipexisting = str_to_bool(str(args.skipexisting))
 
     if skipexisting and os.path.isfile(outfileName): 
-        print("{} existing and NO skipexisting asked, skipping").format(outfileName)
+        print("{} existing and NO skipexisting asked, skipping".format(outfileName))
     else:
         filelist = open(inputFilelist, 'r').read().split('\n')
         inputFiles = ""

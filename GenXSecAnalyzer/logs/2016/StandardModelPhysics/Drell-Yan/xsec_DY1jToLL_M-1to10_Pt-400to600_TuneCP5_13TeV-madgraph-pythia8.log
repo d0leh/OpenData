@@ -1,1 +1,62 @@
-./src/calculateXSectionAndFilterEfficiency.sh: line 19: cmsRun: command not found
+13-Dec-2023 21:02:29 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-400to600_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/40000/17C8D999-8DFB-0343-9C7E-87AADB6CBD0D.root
+%MSG-w XrdAdaptor:  file_open 13-Dec-2023 21:02:33 CET pre-events
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-FNAL
+%MSG
+13-Dec-2023 21:02:37 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-400to600_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/40000/17C8D999-8DFB-0343-9C7E-87AADB6CBD0D.root
+Begin processing the 1st record. Run 1, Event 3, LumiSection 1 on stream 0 at 13-Dec-2023 21:02:41.802 CET
+13-Dec-2023 21:02:42 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-400to600_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/40000/17C8D999-8DFB-0343-9C7E-87AADB6CBD0D.root
+13-Dec-2023 21:02:42 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-400to600_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2520000/EBBDD9A1-13F7-604F-B896-6D593D410D65.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 13-Dec-2023 21:02:46 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+13-Dec-2023 21:02:47 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-400to600_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2520000/EBBDD9A1-13F7-604F-B896-6D593D410D65.root
+      0.014443      0.000138      0.000014             1
+ 
+13-Dec-2023 21:02:50 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DY1jToLL_M-1to10_Pt-400to600_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2520000/EBBDD9A1-13F7-604F-B896-6D593D410D65.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.449e-02 +/- 2.780e-05		25000	25000	0	25000	25000	0	1.449e-02 +/- 2.780e-05		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.449e-02 +/- 2.780e-05		25000	25000	0	25000	25000	0	1.449e-02 +/- 2.780e-05		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.449e-02 +- 2.780e-05 pb
+After matching: total cross section = 1.449e-02 +- 2.780e-05 pb
+Matching efficiency = 1.0 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (25000) / (25000) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (25000) / (25000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 1.449e-02 +- 2.780e-05 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 6.903e+04 +- 1.494e+02
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      15       15
+    2 XrdAdaptor           -w file_open                              2        2
+    3 fileAction           -s file_close                             2        2
+    4 fileAction           -s file_open                              4        4
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent 
+    3 fileAction           PostProcessEvent PostGlobalEndRun 
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  6                   6
+
+dropped waiting message count 0

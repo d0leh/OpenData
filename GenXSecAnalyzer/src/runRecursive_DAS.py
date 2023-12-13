@@ -1,4 +1,5 @@
 # cd ..
+# python src/runRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan
 
 import os, sys
 import StandardModelPhysics2016
@@ -6,7 +7,7 @@ import StandardModelPhysics2016
 year    = sys.argv[1]
 section = sys.argv[2]
 process = sys.argv[3]
-skipexisting = False
+skipexisting = True
 
 count = 0
 #directory = "fileLists/{}/{}/{}/".format(year, section, process)
