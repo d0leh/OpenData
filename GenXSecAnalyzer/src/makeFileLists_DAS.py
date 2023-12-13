@@ -10,16 +10,19 @@ section = sys.argv[2]
 process = sys.argv[3]
 
 if (section == "StandardModelPhysics"):
-    import StandardModelPhysics
-    samples = StandardModelPhysics.sampleInfo[process]
+    import StandardModelPhysics2016
+    samples = StandardModelPhysics2016.sampleInfo[process]
 
 if (section == "HiggsPhysics"):
-    import HiggsPhysics
-    samples = HiggsPhysics.sampleInfo[process]
+    import HiggsPhysics2016
+    samples = HiggsPhysics2016.sampleInfo[process]
 
 count = 0
-for recid in samples:
-    os.system("cernopendata-client get-file-locations --recid {} --protocol xrootd > fileLists/{}/{}/recid_{}.txt".format(recid, section, process, recid))
+for sample in samples:
+    # fileLists/2016/StandardModelPhysics/Drell-Yan
+    sample_name = sample.split("/")[1]
+    os.system("dasgoclient -query=\"file dataset={}\" > fileLists/{}/{}/{}/{}.txt".format(sample, year, section, process, sample_name))
+    #print("done")
     count+=1
     if (count%10==0): print("Created {} lists.".format(count))
 

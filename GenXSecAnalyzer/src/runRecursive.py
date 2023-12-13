@@ -3,8 +3,9 @@
 
 import os, sys
 
-section = sys.argv[1]
-process = sys.argv[2]
+year    = sys.argv[1]
+section = sys.argv[2]
+process = sys.argv[3]
 skipexisting = False
 
 if (section == "StandardModelPhysics"):
@@ -16,8 +17,9 @@ if (section == "HiggsPhysics"):
     samples = HiggsPhysics.sampleInfo[process]
 
 count = 0
-for recid in samples:
-    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f recid_{}.txt -s {} -p {} -n 10000000 -k {}".format(recid, section, process, skipexisting)
+for sample in samples:
+    sample_name = 
+    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f {}.txt -s {} -p {} -n 10000000 -k {}".format(recid, section, process, skipexisting)
     print(cmd)
     os.system(cmd)
     count+=1
