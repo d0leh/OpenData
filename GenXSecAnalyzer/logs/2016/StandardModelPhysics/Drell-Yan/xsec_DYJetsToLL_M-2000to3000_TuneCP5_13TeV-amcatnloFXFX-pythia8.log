@@ -1,0 +1,87 @@
+14-Dec-2023 22:11:31 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2810000/F195EABF-414E-9745-9299-F4DEF3519604.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 14-Dec-2023 22:11:35 CET pre-events
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+14-Dec-2023 22:11:39 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2810000/F195EABF-414E-9745-9299-F4DEF3519604.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 1st record. Run 1, Event 196323, LumiSection 75 on stream 0 at 14-Dec-2023 22:11:45.245 CET
+14-Dec-2023 22:11:47 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2810000/F195EABF-414E-9745-9299-F4DEF3519604.root
+14-Dec-2023 22:11:47 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2810000/E5034968-A527-8B4A-A95B-462466956B29.root
+%MSG-w XrdAdaptor:  file_open 14-Dec-2023 22:11:49 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+14-Dec-2023 22:11:50 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2810000/E5034968-A527-8B4A-A95B-462466956B29.root
+14-Dec-2023 22:11:55 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2810000/E5034968-A527-8B4A-A95B-462466956B29.root
+14-Dec-2023 22:11:55 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/28110000/3E931D70-B581-CD47-A456-09B7308B0F38.root
+%MSG-w XrdAdaptor:  file_open 14-Dec-2023 22:11:59 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-FNAL
+%MSG
+14-Dec-2023 22:12:00 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/28110000/3E931D70-B581-CD47-A456-09B7308B0F38.root
+[2023-12-14 22:12:04.493094 +0100][Error  ][AsyncSock         ] [xrootd12.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2023-12-14 22:12:04.493221 +0100][Error  ][PostMaster        ] [xrootd12.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2023-12-14 22:12:05.316959 +0100][Error  ][AsyncSock         ] [xrootd12.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2023-12-14 22:12:05.317031 +0100][Error  ][PostMaster        ] [xrootd12.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2023-12-14 22:12:05.317054 +0100][Error  ][PostMaster        ] [xrootd12.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2023-12-14 22:12:05.317062 +0100][Error  ][XRootD            ] [xrootd12.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/28110000/3E931D70-B581-CD47-A456-09B7308B0F38.root?tried=xrootd4.cmsaf.mit.edu, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Begin processing the 100001st record. Run 1, Event 152302, LumiSection 58 on stream 0 at 14-Dec-2023 22:12:07.906 CET
+14-Dec-2023 22:12:10 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/28110000/3E931D70-B581-CD47-A456-09B7308B0F38.root
+14-Dec-2023 22:12:10 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/28110000/1087055D-21FA-8241-AD17-33C9F61A97BF.root
+%MSG-w XrdAdaptor:  file_open 14-Dec-2023 22:12:13 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-FNAL
+%MSG
+14-Dec-2023 22:12:14 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/28110000/1087055D-21FA-8241-AD17-33C9F61A97BF.root
+Begin processing the 200001st record. Run 1, Event 541898, LumiSection 205 on stream 0 at 14-Dec-2023 22:12:26.923 CET
+      0.000560      0.000001      0.003092             0
+      0.000477      0.000001      0.003092             1
+      0.000311      0.000001      0.003092             2
+ 
+14-Dec-2023 22:12:27 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-2000to3000_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/28110000/1087055D-21FA-8241-AD17-33C9F61A97BF.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		5.596e-04 +/- 4.921e-07		49285	47913	1372	116533	112029	4504	2.422e-04 +/- 9.034e-07		43.3 +/- 0.2	42.3 +/- 0.1
+1		4.774e-04 +/- 7.064e-07		77446	59390	18056	230503	162393	68110	2.093e-04 +/- 1.215e-06		43.8 +/- 0.2	33.6 +/- 0.1
+2		3.115e-04 +/- 7.208e-07		77302	51622	25680	246435	155102	91333	1.267e-04 +/- 1.184e-06		40.7 +/- 0.4	31.4 +/- 0.1
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.349e-03 +/- 1.123e-06		204033	158925	45108	593471	429524	163947	5.779e-04 +/- 1.948e-06		42.9 +/- 0.1	34.4 +/- 0.1
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.349e-03 +- 1.123e-06 pb
+After matching: total cross section = 5.779e-04 +- 1.948e-06 pb
+Matching efficiency = 0.3 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (351.931) / (351.931) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (204033) / (204033) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 5.779e-04 +- 1.948e-06 pb
+After filter: final fraction of events with negative weights = 2.211e-01 +- 1.180e-04
+After filter: final equivalent lumi for 1M events (1/fb) = 5.384e+05 +- 1.086e+03
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 XrdAdaptor           -w file_open                              4        4
+    3 fileAction           -s file_close                             4        4
+    4 fileAction           -s file_open                              8        8
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 fileAction           PostProcessEvent PostProcessEvent PostGlobalEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                21                  21
+System                 12                  12
+
+dropped waiting message count 0

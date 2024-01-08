@@ -1,0 +1,129 @@
+15-Dec-2023 04:05:48 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/2694B2F9-2B7B-1A46-A6D1-F429C08311D3.root
+%MSG-w XrdAdaptor:  file_open 15-Dec-2023 04:05:52 CET pre-events
+Data is served from T2_US_MIT instead of original site US-Regional-FNAL
+%MSG
+15-Dec-2023 04:05:55 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/2694B2F9-2B7B-1A46-A6D1-F429C08311D3.root
+Begin processing the 1st record. Run 1, Event 10429676, LumiSection 6800 on stream 0 at 15-Dec-2023 04:06:02.984 CET
+15-Dec-2023 04:06:04 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/2694B2F9-2B7B-1A46-A6D1-F429C08311D3.root
+15-Dec-2023 04:06:04 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/5BFF6A1F-1038-6C4E-9823-FD3F6378F52B.root
+[2023-12-15 04:06:06.099788 +0100][Error  ][AsyncSock         ] [xrootd12.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2023-12-15 04:06:06.099892 +0100][Error  ][PostMaster        ] [xrootd12.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2023-12-15 04:06:06.739579 +0100][Error  ][AsyncSock         ] [xrootd12.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2023-12-15 04:06:06.739657 +0100][Error  ][PostMaster        ] [xrootd12.cmsaf.mit.edu:1094 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2023-12-15 04:06:06.739677 +0100][Error  ][PostMaster        ] [xrootd12.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2023-12-15 04:06:06.739684 +0100][Error  ][XRootD            ] [xrootd12.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/5BFF6A1F-1038-6C4E-9823-FD3F6378F52B.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 15-Dec-2023 04:06:08 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-FNAL
+%MSG
+15-Dec-2023 04:06:09 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/5BFF6A1F-1038-6C4E-9823-FD3F6378F52B.root
+15-Dec-2023 04:06:18 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/5BFF6A1F-1038-6C4E-9823-FD3F6378F52B.root
+15-Dec-2023 04:06:18 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/FB3D1D1F-EF5F-A04D-B5F3-0D3759893A12.root
+%MSG-w XrdAdaptor:  file_open 15-Dec-2023 04:06:21 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-FNAL
+%MSG
+15-Dec-2023 04:06:21 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/FB3D1D1F-EF5F-A04D-B5F3-0D3759893A12.root
+15-Dec-2023 04:06:26 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/FB3D1D1F-EF5F-A04D-B5F3-0D3759893A12.root
+15-Dec-2023 04:06:26 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/1AAEC5EE-E258-E844-9D82-2BBC582BF8B1.root
+[2023-12-15 04:06:28.199141 +0100][Error  ][AsyncSock         ] [xrootd11.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2023-12-15 04:06:28.199187 +0100][Error  ][PostMaster        ] [xrootd11.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2023-12-15 04:06:28.672493 +0100][Error  ][AsyncSock         ] [xrootd11.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2023-12-15 04:06:28.672551 +0100][Error  ][PostMaster        ] [xrootd11.cmsaf.mit.edu:1094 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2023-12-15 04:06:28.672557 +0100][Error  ][PostMaster        ] [xrootd11.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2023-12-15 04:06:28.672562 +0100][Error  ][XRootD            ] [xrootd11.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/1AAEC5EE-E258-E844-9D82-2BBC582BF8B1.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 15-Dec-2023 04:06:30 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-FNAL
+%MSG
+15-Dec-2023 04:06:31 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/1AAEC5EE-E258-E844-9D82-2BBC582BF8B1.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  (NoModuleName) 15-Dec-2023 04:07:40 CET pre-events
+Data is now served from T2_US_MIT, gridka.de instead of previous T2_US_MIT
+%MSG
+%MSG-w XrdAdaptor:  AfterFile 15-Dec-2023 04:07:40 CET PostProcessEvent
+Data is now served from gridka.de instead of previous T2_US_MIT, gridka.de
+%MSG
+Begin processing the 100001st record. Run 1, Event 27739546, LumiSection 18084 on stream 0 at 15-Dec-2023 04:07:43.434 CET
+15-Dec-2023 04:07:44 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/1AAEC5EE-E258-E844-9D82-2BBC582BF8B1.root
+15-Dec-2023 04:07:44 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/19CF70B0-F8D3-3A4B-838F-1629A3A8AF13.root
+%MSG-w XrdAdaptor:  file_open 15-Dec-2023 04:07:47 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-FNAL
+%MSG
+[2023-12-15 04:10:57.988166 +0100][Error  ][XRootD            ] [xrootd8.cmsaf.mit.edu:1094] Unable to get the response to request kXR_read (handle: 0x00000000, offset: 2566219825, size: 387)
+[2023-12-15 04:10:57.988804 +0100][Error  ][File              ] [0x9fdcd600@root://cmsxrootd.fnal.gov:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/19CF70B0-F8D3-3A4B-838F-1629A3A8AF13.root] Fatal file state error. Message kXR_read (handle: 0x00000000, offset: 2566219825, size: 387) returned with [ERROR] Operation expired
+%MSG-w XrdAdaptorInternal:  (NoModuleName) 15-Dec-2023 04:10:57 CET pre-events
+XrdRequestManager::handle(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/19CF70B0-F8D3-3A4B-838F-1629A3A8AF13.root) failure when reading from xrootd8.cmsaf.mit.edu:1094 (site T2_US_MIT); failed with error '[ERROR] Operation expired' (errno=0, code=206).
+%MSG
+%MSG-w XrdAdaptorInternal:  (NoModuleName) 15-Dec-2023 04:10:57 CET pre-events
+Request failure when reading from xrootd8.cmsaf.mit.edu:1094 (site T2_US_MIT)
+%MSG
+%MSG-w XrdAdaptor:  (NoModuleName) 15-Dec-2023 04:10:57 CET pre-events
+Data is now served from  instead of previous T2_US_MIT
+%MSG
+[2023-12-15 04:14:05.008552 +0100][Error  ][XRootD            ] [xrootd.cmsaf.mit.edu:1094] Unable to get the response to request kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/19CF70B0-F8D3-3A4B-838F-1629A3A8AF13.root?tried=xrootd8.cmsaf.mit.edu, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat )
+%MSG-w XrdAdaptorInternal:  (NoModuleName) 15-Dec-2023 04:14:05 CET pre-events
+Caught a CMSSW exception when running connection recovery.
+%MSG
+----- Begin Fatal Exception 15-Dec-2023 04:14:05 CET-----------------------
+An exception of category 'FileOpenError' occurred while
+   [0] Calling InputSource::readFile_
+   [1] Calling RootFileSequenceBase::initTheFile()
+   [2] XrdAdaptor::ClientRequest::HandleResponse() failure while running connection recovery
+   [3] Handling XrdAdaptor::RequestManager::requestFailure()
+   [4] In XrdAdaptor::RequestManager::OpenHandler::HandleResponseWithHosts()
+Exception Message:
+XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/19CF70B0-F8D3-3A4B-838F-1629A3A8AF13.root', flags=0x10, permissions=0660) => error '[ERROR] Operation expired' (errno=0, code=206)
+   Additional Info:
+      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_TuneCH3_13TeV-madgraphMLM-herwig7/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/50000/19CF70B0-F8D3-3A4B-838F-1629A3A8AF13.root could not be opened.
+      [b] Original error: '[ERROR] Operation expired' (errno=0, code=206, source=xrootd8.cmsaf.mit.edu:1094 (site T2_US_MIT)).
+      [c] Original failed source is xrootd8.cmsaf.mit.edu:1094 (site T2_US_MIT)
+      [d] Disabled source: xrootd8.cmsaf.mit.edu:1094
+----- End Fatal Exception -------------------------------------------------
+   3364.173000     45.771540      8.270684             1
+   5423.909000     18.466460      8.270684             0
+   1273.940000     16.933470      8.270684             3
+   2004.065000     25.302020      8.270684             2
+    621.143700      9.858184      8.270684             4
+ 
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+Before Filter: total cross section = 4.921e+00 +- 1.791e-02 pb
+Filter efficiency (taking into account weights)= (135098) / (135098) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (135098) / (135098) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 4.921e+00 +- 1.791e-02 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 2.032e+02 +- 7.671e-01
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                       7        7
+    2 XrdAdaptor           -w (NoModuleName)                         2        2
+    3 XrdAdaptor           -w AfterFile                              1        1
+    4 XrdAdaptor           -w file_open                              5        5
+    5 XrdAdaptorInternal   -w (NoModuleName)                         3        3
+    6 Fatal Exception      -s AfterFile                              1        1
+    7 fileAction           -s file_close                             4        4
+    8 fileAction           -s file_open                              9        9
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       pre-events       
+    3 XrdAdaptor           PostProcessEvent                  
+    4 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    5 XrdAdaptorInternal   pre-events       pre-events       pre-events
+    6 Fatal Exception      PostProcessEvent                  
+    7 fileAction           PostProcessEvent PostProcessEvent PostProcessEvent
+    8 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                18                  18
+System                 14                  14
+
+dropped waiting message count 0

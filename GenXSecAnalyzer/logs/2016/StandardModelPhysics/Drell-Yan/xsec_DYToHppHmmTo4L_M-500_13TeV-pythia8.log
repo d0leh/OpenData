@@ -1,0 +1,43 @@
+15-Dec-2023 11:36:13 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToHppHmmTo4L_M-500_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/140000/3FA8E4FB-71F2-1449-8917-100F6DC19C0E.root
+%MSG-w XrdAdaptor:  file_open 15-Dec-2023 11:36:17 CET pre-events
+Data is served from T2_US_MIT instead of original site US-Regional-Nebraska
+%MSG
+15-Dec-2023 11:36:22 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToHppHmmTo4L_M-500_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/140000/3FA8E4FB-71F2-1449-8917-100F6DC19C0E.root
+Begin processing the 1st record. Run 1, Event 13, LumiSection 1 on stream 0 at 15-Dec-2023 11:36:27.423 CET
+15-Dec-2023 11:36:27 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToHppHmmTo4L_M-500_13TeV-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/140000/3FA8E4FB-71F2-1449-8917-100F6DC19C0E.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+Before Filter: total cross section = 1.739e-03 +- 8.905e-06 pb
+Filter efficiency (taking into account weights)= (10000) / (10000) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (10000) / (10000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 1.739e-03 +- 8.905e-06 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 5.751e+05 +- 3.001e+03
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                       7        7
+    2 XrdAdaptor           -w file_open                              1        1
+    3 fileAction           -s file_close                             1        1
+    4 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events                        
+    3 fileAction           PostGlobalEndRun                  
+    4 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                 8                   8
+System                  3                   3
+
+dropped waiting message count 0

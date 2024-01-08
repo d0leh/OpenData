@@ -1,0 +1,89 @@
+15-Dec-2023 02:49:04 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/2EDEDCDB-5918-904E-9BE9-177F21AC57AB.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 15-Dec-2023 02:49:08 CET pre-events
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+15-Dec-2023 02:49:12 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/2EDEDCDB-5918-904E-9BE9-177F21AC57AB.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 1st record. Run 1, Event 177, LumiSection 1 on stream 0 at 15-Dec-2023 02:49:17.977 CET
+15-Dec-2023 02:49:19 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/2EDEDCDB-5918-904E-9BE9-177F21AC57AB.root
+15-Dec-2023 02:49:19 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/FC1484A1-64F4-4240-928C-136CDEA9128B.root
+%MSG-w XrdAdaptorInternal:  file_open 15-Dec-2023 02:49:24 CET PostProcessEvent
+Failed to open file at URL root://eos-c01.cms.rcac.purdue.edu:1101//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/FC1484A1-64F4-4240-928C-136CDEA9128B.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+THor93RTC2jg7lizKlbHVrvZ/uQBdw6Ukxz7oxzBbh2XscmuDs81MoIpZFTB0/wK19Q4ujnGx8SkAKxo8ZcBa5yrj4mJTQVafWfK7CBOadDpBrDo9je5rUQve/7pGFzG8ik3xzd5xuLa2BEezw8Nxz3tVCO5rS8UMhRAJERbDZYQa2I4rqJBQIM4Lx9TLmWZ4TICyshoxKcw7/62CImafC28xemRI3ti7kEsK7wuAENztQMiQTJPwmwnPprAc2+TDuh14FwjuvD+2ohaOTwErleF9rrS3xqMvpzf321OckN1AXZszY14W03HPJfygfolToIosFKMKMcF/9AEOvmwiXDz/t7qK7OAwXz5bc+IEtbQt+xSEGvNpPwxnnJuFdDPJhGHu6izWSNf3UAcZ68NbW5nvwnTqIxCNKstKMX4CIhn+FU9o2dYIYYygQ3obTMpw0BArmBctDQPOv6t2ohZZyCN0X40sGp04kbYJp9A0FGQyAP0Wkxz5HEuklwrGye4x+da0q52xioke0NhDvV8OwjY84HdS6VPCn7aIGvVhqSe2y3Vx49G2T8oH1NpdPluXKGgHiPiTWJlmApOKFKQPVjs7/hUuq7O6xTZILc2WVmIOTcvW6wT9ypJYSAvDX12RcikyDOWURi0+kG/hxoYYt8rtGOMjkV9rpcPcSow2iNW9iZBTkdvC/5r02ntJCIWnya13bE1ckEqRy+9lRSwpaQFZLzJAlW8UUha8GeR8MD0SGDewMjZbWy9OckgVdUlOWrY5aBcvP0&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nBXIUQrEIAxF0a3MBhoUZn6ELKZNnlRoq0RDmd23/p17a8OVbHCg3/dTatpuLlee6rJDOUyOfwNvnjMMOkezUlmRVz/G7HcXgwxG7YuESHJ2MlmFmps6COopxhAfhoMm4Q==&mgm.blockchecksum=ignore&mgm.id=00112c43&mgm.logid=2abcca2c-9aec-11ee-9f37-5c6f69a9c0f0&mgm.mtime=1670164977&mgm.replicahead=1&mgm.replicaindex=1.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 15-Dec-2023 02:49:25 CET PostProcessEvent
+Failed to open file at URL root://eos-c01.cms.rcac.purdue.edu:1101//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/FC1484A1-64F4-4240-928C-136CDEA9128B.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+THor93RTC2jg7lizKlbHVrvZ/uQBdw6Ukxz7oxzBbh2XscmuDs81MoIpZFTB0/wK19Q4ujnGx8SkAKxo8ZcBa5yrj4mJTQVafWfK7CBOadDpBrDo9je5rUQve/7pGFzG8ik3xzd5xuLa2BEezw8Nxz3tVCO5rS8UMhRAJERbDZYQa2I4rqJBQIM4Lx9TLmWZ4TICyshoxKcw7/62CImafC28xemRI3ti7kEsK7wuAENztQMiQTJPwmwnPprAc2+TDuh14FwjuvD+2ohaOTwErleF9rrS3xqMvpzf321OckN1AXZszY14W03HPJfygfolToIosFKMKMcF/9AEOvmwiXDz/t7qK7OAwXz5bc+IEtbQt+xSEGvNpPwxnnJuFdDPJhGHu6izWSNf3UAcZ68NbW5nvwnTqIxCNKstKMX4CIhn+FU9o2dYIYYygQ3obTMpw0BArmBctDQPOv6t2ohZZyCN0X40sGp04kbYJp9A0FGQyAP0Wkxz5HEuklwrGye4x+da0q52xioke0NhDvV8OwjY84HdS6VPCn7aIGvVhqSe2y3Vx49G2T8oH1NpdPluXKGgHiPiTWJlmApOKFKQPVjs7/hUuq7O6xTZILc2WVmIOTcvW6wT9ypJYSAvDX12RcikyDOWURi0+kG/hxoYYt8rtGOMjkV9rpcPcSow2iNW9iZBTkdvC/5r02ntJCIWnya13bE1ckEqRy+9lRSwpaQFZLzJAlW8UUha8GeR8MD0SGDewMjZbWy9OckgVdUlIYzRhNJ4923&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nB3IQQ6EIAxG4avMBWxgMwuSHkbbnwyJCik0xtuPuHvvqw1nssGBvuFTatouLmee1eUH5RfH3cCb5wyDTmhWKivy6vuY/3AxyGDUvkiIJEcnk1WouamDoJ5iDPEPhVgm3g==&mgm.blockchecksum=ignore&mgm.id=00112c43&mgm.logid=2cc6fd56-9aec-11ee-bdb0-5c6f69a9c0f0&mgm.mtime=1670164977&mgm.replicahead=1&mgm.replicaindex=1&tried=.
+%MSG
+----- Begin Fatal Exception 15-Dec-2023 02:49:25 CET-----------------------
+An exception of category 'FileOpenError' occurred while
+   [0] Calling InputSource::readFile_
+   [1] Calling RootFileSequenceBase::initTheFile()
+   [2] Calling StorageFactory::open()
+   [3] Calling XrdFile::open()
+Exception Message:
+Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/FC1484A1-64F4-4240-928C-136CDEA9128B.root'
+   Additional Info:
+      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/FC1484A1-64F4-4240-928C-136CDEA9128B.root could not be opened.
+      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/FC1484A1-64F4-4240-928C-136CDEA9128B.root', flags=0x10, permissions=0660) => error '[ERROR] Server responded with an error: [3000] Unable to open - cannot determine the prefix path to use for the given filesystem id /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/FC1484A1-64F4-4240-928C-136CDEA9128B.root; invalid argument
+' (errno=3000, code=400). No additional data servers were found.
+      [c] Last URL tried: root://eos-c01.cms.rcac.purdue.edu:1101//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToLL_M-50_HT-2500toInf_TuneCP5_PSweights_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/FC1484A1-64F4-4240-928C-136CDEA9128B.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+THor93RTC2jg7lizKlbHVrvZ/uQBdw6Ukxz7oxzBbh2XscmuDs81MoIpZFTB0/wK19Q4ujnGx8SkAKxo8ZcBa5yrj4mJTQVafWfK7CBOadDpBrDo9je5rUQve/7pGFzG8ik3xzd5xuLa2BEezw8Nxz3tVCO5rS8UMhRAJERbDZYQa2I4rqJBQIM4Lx9TLmWZ4TICyshoxKcw7/62CImafC28xemRI3ti7kEsK7wuAENztQMiQTJPwmwnPprAc2+TDuh14FwjuvD+2ohaOTwErleF9rrS3xqMvpzf321OckN1AXZszY14W03HPJfygfolToIosFKMKMcF/9AEOvmwiXDz/t7qK7OAwXz5bc+IEtbQt+xSEGvNpPwxnnJuFdDPJhGHu6izWSNf3UAcZ68NbW5nvwnTqIxCNKstKMX4CIhn+FU9o2dYIYYygQ3obTMpw0BArmBctDQPOv6t2ohZZyCN0X40sGp04kbYJp9A0FGQyAP0Wkxz5HEuklwrGye4x+da0q52xioke0NhDvV8OwjY84HdS6VPCn7aIGvVhqSe2y3Vx49G2T8oH1NpdPluXKGgHiPiTWJlmApOKFKQPVjs7/hUuq7O6xTZILc2WVmIOTcvW6wT9ypJYSAvDX12RcikyDOWURi0+kG/hxoYYt8rtGOMjkV9rpcPcSow2iNW9iZBTkdvC/5r02ntJCIWnya13bE1ckEqRy+9lRSwpaQFZLzJAlW8UUha8GeR8MD0SGDewMjZbWy9OckgVdUlIYzRhNJ4923&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nB3IQQ6EIAxG4avMBWxgMwuSHkbbnwyJCik0xtuPuHvvqw1nssGBvuFTatouLmee1eUH5RfH3cCb5wyDTmhWKivy6vuY/3AxyGDUvkiIJEcnk1WouamDoJ5iDPEPhVgm3g==&mgm.blockchecksum=ignore&mgm.id=00112c43&mgm.logid=2cc6fd56-9aec-11ee-bdb0-5c6f69a9c0f0&mgm.mtime=1670164977&mgm.replicahead=1&mgm.replicaindex=1&tried=
+      [d] Problematic data server: eos-c01.cms.rcac.purdue.edu:1101
+      [e] Disabled source: eos-c01.cms.rcac.purdue.edu:1101
+----- End Fatal Exception -------------------------------------------------
+      0.007298      0.000050      0.000007             3
+      0.001235      0.000023      0.000007             2
+      0.024302      0.000106      0.000007             4
+ 
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		8.656e-06 +/- 1.764e-07		0	0	0	18	18	0	0.000e+00 +/- 0.000e+00		0.0 +/- 0.0	0.0 +/- 0.0
+1		1.211e-03 +/- 2.391e-06		579	579	0	13578	13578	0	5.163e-05 +/- 2.102e-06		4.3 +/- 0.2	4.3 +/- 0.2
+2		7.285e-03 +/- 6.051e-06		1823	1823	0	82151	82151	0	1.617e-04 +/- 3.747e-06		2.2 +/- 0.1	2.2 +/- 0.1
+3		2.420e-02 +/- 1.219e-05		30638	30638	0	267403	267403	0	2.773e-03 +/- 1.497e-05		11.5 +/- 0.1	11.5 +/- 0.1
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		3.271e-02 +/- 1.382e-05		33040	33040	0	363150	363150	0	2.976e-03 +/- 1.566e-05		9.1 +/- 0.0	9.1 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 3.271e-02 +- 1.382e-05 pb
+After matching: total cross section = 2.976e-03 +- 1.566e-05 pb
+Matching efficiency = 0.1 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (33040) / (33040) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (33040) / (33040) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 2.976e-03 +- 1.566e-05 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 3.361e+05 +- 1.800e+03
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      18       18
+    2 XrdAdaptor           -w file_open                              1        1
+    3 XrdAdaptorInternal   -w file_open                              2        2
+    4 Fatal Exception      -s AfterFile                              1        1
+    5 fileAction           -s file_close                             1        1
+    6 fileAction           -s file_open                              3        3
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events                        
+    3 XrdAdaptorInternal   PostProcessEvent PostProcessEvent 
+    4 Fatal Exception      PostProcessEvent                  
+    5 fileAction           PostProcessEvent                  
+    6 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                21                  21
+System                  5                   5
+
+dropped waiting message count 0
