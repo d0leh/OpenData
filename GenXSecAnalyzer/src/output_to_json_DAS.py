@@ -1,21 +1,20 @@
-# python output_to_json.py recid_.txt 2016 StandardModelPhysics Drell-Yan
+# python output_to_json.py 2016 StandardModelPhysics Drell-Yan filename
 
 import os, sys
 import json
 #import StandardModelPhysics2016
 
-label   = sys.argv[1]
-year    = sys.argv[2]
-section = sys.argv[3]
-process = sys.argv[4]
+year    = sys.argv[1]
+section = sys.argv[2]
+process = sys.argv[3]
+fname   = sys.argv[4]
 
-#dname = dataset.split('/')[1]
-fname = 'logs/{}/{}/{}/xsec_{}.log'.format(year, section, process, label)
 print("Processing log file: ", fname)
+dname = fname.split('xsec_')[-1].split('.')[0]
 
 fields = ['total_value', 'total_value_uncertainty', 'matching_efficiency', 'filter_efficiency', 'neg_weight_fraction']
 
-metadata = [{"metadata":{"Dataset":dataset,
+metadata = [{"metadata":{"Dataset":dname,
                          "total_value":"Total cross section after matching/filter (pb)",
                          "total_value_uncertainty":"(+-) Error of total cross section (pb)",
                          "matching_efficiency":"Matching efficiency",
@@ -29,7 +28,7 @@ data = {'total_value':-1,
         'neg_weight_fraction':-1,
 }
 
-with open(fname) as f:
+with open('logs/{}/{}/{}/{}'.format(year, section, process, fname)) as f:
     contents = f.read().split("\n")
 
     ###### CAVEAT: for some versions of CMSSW, the output descriptions might have typos such as "filtre"
@@ -46,7 +45,7 @@ with open(fname) as f:
     except:
         print("Failed saving {} to json.".format(fname))
 
-outfile = '/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}_{}.json'.format(year, section, process, dname, recid)
+outfile = '/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}.json'.format(year, section, process, dname)
 with open(outfile, 'w') as jsonfile:
     json.dump(metadata, jsonfile)
     print("Saved to {}".format(outfile))
