@@ -208,7 +208,7 @@ Use different scripts to process samples for different years.
   
 <b>Location</b> of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2016/<em>Section</em>/<em>Subsection</em></code>
 
-The organization of the folders follow a similar rule as for MC2015.
+The workflow and the organization of the folders follow a similar rule as for MC2015.
 
 <b>Difference: </b> 
 
