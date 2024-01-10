@@ -22,15 +22,15 @@ fields = ['xsec_before_matching', 'xsec_before_matching_uncertainty',
           'neg_weight_fraction', 'neg_weight_fraction_uncertainty', 
           'equivalent_lumi', 'equivalent_lumi_uncertainty']
 
-metadata = [{"metadata":{"Dataset":dname,
+metadata = [{"metadata":{#"Dataset":dname,
                          "xsec_before_matching" : "Total cross section before matching (pb)",
                          "xsec_before_matching_uncertainty": "(+-) Error of total cross section before matching (pb)",
                          "xsec_after_matching": "Total cross section after matching (pb)",
                          "xsec_after_matching_uncertainty": "(+-) Error of total cross section after matching (pb)",
                          "xsec_before_filter" : "Total cross section before filter (pb)",
                          "xsec_before_filter_uncertainty" : "(+-) Error of total cross section before filter (pb)",
-                         "total_value" : "Total cross section after matching/filter (pb)", # to display
-                         "total_value_uncertainty" : "(+-) Error of total cross section (pb)", # to display
+                         "total_value" : "Final total cross section (pb)", # to display
+                         "total_value_uncertainty" : "(+-) Error of final total cross section (pb)", # to display
                          "matching_efficiency" : "Matching efficiency",
                          "matching_efficiency_uncertainty" : "(+-) Error of matching efficiency",
                          "filter_efficiency" : "Filter efficiency (taking into account weights)", # to display
@@ -98,10 +98,10 @@ with open('logs/{}/{}/{}/{}'.format(year, section, process, fname)) as f:
         data['equivalent_lumi']                   = equivalent_lumi[0]
         data['equivalent_lumi_uncertainty']       = equivalent_lumi[2]
         metadata.append(data)
+
+        outfile = '/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}.json'.format(year, section, process, dname)
+        with open(outfile, 'w') as jsonfile:
+            json.dump(metadata, jsonfile)
+            print("Saved to {}".format(outfile))
     except:
         print("Failed saving {} to json.".format(fname))
-
-outfile = '/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}.json'.format(year, section, process, dname)
-with open(outfile, 'w') as jsonfile:
-    json.dump(metadata, jsonfile)
-    print("Saved to {}".format(outfile))

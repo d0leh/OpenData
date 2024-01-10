@@ -7,7 +7,7 @@ import StandardModelPhysics2016
 year    = sys.argv[1]
 section = sys.argv[2]
 process = sys.argv[3]
-skipexisting = True
+skipexisting = False
 
 count = 0
 #directory = "fileLists/{}/{}/{}/".format(year, section, process)

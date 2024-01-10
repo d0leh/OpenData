@@ -1,5 +1,5 @@
 # EXAMPLE ON HOW TO RUN
-# python ./compute_cross_section.py -f recid_16948.txt -y 2016 -s StandardModelPhysics -p Drell-Yan
+# python ./src/compute_cross_section.py -f MuMuJet_mll_0to60_LO_EMEnriched_TuneCP5_13TeV-amcatnlo-pythia8 -y 2016 -s StandardModelPhysics -p Drell-Yan
 
 from optparse import OptionParser
 import os
