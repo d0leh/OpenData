@@ -60,11 +60,13 @@ Use different scripts to process samples for different years.
   <summary><b>Access the data in the output files:</b></summary>
       <details>
       <summary><b>Loading the output json files:</b></summary>
-        <code>
-          import json
-          f = open('<em>sample_name_recid</em>.json')
-          data = json.load(f)
-         </code>
+        <pre>
+          <code>
+            import json
+            f = open('<em>sample_name_recid</em>.json')
+            data = json.load(f)
+           </code>
+        </pre>
       </details>
   </details>
   
