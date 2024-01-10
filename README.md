@@ -1,11 +1,12 @@
 <details>
 <summary><h3>2015</h3></summary>
 Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2015/<Section>/<Subsection>/
+
 (e.g. /eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan for all Standard Model Drell-Yan samples)
   
 The Section and Susection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
 
-Finished Section: StandardModelPhysics
+Finished Section: StandardModelPhysics (Drell-Yan, ElectroWeak, QCD, TopPhysics, MinimumBias)
 Section in progress: HiggsPhysics
 
 </details>
