@@ -55,20 +55,28 @@ Under each subfolder, the json files are stored under the name <code><em>sample_
 * Section in progress: HiggsPhysics (Low priority)
 </p>
 
-<details>
-  <summary><h4>Access the data in the output files:</h4></summary>
-    <details>
-        <summary><h3>Loading the output json files:</h3></summary>
-          <code>
-          import json
+  <details>
+    <summary><b>Access the data in the output files:</b></summary>
+      <details>
+          <summary><b>Loading the output json files:</b></summary>
+            <code>
+            import json
 
-          f = open('<sample_name>_<recid>.json')
-          </code>
-data = json.load(f)
-    </details>
+            f = open('<sample_name>_<recid>.json')
+            
+            data = json.load(f)
+            </code>
+      </details>
+      
+  </details>
+
 </details>
 
-
+<details>
+<summary><h3>2016</h3></summary>
+Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subsection>/
+  
+</details>
 
 ### To access the full name and description of the dataset:
 data["Dataset"]
@@ -203,12 +211,3 @@ e.g.: print(xsec_arr.dtype.metadata["equivLumi"])
 
 #### Note:
 output_to_numpy.py and output_to_csv.py have not been updated to be compatible with the most recent changes.
-
-</details>
-
-<details>
-<summary><h3>2016</h3></summary>
-Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subsection>/
-  
-</details>
-
