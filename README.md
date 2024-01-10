@@ -14,24 +14,28 @@
   <details>
   <summary>Folder Hierarchy:</summary>  
   <ul>
-  <li>MC2015/</li>
+  <li>MC2015/
     <ul>
-    <li>StandardModelPhysics/</li>
-      <ul>
-      <li>Drell-Yan/</li>    
-      <li>ElectroWeak/</li>
-      <li>MinimumBias/</li>
-      <li>QCD/</li>
-      <li>TopPhysics/</li>
-      </ul>
-    <li>HiggsPhysics/</li>
-      <ul>
-      <li>BeyondStandardModel</li>
-      <li>StandardModel</li>
-      </ul/
+      <li>StandardModelPhysics/
+        <ul>
+          <li>Drell-Yan/</li>    
+          <li>ElectroWeak/</li>
+          <li>MinimumBias/</li>
+          <li>QCD/</li>
+          <li>TopPhysics/</li>
+        </ul>
+      </li>
+      <li>HiggsPhysics/
+        <ul>
+          <li>BeyondStandardModel</li>
+          <li>StandardModel</li>
+        </ul>
+      </li>
     </ul>
-  </ul>   
-   </details>
+  </li>
+  </ul>
+  </details>
+    
 Under each subfolder, the json files are stored under the name <code><em>sample_name</em>_<em>recid</em>.json</code>.
 
 (e.g. <code>DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json</code>)
