@@ -210,7 +210,10 @@ Use different scripts to process samples for different years.
 
 The organization of the folders follow a similar rule as for MC2015.
 
-<b>Difference: </b> 2016 data are not on Open Data Portal yet. Need to use dasquery to obtain the filelist. Run everything with scripts named after "<code>_DAS.py</code>"
+<b>Difference: </b> 
+
+* 2016 data are not on Open Data Portal yet. Need to use dasquery to obtain the filelist. Run everything with scripts named after "<code>_DAS.py</code>"
+* Instead of having different formats, all json files have the same columns. If the value for a column does not exist, the column is filled with "-9".
 
 </details>
 
