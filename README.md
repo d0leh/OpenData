@@ -185,7 +185,18 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
     cmsenv
 
   * To run on a single dataset:
-      <code>./calculateXSectionAndFilterEfficiency.sh -f <em>list_of_root_files.txt</em> -s <em>section_name</em> -p <em>subsection_name</em> -n <em>maximum_num_of_events</em> -k   <em>skipExistingLogFiles</em></code>
+      <code>./calculateXSectionAndFilterEfficiency.sh -f <em>list_of_root_files.txt</em> -s <em>section_name</em> -p <em>subsection_name</em> -n <em>maximum_num_of_events</em> -k <em>skipExistingLogFiles</em></code>
+      
+      e.g.: <code>./src/calculateXSectionAndFilterEfficiency.sh -f recid_16785.txt -s StandardModelPhysics -p Drell-Yan -n 10000 -k False</code>
+
+      Set maximum number of events to -1 to run all the events in each root file.
+
+      In the example, <code>recid_16785.txt</code> contains a list of root files in the format of <code>"root://eospublic.cern.ch//eos/opendata/"</code>.
+
+      If you get an error saying "</code>Permisson denied</code>", run <code>chmod 777 calculateXSectionAndFilterEfficiency.sh</code> to give the permission to the .sh file first and then rerun the above command.
+
+ 
+
 
      
 </details>
