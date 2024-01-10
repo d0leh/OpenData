@@ -184,5 +184,8 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
     <code>cd CMSSW_7_6_7/src</code>
     cmsenv
 
+  * To run on a single dataset:
+      <code>./calculateXSectionAndFilterEfficiency.sh -f <em>list_of_root_files.txt</em> -s <em>section_name</em> -p <em>subsection_name</em> -n <em>maximum_num_of_events</em> -k   <em>skipExistingLogFiles</em></code>
 
+     
 </details>
