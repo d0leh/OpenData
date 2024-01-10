@@ -55,29 +55,12 @@ Use different scripts to process samples for different years.
   * Section in progress: HiggsPhysics (Low priority)
   </p>
 
-  <details>
-    <summary><b>Access the data in the output files:</b></summary>
-      <details>
-          <summary><b>Loading the output json files:</b></summary>
-        
-            <code>
-            import json
-
-            f = open('<em>sample_name_recid</em>.json')
-            
-            data = json.load(f)
-            
-            </code>
-      </details>
-      
-  </details>
-
 </details>
+
 
 <details>
 <summary><h3>2016</h3></summary>
 Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subsection>/
-  
 </details>
 
 ### To access the full name and description of the dataset:
