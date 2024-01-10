@@ -58,7 +58,11 @@ Use different scripts to process samples for different years.
 
   <details>
   <summary><b>Access the data in the output files:</b></summary>
-      d
+      <details>
+      <summary><b>Loading the output json files:</b></summary>
+        
+            b
+      </details>
   </details>
   
 </details>
