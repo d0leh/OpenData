@@ -5,17 +5,15 @@ Use different scripts to process samples for different years.
 
 <details>
 <summary><h2>2015</h2></summary>
-  <p>
+
   <b>Location</b> of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2015/<em>Section</em>/<em>Subsection</em></code>
 
   e.g.: <code>/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan</code> for all Standard Model Drell-Yan samples
-  </p>
 
-  <p>
   The Section and Subsection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
-  </p>
+
   <break>
-  <p>
+
   <details>
   <summary> <b>Folder Hierarchy:</b></summary>  
   <ul>
@@ -44,16 +42,14 @@ Use different scripts to process samples for different years.
   Under each subfolder, the json files are stored under the name <code><em>sample_name</em>_<em>recid</em>.json</code>.
 
   (e.g. <code>DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json</code>)  
-  </p>
+
   <break>
-  <p>
   
   * Finished Section: StandardModelPhysics
   
     * Subsections: Drell-Yan, ElectroWeak, QCD, TopPhysics, MinimumBias
     
   * Section in progress: HiggsPhysics (Low priority)
-  </p>
 
   <details>
   <summary><b>Access the data in the output files:</b></summary>
@@ -80,6 +76,74 @@ Use different scripts to process samples for different years.
       <code>result["<em>column_name_err</em>"]</code> for error
   </details>
 
+   <details>
+      <summary><b>Available column names:</b></summary>
+       GenXSecAnalyzer gives outputs in 5 possible formats (some information is not available for some datasets).
+  
+        Format 1:
+        - "totX_beforeMat":"Total cross section before matching (pb)",
+        - "totX_beforeMat_err":"(+-) Error of total cross section before matching (pb)",
+        - "totX_afterMat":"Total cross section after matching (pb)",
+        - "totX_afterMat_err":"(+-) Error of total cross section after matching (pb)",
+        - "matchingEff":"Matching efficiency",
+        - "matchingEff_err":"(+-) Error of matching efficiency",
+        - "filterEff_weights":"Filter efficiency (taking into account weights)",
+        - "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+        - "filterEff_event":"Filter efficiency (event-level)",
+        - "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+        - "totX_final":"Final cross senction after filter (pb)",
+        - "totX_final_err":"(+-) Error of final cross section after filter (pb)",
+        - "negWeightFrac":"Final fraction of events with negative weights after filter",
+        - "negWeightFrac_err":"(+-) Error of final fraction of events with negative weights after filter",
+        - "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
+        - "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)"
+        
+        Format 2:
+        - "totX_beforeMat":"Total cross section before matching (pb)",
+        - "totX_beforeMat_err":"(+-) Error of total cross section before matching (pb)",
+        - "totX_afterMat":"Total cross section after matching (pb)",
+        - "totX_afterMat_err":"(+-) Error of total cross section after matching (pb)",
+        - "filterEff_weights":"Filter efficiency (taking into account weights)",
+        - "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+        - "filterEff_event":"Filter efficiency (event-level)",
+        - "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+        - "totX_final":"Final cross senction after filter (pb)",
+        - "totX_final_err":"(+-) Error of final cross section after filter (pb)"
+        
+        Format 3:
+        - "totX_beforeFilter":"Total cross section before filter (pb)",
+        - "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
+        - "filterEff_weights":"Filter efficiency (taking into account weights)",
+        - "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+        - "filterEff_event":"Filter efficiency (event-level)",
+        - "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+        - "totX_final":"Final cross senction after filter (pb)",
+        - "totX_final_err":"(+-) Error of final cross section after filter (pb)",
+        - "negWeightFrac":"Final fraction of events with negative weights after filter",
+        - "negWeightFrac_err":"(+-) Error of final fraction of events with negative weights after filter",
+        - "equivLumi":"Final equivalent lumi for 1M events (1/fb)",
+        - "equivLumi_err":"(+-) Error of final equivalent lumi for 1M events (1/fb)"
+        
+        Format 4:
+        - "totX_beforeFilter":"Total cross section before filter (pb)",
+        - "totX_beforeFilter_err":"(+-) Error of total cross section before filter (pb)",
+        - "filterEff_weights":"Filter efficiency (taking into account weights)",
+        - "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+        - "filterEff_event":"Filter efficiency (event-level)",
+        - "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+        - "totX_final":"Final cross senction after filter (pb)",
+        - "totX_final_err":"(+-) Error of final cross senction after filter (pb)"
+        
+        Format 5:
+        - "filterEff_weights":"Filter efficiency (taking into account weights)",
+        - "filterEff_weights_err":"(+-) Error of filter efficiency (taking into account weights)",
+        - "filterEff_event":"Filter efficiency (event-level)",
+        - "filterEff_event_err":"(+-) Error of filter efficiency (event-level)",
+        - "totX_final":"Final cross senction after filter (pb)",
+        - "totX_final_err":"(+-) Error of final cross senction after filter (pb)"
+   </details>
+   
+  
   <details>
     <summary><b>To run the GenXSecAnalyzer:</b></summary>
 
