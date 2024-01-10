@@ -160,15 +160,19 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
 
 
 <details>
-<summary>To run the GenXSecAnalyzer:</summary>
-### Prepare the input filelists for the GenXSecAnalyzer
-python makeFileLists.py [physics_process]
-<details/>
+<summary><b>To run the GenXSecAnalyzer:</b></summary>
   
-e.g. python makeFileLists.py Drell-Yan
-Choose from: Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics
+* Prepare the input filelists for the GenXSecAnalyzer
+  * <code>python makeFileLists.py [physics_process]</code>
+  
+    e.g. <code>python makeFileLists.py Drell-Yan</code>
+    
+    Choose from: <code>Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics</code>
+    
+    Running this command results .txt files in the fileLists/ folder. Each recid_{id}.txt file contains the address of all the files under that recid.
+</details>
 
-Running this command results .txt files in the fileLists/ folder. Each recid_{id}.txt file contains the address of all the files under that recid.
+
 
 ### Setup the environment (lxplus)
 To use slc6 on Singularity (need to execute everytime when you login):
