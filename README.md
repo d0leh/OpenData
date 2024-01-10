@@ -72,7 +72,13 @@ Use different scripts to process samples for different years.
       <code>data["Dataset"]</code>
       It will return a string in format:
       <code>/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM</code>
-</details>
+  </details>
+
+  <details>
+    <summary><b>To access a specific value:</b></summary>
+      result["<column_name>"] for value
+      result["<column_name_err>"] for error
+  </details>
 
 </details>
 
@@ -84,9 +90,6 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
 
 
 
-### To access a specific value:
-result["<column_name>"] for value
-result["<column_name_err>"] for error
 
 #### Available column names:
 GenXSecAnalyzer gives outputs in 3 possible formats (some information is not available for some datasets).
