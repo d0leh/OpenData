@@ -23,6 +23,12 @@ Folder Hierarchy:
     * MinimumBias/</code>
     * QCD/
     * TopPhysics/
+      
+  * HiggsPhysics/
+
+    * BeyondStandardModel
+    * StandardModel
+   
 Under each subfolder, the json files are stored under the name <sample_name>_<recid>.json. (e.g. DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json)
 </p>
 <p>
