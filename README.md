@@ -185,25 +185,4 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
     cmsenv
 
 
-  * To run on a single dataset:
-      <code>./calculateXSectionAndFilterEfficiency.sh -f <em>list_of_root_files.txt</em> -s <em>section_name</em> -p <em>subsection_name</em> -n <em>maximum_num_of_events</em> -k   <em>skipExistingLogFiles</em></code>
-
-      e.g.: <code>./src/calculateXSectionAndFilterEfficiency.sh -f recid_16785.txt -s StandardModelPhysics -p Drell-Yan -n 10000 -k False</code>
-
-      Set maximum number of events to -1 to run all the events in each root file.
-
-      In the example, recid_16785.txt contains a list of root files in the format of "root://eospublic.cern.ch//eos/opendata/".
-
-      If you get an error saying "Permisson denied", run <code>chmod 777 calculateXSectionAndFilterEfficiency.sh</code> to give the permission to the .sh file first and then rerun the above command.
-
-  * To run all the datasets under a category (Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics):
-
-     <code>python src/runRecursive.py <em>Section</em> <em>Subsection</em><code>
-
-      e.g.: <code>python src/runRecursive.py StandardModel Drell-Yan<code>
-
-      If we already have .log files, we can run "python output_to_json.py recid_16785.txt StandardModel Drell-Yan" by itself to get the json files, with the second argument being consistent with the name of the destination directory.
-
-      output_to_numpy.py and output_to_csv.py, which coverts the log files into numpy and csv files, have not been updated yet.
-
 </details>
