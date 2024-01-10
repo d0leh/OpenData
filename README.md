@@ -41,30 +41,32 @@ Use different scripts to process samples for different years.
   </ul>
   </details>
     
-Under each subfolder, the json files are stored under the name <code><em>sample_name</em>_<em>recid</em>.json</code>.
+  Under each subfolder, the json files are stored under the name <code><em>sample_name</em>_<em>recid</em>.json</code>.
 
-(e.g. <code>DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json</code>)
-</p>
-<break>
-<p>
+  (e.g. <code>DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json</code>)  
+  </p>
+  <break>
+  <p>
   
-* Finished Section: StandardModelPhysics
+  * Finished Section: StandardModelPhysics
   
-  * Subsections: Drell-Yan, ElectroWeak, QCD, TopPhysics, MinimumBias
+    * Subsections: Drell-Yan, ElectroWeak, QCD, TopPhysics, MinimumBias
     
-* Section in progress: HiggsPhysics (Low priority)
-</p>
+  * Section in progress: HiggsPhysics (Low priority)
+  </p>
 
   <details>
     <summary><b>Access the data in the output files:</b></summary>
       <details>
           <summary><b>Loading the output json files:</b></summary>
+        
             <code>
             import json
 
-            f = open('<sample_name>_<recid>.json')
+            f = open('<em>sample_name_recid</em>.json')
             
             data = json.load(f)
+            
             </code>
       </details>
       
