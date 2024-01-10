@@ -1,10 +1,10 @@
 # Overview
 A collection of scripts that run GenXSecAnalyzer and store the result in json files.
 
-Use different scripts to process samples from different years.
+Use different scripts to process samples for different years.
 
 <details>
-<summary><h3>2015</h3></summary>
+<summary><h2>2015</h2></summary>
   <p>
   <b>Location</b> of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2015/<em>Section</em>/<em>Subsection</em></code>
 
@@ -54,22 +54,21 @@ Under each subfolder, the json files are stored under the name <code><em>sample_
     
 * Section in progress: HiggsPhysics (Low priority)
 </p>
-</details>
 
 <details>
-<summary><h3>2016</h3></summary>
-Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subsection>/
-  
+  <summary><h4>Access the data in the output files:</h4></summary>
+    <details>
+        <summary><h3>Loading the output json files:</h3></summary>
+          <code>
+          import json
+
+          f = open('<sample_name>_<recid>.json')
+          </code>
+data = json.load(f)
+    </details>
 </details>
 
 
-
-## Access the data in the output files:
-### Loading the output json files:
-import json
-
-f = open('<sample_name>_<recid>.json')
-data = json.load(f)
 
 ### To access the full name and description of the dataset:
 data["Dataset"]
@@ -145,7 +144,7 @@ Format 5:
 - "totX_final":"Final cross senction after filter (pb)",
 - "totX_final_err":"(+-) Error of final cross senction after filter (pb)"
 
-### To run the GenXSecAnalyhzer:
+### To run the GenXSecAnalyzer:
 ### Prepare the input filelists for the GenXSecAnalyzer
 python makeFileLists.py [physics_process]
 
@@ -204,3 +203,12 @@ e.g.: print(xsec_arr.dtype.metadata["equivLumi"])
 
 #### Note:
 output_to_numpy.py and output_to_csv.py have not been updated to be compatible with the most recent changes.
+
+</details>
+
+<details>
+<summary><h3>2016</h3></summary>
+Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subsection>/
+  
+</details>
+
