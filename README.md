@@ -14,8 +14,8 @@ The Section and Subsection names can be found on Open Data Portal http://opendat
 Folder Hierarchy:
   
 * MC2015/
-  
- * StandardModelPhysics/
+
+  * StandardModelPhysics/
    
    * Drell-Yan/
    * ElectroWeak/
