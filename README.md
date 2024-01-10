@@ -17,7 +17,7 @@ Use different scripts to process samples from different years.
 
   <p>
   <details>
-  <summary>Folder Hierarchy:</summary>  
+  <summary> <b>Folder Hierarchy:</b></summary>  
   <ul>
   <li>MC2015/
     <ul>
