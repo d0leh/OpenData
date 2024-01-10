@@ -170,29 +170,33 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
     Choose from: <code>Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics</code>
     
     Running this command results .txt files in the fileLists/ folder. Each recid_{id}.txt file contains the address of all the files under that recid.
+
+* Setup the environment (lxplus)
+  
+  To use slc6 on Singularity (need to execute everytime when you login):
+  <code>cmssw-el6</code>
+
+  To download the CMSSW folder (only need to execute once): (CMSSW_7_6_7 is recommended for MC2015)
+  <code>cmsrel CMSSW_7_6_7</code>
+
+  To setup the CMSSW environment (need to execute everytime when you login):
+  <code>cd CMSSW_7_6_7/src</code>
+  cmsenv
+
+* To run on a single dataset:
+  <code>./calculateXSectionAndFilterEfficiency.sh -f <em>list_of_root_files.txt</em> -s <em>section_name</em> -p <em>subsection_name</em> -n <em>maximum_num_of_events</em> -k   <em>True_to_skipExistingLogFiles/False_to_NOT_skipExistingLogFiles</em></code>
+
+e.g.: <code>./src/calculateXSectionAndFilterEfficiency.sh -f recid_16785.txt -s StandardModelPhysics -p Drell-Yan -n 10000 -k False</code>
+
+Set maximum number of events to -1 to run all the events in each root file.
+
+In the example, recid_16785.txt contains a list of root files in the format of "root://eospublic.cern.ch//eos/opendata/".
+
+If you get an error saying "Permisson denied", run <code>chmod 777 calculateXSectionAndFilterEfficiency.sh</code> to give the permission to the .sh file first and then rerun the above command.
+
 </details>
 
 
-
-### Setup the environment (lxplus)
-To use slc6 on Singularity (need to execute everytime when you login):
-cmssw-el6
-
-To download the CMSSW folder (only need to execute once): (CMSSW_7_6_7 is recommended for MC2015)
-cmsrel CMSSW_7_6_7
-
-To setup the CMSSW environment (need to execute everytime when you login):
-cd CMSSW_7_6_7/src
-cmsenv
-
-##### To run on a single dataset:
-./calculateXSectionAndFilterEfficiency.sh -f <list_of_root_files.txt> -s <section_name> -p <subsection_name> -n <maximum_num_of_events> -k <True_to_skipExistingLogFiles/False_to_NOT_skipExistingLogFiles>
-
-e.g.: ./src/calculateXSectionAndFilterEfficiency.sh -f recid_16785.txt -s StandardModelPhysics -p Drell-Yan -n 10000 -k False
-Set maximum number of events to -1 to run all the events in each root file
-In the example, recid_16785.txt contains a list of root files in the format of "root://eospublic.cern.ch//eos/opendata/".
-
-If you get an error saying "Permisson denied", type "chmod 777 calculateXSectionAndFilterEfficiency.sh" to give the permission to the .sh file first and then rerun the above command.
 
 ##### To run all the datasets under a category (Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics):
 python src/runRecursive.py <Section> <Subsection>
