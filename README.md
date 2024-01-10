@@ -1,6 +1,6 @@
 <details>
 <summary><h3>2015</h3></summary>
-Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2015/<Section>/<Subsection>/
+Location of the json files: ```/eos/user/s/sxiaohe/OpenData/MC2015/<Section>/<Subsection>/```
   
 e.g.: /eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan for all Standard Model Drell-Yan samples
   
