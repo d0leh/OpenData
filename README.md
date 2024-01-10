@@ -205,7 +205,13 @@ Use different scripts to process samples for different years.
 
 <details>
 <summary><h2>2016</h2></summary>
-Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subsection>/
+  
+<b>Location</b> of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2016/<em>Section</em>/<em>Subsection</em></code>
+
+The organization of the folders follow a similar rule as for MC2015.
+
+<b>Difference: </b> 2016 data are not on Open Data Portal yet. Need to use dasquery to obtain the filelist. Run everything with scripts named after "<code>_DAS.py</code>"
+
 </details>
 
 
