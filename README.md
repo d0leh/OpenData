@@ -81,6 +81,7 @@ Use different scripts to process samples for different years.
         GenXSecAnalyzer gives outputs in 5 possible formats (some information is not available for some datasets).
 
         Format 1:
+        
         <pre>
         <code>
         "totX_beforeMat":"Total cross section before matching (pb)",
