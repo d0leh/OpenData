@@ -15,7 +15,7 @@ Folder Hierarchy:
  <details>
  <summary><code>MC2015/</code></summary>
   <details>
-   <code>StandardModelPhysics/</code>
+   <summary><code>StandardModelPhysics/</code></summary>
    
    <code>Drell-Yan/</code>
    <code>ElectroWeak/</code>
