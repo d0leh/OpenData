@@ -1,0 +1,102 @@
+09-Jan-2024 08:42:13 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/026FE9C3-B6B5-8A4A-883B-9BE2348B87A5.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 09-Jan-2024 08:42:17 CET pre-events
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+09-Jan-2024 08:42:20 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/026FE9C3-B6B5-8A4A-883B-9BE2348B87A5.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 1st record. Run 1, Event 5953547, LumiSection 1007 on stream 0 at 09-Jan-2024 08:42:25.398 CET
+09-Jan-2024 08:42:26 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/026FE9C3-B6B5-8A4A-883B-9BE2348B87A5.root
+09-Jan-2024 08:42:26 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/4A2D5656-537A-8945-9AF2-5FE7746E80E6.root
+%MSG-w XrdAdaptor:  file_open 09-Jan-2024 08:42:28 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+09-Jan-2024 08:42:28 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/4A2D5656-537A-8945-9AF2-5FE7746E80E6.root
+09-Jan-2024 08:42:33 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/4A2D5656-537A-8945-9AF2-5FE7746E80E6.root
+09-Jan-2024 08:42:33 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/F8F4A391-806B-C34D-B4CC-E3D1CDAB0217.root
+%MSG-w XrdAdaptor:  file_open 09-Jan-2024 08:42:35 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+09-Jan-2024 08:42:36 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/F8F4A391-806B-C34D-B4CC-E3D1CDAB0217.root
+09-Jan-2024 08:42:40 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2430000/F8F4A391-806B-C34D-B4CC-E3D1CDAB0217.root
+09-Jan-2024 08:42:40 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/69507BB0-F90D-EE4F-B494-85BCA4F9C3D0.root
+%MSG-w XrdAdaptorInternal:  file_open 09-Jan-2024 08:43:43 CET PostProcessEvent
+Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/69507BB0-F90D-EE4F-B494-85BCA4F9C3D0.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 09-Jan-2024 08:43:43 CET PostProcessEvent
+Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/69507BB0-F90D-EE4F-B494-85BCA4F9C3D0.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,.
+%MSG
+----- Begin Fatal Exception 09-Jan-2024 08:43:43 CET-----------------------
+An exception of category 'FileOpenError' occurred while
+   [0] Calling InputSource::readFile_
+   [1] Calling RootFileSequenceBase::initTheFile()
+   [2] Calling StorageFactory::open()
+   [3] Calling XrdFile::open()
+Exception Message:
+Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/69507BB0-F90D-EE4F-B494-85BCA4F9C3D0.root'
+   Additional Info:
+      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/69507BB0-F90D-EE4F-B494-85BCA4F9C3D0.root could not be opened.
+      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/69507BB0-F90D-EE4F-B494-85BCA4F9C3D0.root', flags=0x10, permissions=0660) => error '[ERROR] Server responded with an error: [3011] No servers are available to read the file.
+' (errno=3011, code=400). No additional data servers were found.
+      [c] Last URL tried: root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYBJetsToLL_M-50_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/69507BB0-F90D-EE4F-B494-85BCA4F9C3D0.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,
+      [d] Problematic data server: cms-xrd-global.cern.ch:1094
+      [e] Disabled source: cms-xrd-global.cern.ch:1094
+----- End Fatal Exception -------------------------------------------------
+      0.751266      0.006783      0.000727             1
+      0.204859      0.003257      0.000727             0
+      1.928326      0.007415      0.000727             3
+      1.417806      0.006992      0.000727             2
+ 
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		2.051e-01 +/- 3.740e-04		3511	3511	0	22374	22374	0	3.219e-02 +/- 5.023e-04		15.7 +/- 0.2	15.7 +/- 0.2
+1		7.489e-01 +/- 7.423e-04		8436	8436	0	81207	81207	0	7.780e-02 +/- 8.055e-04		10.4 +/- 0.1	10.4 +/- 0.1
+2		1.417e+00 +/- 8.115e-04		8874	8874	0	151390	151390	0	8.305e-02 +/- 8.567e-04		5.9 +/- 0.1	5.9 +/- 0.1
+3		1.912e+00 +/- 8.322e-04		14799	14799	0	206633	206633	0	1.370e-01 +/- 1.086e-03		7.2 +/- 0.1	7.2 +/- 0.1
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		4.283e+00 +/- 1.429e-03		35620	35620	0	461604	461604	0	3.305e-01 +/- 1.686e-03		7.7 +/- 0.0	7.7 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 4.283e+00 +- 1.429e-03 pb
+After matching: total cross section = 3.305e-01 +- 1.686e-03 pb
+Matching efficiency = 0.1 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (35620) / (35620) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (35620) / (35620) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 3.305e-01 +- 1.686e-03 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 3.026e+03 +- 1.573e+01
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      18       18
+    2 XrdAdaptor           -w file_open                              3        3
+    3 XrdAdaptorInternal   -w file_open                              2        2
+    4 Fatal Exception      -s AfterFile                              1        1
+    5 fileAction           -s file_close                             3        3
+    6 fileAction           -s file_open                              7        7
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 XrdAdaptorInternal   PostProcessEvent PostProcessEvent 
+    4 Fatal Exception      PostProcessEvent                  
+    5 fileAction           PostProcessEvent PostProcessEvent PostProcessEvent
+    6 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                23                  23
+System                 11                  11
+
+dropped waiting message count 0

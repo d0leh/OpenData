@@ -1,0 +1,64 @@
+10-Jan-2024 14:57:13 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 14:57:15.342989 +0100][Error  ][XRootDTransport   ] [cmsio2.rc.ufl.edu:1094 #0.0] No protocols left to try
+[2024-01-10 14:57:15.343037 +0100][Error  ][AsyncSock         ] [cmsio2.rc.ufl.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 14:57:15.343093 +0100][Error  ][PostMaster        ] [cmsio2.rc.ufl.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 14:57:15.747017 +0100][Error  ][XRootDTransport   ] [cmsio2.rc.ufl.edu:1094 #0.0] No protocols left to try
+[2024-01-10 14:57:15.747042 +0100][Error  ][AsyncSock         ] [cmsio2.rc.ufl.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 14:57:15.747091 +0100][Error  ][PostMaster        ] [cmsio2.rc.ufl.edu:1094 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 14:57:15.747103 +0100][Error  ][PostMaster        ] [cmsio2.rc.ufl.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2024-01-10 14:57:15.747113 +0100][Error  ][XRootD            ] [cmsio2.rc.ufl.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+[2024-01-10 14:57:21.143905 +0100][Error  ][XRootDTransport   ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0.0] No protocols left to try
+[2024-01-10 14:57:21.143942 +0100][Error  ][AsyncSock         ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 14:57:21.143981 +0100][Error  ][PostMaster        ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 14:57:21.219265 +0100][Error  ][XRootDTransport   ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0.0] No protocols left to try
+[2024-01-10 14:57:21.219296 +0100][Error  ][AsyncSock         ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 14:57:21.219336 +0100][Error  ][PostMaster        ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 14:57:21.219341 +0100][Error  ][PostMaster        ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0] Unable to recover: [FATAL] Auth failed.
+[2024-01-10 14:57:21.219345 +0100][Error  ][XRootD            ] [gfe02.grid.hep.ph.ic.ac.uk:1097] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,cmsio2.rc.ufl.edu, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 14:57:53 CET pre-events
+Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root?tried=+1213xrootd-redic.pi.infn.it,+1213xrootd-cms-redir-int.cr.cnaf.infn.it,+1213xrootd011213xrootd-cms-uk.gridpp.rl1213xrootd02.grid.hep.ph.ic.ac.uk,+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,cmsio2.rc.ufl.edu,gfe02.grid.hep.ph.ic.ac.uk,gfe02.grid.hep.ph.ic.ac.uk,xrootd02.grid.hep.ph.ic.ac.uk,xrootd-cms-uk.gridpp.rl.ac.uk,xrootd-cms.infn.it.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 15:00:50 CET pre-events
+Failed to open file at URL root://xrootd-redic.pi.infn.it:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,cmsio2.rc.ufl.edu.
+%MSG
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:00:51.267661 +0100][Error  ][XRootDTransport   ] [cmsio2.rc.ufl.edu:1094 #0.0] No protocols left to try
+[2024-01-10 15:00:51.267686 +0100][Error  ][AsyncSock         ] [cmsio2.rc.ufl.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:00:51.267727 +0100][Error  ][PostMaster        ] [cmsio2.rc.ufl.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:00:51.658354 +0100][Error  ][XRootDTransport   ] [cmsio2.rc.ufl.edu:1094 #0.0] No protocols left to try
+[2024-01-10 15:00:51.658377 +0100][Error  ][AsyncSock         ] [cmsio2.rc.ufl.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:00:51.658425 +0100][Error  ][PostMaster        ] [cmsio2.rc.ufl.edu:1094 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 15:00:51.658434 +0100][Error  ][PostMaster        ] [cmsio2.rc.ufl.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2024-01-10 15:00:51.658438 +0100][Error  ][XRootD            ] [cmsio2.rc.ufl.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+[2024-01-10 15:00:51.875766 +0100][Error  ][XRootDTransport   ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0.0] No protocols left to try
+[2024-01-10 15:00:51.875798 +0100][Error  ][AsyncSock         ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:00:51.875838 +0100][Error  ][PostMaster        ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 15:00:51.949210 +0100][Error  ][XRootDTransport   ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0.0] No protocols left to try
+[2024-01-10 15:00:51.949245 +0100][Error  ][AsyncSock         ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:00:51.949285 +0100][Error  ][PostMaster        ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 15:00:51.949293 +0100][Error  ][PostMaster        ] [gfe02.grid.hep.ph.ic.ac.uk:1097 #0] Unable to recover: [FATAL] Auth failed.
+[2024-01-10 15:00:51.949298 +0100][Error  ][XRootD            ] [gfe02.grid.hep.ph.ic.ac.uk:1097] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,cmsio2.rc.ufl.edu, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 15:00:53 CET pre-events
+Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root?tried=+1213xrootd-cms-redir-int.cr.cnaf.infn.it,+1213llrxrd-redir.in2p3.fr,+1213xrootd011213xrootd-cms-uk.gridpp.rl1213xrootd02.grid.hep.ph.ic.ac.uk,+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,cmsio2.rc.ufl.edu,gfe02.grid.hep.ph.ic.ac.uk,gfe02.grid.hep.ph.ic.ac.uk,xrootd02.grid.hep.ph.ic.ac.uk,xrootd-cms-uk.gridpp.rl.ac.uk,xrootd-cms.infn.it.
+%MSG
+----- Begin Fatal Exception 10-Jan-2024 15:00:53 CET-----------------------
+An exception of category 'FileOpenError' occurred while
+   [0] Constructing the EventProcessor
+   [1] Constructing input source of type PoolSource
+   [2] Calling RootFileSequenceBase::initTheFile()
+   [3] Calling StorageFactory::open()
+   [4] Calling XrdFile::open()
+Exception Message:
+Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root'
+   Additional Info:
+      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root could not be opened.
+      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root', flags=0x10, permissions=0660) => error '[ERROR] Server responded with an error: [3011] No servers have read access to the file
+' (errno=3011, code=400). No additional data servers were found.
+      [c] Last URL tried: root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext1-v2/2520000/6E7880C1-DFFD-6943-9F2D-F7D9395769C8.root?tried=+1213xrootd-cms-redir-int.cr.cnaf.infn.it,+1213llrxrd-redir.in2p3.fr,+1213xrootd011213xrootd-cms-uk.gridpp.rl1213xrootd02.grid.hep.ph.ic.ac.uk,+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,cmsio2.rc.ufl.edu,gfe02.grid.hep.ph.ic.ac.uk,gfe02.grid.hep.ph.ic.ac.uk,xrootd02.grid.hep.ph.ic.ac.uk,xrootd-cms-uk.gridpp.rl.ac.uk,xrootd-cms.infn.it
+      [d] Problematic data server: cms-xrd-global.cern.ch:1094
+      [e] Disabled source: cms-xrd-global.cern.ch:1094
+      [f] Disabled source: xrootd-redic.pi.infn.it:1094
+----- End Fatal Exception -------------------------------------------------

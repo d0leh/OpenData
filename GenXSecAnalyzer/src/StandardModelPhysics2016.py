@@ -1000,8 +1000,8 @@ sampleInfo = {"Drell-Yan" : np.array(["/DY1JetsToLL_M-10to50_MatchEWPDG20_TuneCP
                                        ]),
               }
 
-print("Drell-Yan: {} samples".format(len(sampleInfo["Drell-Yan"])))
-print("ElectroWeak: {} samples".format(len(sampleInfo["ElectroWeak"])))
-print("ForwardandSmall-xQCDPhysics: {} samples".format(len(sampleInfo["ForwardandSmall-xQCDPhysics"])))
-print("QCD: {} samples".format(len(sampleInfo["QCD"])))
-print("TopPhysics: {} samples".format(len(sampleInfo["TopPhysics"])))
+#print("Drell-Yan: {} samples".format(len(sampleInfo["Drell-Yan"])))
+#print("ElectroWeak: {} samples".format(len(sampleInfo["ElectroWeak"])))
+#print("ForwardandSmall-xQCDPhysics: {} samples".format(len(sampleInfo["ForwardandSmall-xQCDPhysics"])))
+#print("QCD: {} samples".format(len(sampleInfo["QCD"])))
+#print("TopPhysics: {} samples".format(len(sampleInfo["TopPhysics"])))

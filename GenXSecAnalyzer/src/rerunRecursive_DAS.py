@@ -1,5 +1,5 @@
 # cd ..
-# python src/rerunRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan True
+# python src/rerunRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan False
 # if count = True, counts the number of missing jsons
 # if count = False, reruns the missing jobs
 

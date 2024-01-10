@@ -1,0 +1,69 @@
+10-Jan-2024 21:52:08 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/78879E40-AC79-0C42-973D-3656DAFE75FD.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 10-Jan-2024 21:52:12 CET pre-events
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+10-Jan-2024 21:52:15 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/78879E40-AC79-0C42-973D-3656DAFE75FD.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 1st record. Run 1, Event 5, LumiSection 199 on stream 0 at 10-Jan-2024 21:52:20.267 CET
+10-Jan-2024 21:52:20 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/78879E40-AC79-0C42-973D-3656DAFE75FD.root
+10-Jan-2024 21:52:20 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/784AB7C1-3DF3-C14E-AFA9-A782A4C5C60B.root
+%MSG-w XrdAdaptor:  file_open 10-Jan-2024 21:52:22 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+10-Jan-2024 21:52:23 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/784AB7C1-3DF3-C14E-AFA9-A782A4C5C60B.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 100001st record. Run 1, Event 1008, LumiSection 100 on stream 0 at 10-Jan-2024 21:52:35.351 CET
+10-Jan-2024 21:52:36 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/784AB7C1-3DF3-C14E-AFA9-A782A4C5C60B.root
+10-Jan-2024 21:52:36 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/B0C2D721-B58A-7E4A-8BAA-45B7AC58C437.root
+%MSG-w XrdAdaptor:  file_open 10-Jan-2024 21:52:38 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-FNAL
+%MSG
+10-Jan-2024 21:52:39 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/B0C2D721-B58A-7E4A-8BAA-45B7AC58C437.root
+10-Jan-2024 21:52:47 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-500_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/2500000/B0C2D721-B58A-7E4A-8BAA-45B7AC58C437.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		2.094e-03 +/- 9.421e-06		0	0	0	0	0	0	0.000e+00 +/- 0.000e+00		-100.0 +/- -100.0	-100.0 +/- -100.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		2.094e-03 +/- 9.421e-06		0	0	0	0	0	0	-2.094e-03 +/- 0.000e+00		-100.0 +/- -100.0	-100.0 +/- -100.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 2.094e-03 +- 9.421e-06 pb
+After matching: total cross section = -2.094e-03 +- 0.000e+00 pb
+Matching efficiency = -1.0 +/- -1.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (199000) / (199000) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (199000) / (199000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 0.000e+00 +- 0.000e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 0.000e+00 +- 0.000e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      15       15
+    2 XrdAdaptor           -w file_open                              3        3
+    3 fileAction           -s file_close                             3        3
+    4 fileAction           -s file_open                              6        6
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 fileAction           PostProcessEvent PostProcessEvent PostGlobalEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                18                  18
+System                  9                   9
+
+dropped waiting message count 0

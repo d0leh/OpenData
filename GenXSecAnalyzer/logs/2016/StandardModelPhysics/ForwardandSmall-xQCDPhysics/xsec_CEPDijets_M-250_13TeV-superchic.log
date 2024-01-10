@@ -1,0 +1,63 @@
+10-Jan-2024 21:51:33 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-250_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/8494534C-AC99-2848-9622-630EE36249D9.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 10-Jan-2024 21:51:37 CET pre-events
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+10-Jan-2024 21:51:41 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-250_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/8494534C-AC99-2848-9622-630EE36249D9.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 1st record. Run 1, Event 16, LumiSection 1 on stream 0 at 10-Jan-2024 21:51:50.585 CET
+Begin processing the 100001st record. Run 1, Event 10, LumiSection 189 on stream 0 at 10-Jan-2024 21:51:54.986 CET
+10-Jan-2024 21:51:55 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-250_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/8494534C-AC99-2848-9622-630EE36249D9.root
+10-Jan-2024 21:51:55 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-250_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/4155F091-2286-6C4B-99BA-023337BFB2D7.root
+%MSG-w XrdAdaptor:  file_open 10-Jan-2024 21:51:57 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+10-Jan-2024 21:51:58 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-250_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/4155F091-2286-6C4B-99BA-023337BFB2D7.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+10-Jan-2024 21:52:07 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/CEPDijets_M-250_13TeV-superchic/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/4155F091-2286-6C4B-99BA-023337BFB2D7.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.468e-01 +/- 6.878e-04		0	0	0	0	0	0	0.000e+00 +/- 0.000e+00		-100.0 +/- -100.0	-100.0 +/- -100.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		1.468e-01 +/- 6.878e-04		0	0	0	0	0	0	-1.468e-01 +/- 0.000e+00		-100.0 +/- -100.0	-100.0 +/- -100.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 1.468e-01 +- 6.878e-04 pb
+After matching: total cross section = -1.468e-01 +- 0.000e+00 pb
+Matching efficiency = -1.0 +/- -1.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (200000) / (200000) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (200000) / (200000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 0.000e+00 +- 0.000e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 0.000e+00 +- 0.000e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      15       15
+    2 XrdAdaptor           -w file_open                              2        2
+    3 fileAction           -s file_close                             2        2
+    4 fileAction           -s file_open                              4        4
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent 
+    3 fileAction           PostProcessEvent PostGlobalEndRun 
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  6                   6
+
+dropped waiting message count 0

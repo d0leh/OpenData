@@ -1,6 +1,7 @@
 # cd ..
-# python src/makeFileLists_DAS.py 2016 StandardModelPhysics Drell-Yan True
+# python src/makeFileLists_DAS.py 2016 StandardModelPhysics Drell-Yan False False
 
+# Two debug handles. First one set to True to check which files are missing. Second one set to True to check duplicate sample names.
 # dasgoclient -query="file dataset=/DY1JetsToLL_M-10to50_MatchEWPDG20_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM"
 
 import os, sys
@@ -63,7 +64,10 @@ for sample in samples:
     if(triggered):
         print(sample_name)
     
-    os.system("dasgoclient -query=\"file dataset={}\" > fileLists/{}/{}/{}/{}.txt".format(sample, year, section, process, sample_name))
+    outfile = "fileLists/{}/{}/{}/{}.txt".format(year, section, process, sample_name)
+    with open(outfile, "w") as f:
+        f.write(sample+'\n')
+    os.system("dasgoclient -query=\"file dataset={}\" >> {}".format(sample, outfile))
     count+=1
     if (count%10==0): print("Created {} lists.".format(count))
 
@@ -72,8 +76,6 @@ print("Now appending prefix...")
 
 files = os.listdir("fileLists/{}/{}/{}/".format(year, section, process))
 for ftxt in files:
-    os.system("sed -i -e 's#^#{}#' fileLists/{}/{}/{}/{}".format(prefix, year, section, process, ftxt))
-    #print("sed -i -e 's#^#{}#' {}".format(prefix, ftxt))
-    #exit()
+    os.system("sed -i -e '1 ! s#^#{}#' fileLists/{}/{}/{}/{}".format(prefix, year, section, process, ftxt))
 
 print("Appended prefix to all files.")

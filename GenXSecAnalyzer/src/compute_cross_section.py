@@ -42,7 +42,7 @@ if __name__ == "__main__":
     if skipexisting and os.path.isfile(outfileName): 
         print("{} existing and NO skipexisting asked, skipping".format(outfileName))
     else:
-        filelist = open(inputFilelist, 'r').read().split('\n')
+        filelist = open(inputFilelist, 'r').readlines()[1:]
         inputFiles = ""
         for rootfile in filelist:
             if('root' in rootfile):

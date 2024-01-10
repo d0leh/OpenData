@@ -1,0 +1,63 @@
+10-Jan-2024 15:01:06 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:01:08.625792 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site1.fnal.gov:1093 #0.0] No protocols left to try
+[2024-01-10 15:01:08.625850 +0100][Error  ][AsyncSock         ] [cmsxrootd-site1.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:01:08.625908 +0100][Error  ][PostMaster        ] [cmsxrootd-site1.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:01:08.994027 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site1.fnal.gov:1093 #0.0] No protocols left to try
+[2024-01-10 15:01:08.994062 +0100][Error  ][AsyncSock         ] [cmsxrootd-site1.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:01:08.994103 +0100][Error  ][PostMaster        ] [cmsxrootd-site1.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 15:01:08.994121 +0100][Error  ][PostMaster        ] [cmsxrootd-site1.fnal.gov:1093 #0] Unable to recover: [FATAL] Auth failed.
+[2024-01-10 15:01:08.994130 +0100][Error  ][XRootD            ] [cmsxrootd-site1.fnal.gov:1093] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:01:09.886868 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site3.fnal.gov:1093 #0.0] No protocols left to try
+[2024-01-10 15:01:09.886902 +0100][Error  ][AsyncSock         ] [cmsxrootd-site3.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:01:09.886935 +0100][Error  ][PostMaster        ] [cmsxrootd-site3.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:01:10.234492 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site3.fnal.gov:1093 #0.0] No protocols left to try
+[2024-01-10 15:01:10.234526 +0100][Error  ][AsyncSock         ] [cmsxrootd-site3.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:01:10.234564 +0100][Error  ][PostMaster        ] [cmsxrootd-site3.fnal.gov:1093 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2024-01-10 15:01:10.234573 +0100][Error  ][PostMaster        ] [cmsxrootd-site3.fnal.gov:1093 #0] Unable to recover: [FATAL] Auth failed.
+[2024-01-10 15:01:10.234577 +0100][Error  ][XRootD            ] [cmsxrootd-site3.fnal.gov:1093] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root?tried=cmsxrootd-site1.fnal.gov, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:01:11.134641 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site2.fnal.gov:1093 #0.0] No protocols left to try
+[2024-01-10 15:01:11.134673 +0100][Error  ][AsyncSock         ] [cmsxrootd-site2.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:01:11.134716 +0100][Error  ][PostMaster        ] [cmsxrootd-site2.fnal.gov:1093 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:01:11.482325 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site2.fnal.gov:1093 #0.0] No protocols left to try
+[2024-01-10 15:01:11.482356 +0100][Error  ][AsyncSock         ] [cmsxrootd-site2.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:01:11.482395 +0100][Error  ][PostMaster        ] [cmsxrootd-site2.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 15:01:11.482399 +0100][Error  ][PostMaster        ] [cmsxrootd-site2.fnal.gov:1093 #0] Unable to recover: [FATAL] Auth failed.
+[2024-01-10 15:01:11.482409 +0100][Error  ][XRootD            ] [cmsxrootd-site2.fnal.gov:1093] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root?tried=cmsxrootd-site1.fnal.gov,cmsxrootd-site3.fnal.gov, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:01:12.392264 +0100][Error  ][XRootDTransport   ] [cmssrv608.fnal.gov:1093 #0.0] No protocols left to try
+[2024-01-10 15:01:12.392297 +0100][Error  ][AsyncSock         ] [cmssrv608.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:01:12.392339 +0100][Error  ][PostMaster        ] [cmssrv608.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2024-01-10 15:01:12.723191 +0100][Error  ][XRootDTransport   ] [cmssrv608.fnal.gov:1093 #0.0] No protocols left to try
+[2024-01-10 15:01:12.723227 +0100][Error  ][AsyncSock         ] [cmssrv608.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2024-01-10 15:01:12.723266 +0100][Error  ][PostMaster        ] [cmssrv608.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2024-01-10 15:01:12.723270 +0100][Error  ][PostMaster        ] [cmssrv608.fnal.gov:1093 #0] Unable to recover: [FATAL] Auth failed.
+[2024-01-10 15:01:12.723275 +0100][Error  ][XRootD            ] [cmssrv608.fnal.gov:1093] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root?tried=cmsxrootd-site1.fnal.gov,cmsxrootd-site3.fnal.gov,cmsxrootd-site2.fnal.gov, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 15:04:06 CET pre-events
+Failed to open file at URL root://cmsxrootd.fnal.gov:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 15:07:05 CET pre-events
+Failed to open file at URL root://cmsxrootd.fnal.gov:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root?tried=.
+%MSG
+----- Begin Fatal Exception 10-Jan-2024 15:07:05 CET-----------------------
+An exception of category 'FileOpenError' occurred while
+   [0] Constructing the EventProcessor
+   [1] Constructing input source of type PoolSource
+   [2] Calling RootFileSequenceBase::initTheFile()
+   [3] Calling StorageFactory::open()
+   [4] Calling XrdFile::open()
+Exception Message:
+Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root'
+   Additional Info:
+      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root could not be opened.
+      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root', flags=0x10, permissions=0660) => error '[ERROR] Operation expired' (errno=0, code=206). No additional data servers were found.
+      [c] Last URL tried: root://cmsxrootd.fnal.gov:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTauToMuTauh_M-50_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17_ext2-v2/2560000/A8E6FA6F-B252-124C-AB38-0D3E7112B7C1.root?tried=
+      [d] Problematic data server: cmsxrootd.fnal.gov:1094
+      [e] Disabled source: cmsxrootd.fnal.gov:1094
+----- End Fatal Exception -------------------------------------------------
