@@ -197,10 +197,10 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
 
  * To run all the datasets under a category (Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics):
 
-     <code>python src/runRecursive.py <em>Section</em> <em>Subsection</em><code>
+     <code>python src/runRecursive.py <em>Section</em> <em>Subsection</em></code>
 
-     e.g.: <code>python src/runRecursive.py StandardModel Drell-Yan<code>
+     e.g.: <code>python src/runRecursive.py StandardModel Drell-Yan</code>
 
-     If we already have .log files, we can run "python output_to_json.py recid_16785.txt StandardModel Drell-Yan" by itself to get the json files, with the second argument being consistent with the name of the destination directory.
+     If we already have <code>.log</code> files, we can run <code>python output_to_json.py recid_16785.txt StandardModel Drell-Yan</code> by itself to get the json files, with the second argument being consistent with the name of the destination directory.
 
 </details>
