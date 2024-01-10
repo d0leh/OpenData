@@ -66,18 +66,23 @@ Use different scripts to process samples for different years.
       </code>
     </pre>
   </details>
+
+  <details>
+    <summary><b>To access the full name the dataset:</b></summary>
+      <code>data["Dataset"]</code>
+      It will return a string in format:
+      <code>/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM</code>
+</details>
+
 </details>
 
 
 <details>
-<summary><h3>2016</h3></summary>
+<summary><h2>2016</h2></summary>
 Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subsection>/
 </details>
 
-### To access the full name and description of the dataset:
-data["Dataset"]
-It will return a string in format:
-/DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8/RunIIFall15MiniAODv2-PU25nsData2015v1_76X_mcRun2_asymptotic_v12-v1/MINIAODSIM
+
 
 ### To access a specific value:
 result["<column_name>"] for value
