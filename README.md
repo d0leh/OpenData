@@ -5,8 +5,20 @@ Location of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2015/<em>Sectio
 
 e.g.: <code>/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan</code> for all Standard Model Drell-Yan samples
 </p>
+
 <p>
 The Section and Subsection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
+</p>
+<p>
+Folder Hierarchy:
+* <code>MC2015/</code> 
+  * <code>StandardModelPhysics/</code>
+    *<code>Drell-Yan/</code>
+    *<code>ElectroWeak/</code>
+    *<code>MinimumBias/</code>
+    *<code>QCD/</code>
+    *<code>TopPhysics/</code>
+Under each subfolder, the json files are stored under the name <sample_name>_<recid>.json. (e.g. DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json)
 </p>
 <p>
   
@@ -27,19 +39,6 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
 # OpenData
 Runs GenXSecAnalyzer and stores the result in json files
 
-
-
-
-Under "Filter by category", there is a list of all the sections and subsections for the 2015 MC samples.
-Removing the spaces between words gives the section name. e.g. Standard Model Physics -> StandardModelPhysics
-
-Folder Hierarchy:
-MC2015/ -> StandardModelPhysics/ -> Drell-Yan/
-                                    ElectroWeak/
-                                    MinimumBias/
-                                    QCD/
-                                    TopPhysics/
-Under each subfolder, the json files are stored under the name <sample_name>_<recid>.json. (e.g. DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json)
 
 ## Access the data in the output files:
 ### Loading the output json files:
