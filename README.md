@@ -1,5 +1,5 @@
 # Overview
-Runs GenXSecAnalyzer and stores the result in json files.
+Contains a collection of scripts that run GenXSecAnalyzer and store the result in json files.
 
 Use different scripts to process samples from different years.
 
