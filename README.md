@@ -29,7 +29,9 @@ Folder Hierarchy:
     * BeyondStandardModel
     * StandardModel
    
-Under each subfolder, the json files are stored under the name <code><em>sample_name</em>_<em>recid</em>.json</code>. (e.g. <code>DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json</code>)
+Under each subfolder, the json files are stored under the name <code><em>sample_name</em>_<em>recid</em>.json</code>.
+
+(e.g. <code>DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json</code>)
 </p>
 <p>
   
