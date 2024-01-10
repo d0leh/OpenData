@@ -77,7 +77,7 @@ Use different scripts to process samples for different years.
   <details>
     <summary><b>To access stored values (e.g. total cross section, ...):</b></summary>
       result["<em>column_name</em>"] for value
-      result["<em><column_name_err</em>"] for error
+      result["<em>column_name_err</em>"] for error
   </details>
 
   <details>
