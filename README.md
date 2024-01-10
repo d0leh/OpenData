@@ -81,15 +81,6 @@ Use different scripts to process samples for different years.
   </details>
 
   <details>
-    <summary><b>Available column names:</b></summary>
-    
-      GenXSecAnalyzer gives outputs in 5 possible formats (some information is not available for some datasets).
-
-      
-      
-  </details>
-
-  <details>
     <summary><b>To run the GenXSecAnalyzer:</b></summary>
 
       * Prepare the input filelists for the GenXSecAnalyzer
