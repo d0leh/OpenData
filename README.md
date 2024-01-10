@@ -149,50 +149,56 @@ Use different scripts to process samples for different years.
   </details>
 
   <details>
-  <summary><b>To run the GenXSecAnalyzer:</b></summary>
-    
-    * Prepare the input filelists for the GenXSecAnalyzer
-    
-        <code>python makeFileLists.py [physics_process]</code>
+    <summary><b>To run the GenXSecAnalyzer:</b></summary>
+
+      * Prepare the input filelists for the GenXSecAnalyzer
       
-        e.g. <code>python makeFileLists.py Drell-Yan</code>
+          <code>python makeFileLists.py [physics_process]</code>
         
-        Choose from: <code>Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics</code>
-        
-        Running this command results .txt files in the fileLists/ folder. Each recid_{id}.txt file contains the address of all the files under that recid.
-    
-    * Setup the environment (lxplus)
-      
-        To use slc6 on Singularity (need to execute everytime when you login):
-        <code>cmssw-el6</code>
-    
-        To download the CMSSW folder (only need to execute once): (CMSSW_7_6_7 is recommended for MC2015)
-        <code>cmsrel CMSSW_7_6_7</code>
-    
-        To setup the CMSSW environment (need to execute everytime when you login):
-        <code>cd CMSSW_7_6_7/src</code>
-        cmsenv
-    
-      * To run on a single dataset:
-          <code>./calculateXSectionAndFilterEfficiency.sh -f <em>list_of_root_files.txt</em> -s <em>section_name</em> -p <em>subsection_name</em> -n <em>maximum_num_of_events</em> -k <em>skipExistingLogFiles</em></code>
+          e.g. <code>python makeFileLists.py Drell-Yan</code>
           
-          e.g.: <code>./src/calculateXSectionAndFilterEfficiency.sh -f recid_16785.txt -s StandardModelPhysics -p Drell-Yan -n 10000 -k False</code>
+          Choose from: <code>Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics</code>
+          
+          Running this command results .txt files in the fileLists/ folder. Each recid_{id}.txt file contains the address of all the files under that recid.
+      
+      * Setup the environment (lxplus)
+        
+          To use slc6 on Singularity (need to execute everytime when you login):
+          <code>cmssw-el6</code>
+      
+          To download the CMSSW folder (only need to execute once): (CMSSW_7_6_7 is recommended for MC2015)
+          <code>cmsrel CMSSW_7_6_7</code>
+      
+          To setup the CMSSW environment (need to execute everytime when you login):
+          <pre>
+            <code>
+              cd CMSSW_7_6_7/src
+            cmsenv
+            </code>
+          </pre>
     
-          Set maximum number of events to -1 to run all the events in each root file.
-    
-          In the example, <code>recid_16785.txt</code> contains a list of root files in the format of <code>"root://eospublic.cern.ch//eos/opendata/"</code>.
-    
-          If you get an error saying "</code>Permisson denied</code>", run <code>chmod 777 calculateXSectionAndFilterEfficiency.sh</code> to give the permission to the .sh file first and then rerun the above command.
-    
-     * To run all the datasets under a category (Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics):
-    
-         <code>python src/runRecursive.py <em>Section</em> <em>Subsection</em></code>
-    
-         e.g.: <code>python src/runRecursive.py StandardModel Drell-Yan</code>
-    
-         If we already have <code>.log</code> files, we can run <code>python output_to_json.py recid_16785.txt StandardModel Drell-Yan</code> by itself to get the json files, with the second argument being consistent with the name of the destination directory.
+        * To run on a single dataset:
+        
+            <code>./calculateXSectionAndFilterEfficiency.sh -f <em>list_of_root_files.txt</em> -s <em>section_name</em> -p <em>subsection_name</em> -n <em>maximum_num_of_events</em> -k <em>skipExistingLogFiles</em></code>
+            
+            e.g.: <code>./src/calculateXSectionAndFilterEfficiency.sh -f recid_16785.txt -s StandardModelPhysics -p Drell-Yan -n 10000 -k False</code>
+      
+            Set maximum number of events to -1 to run all the events in each root file.
+      
+            In the example, <code>recid_16785.txt</code> contains a list of root files in the format of <code>"root://eospublic.cern.ch//eos/opendata/"</code>.
+      
+            If you get an error saying "</code>Permisson denied</code>", run <code>chmod 777 calculateXSectionAndFilterEfficiency.sh</code> to give the permission to the .sh file first and then rerun the above command.
+      
+        * To run all the datasets under a category (Drell-Yan / ElectroWeak / MinimumBias / QCD / TopPhysics):
+      
+           <code>python src/runRecursive.py <em>Section</em> <em>Subsection</em></code>
+      
+           e.g.: <code>python src/runRecursive.py StandardModel Drell-Yan</code>
+      
+           If we already have <code>.log</code> files, we can run <code>python output_to_json.py recid_16785.txt StandardModel Drell-Yan</code> by itself to get the json files, with the second argument being consistent with the name of the destination directory.
      
   </details>
+  
 </details>
 
 <details>
