@@ -13,23 +13,24 @@
   <p>
   <details>
   <summary>Folder Hierarchy:</summary>  
-  
-  * MC2015/
-
-    * StandardModelPhysics/
-    
-      * Drell-Yan/
-    
-      * ElectroWeak/
-      * MinimumBias/
-      * QCD/
-      * TopPhysics/
-      
-    * HiggsPhysics/
-
-      * BeyondStandardModel
-      * StandardModel
-        
+  <ul>
+  <li>MC2015/</li>
+    <ul>
+    <li>StandardModelPhysics/</li>
+      <ul>
+      <li>Drell-Yan/</li>    
+      <li>ElectroWeak/</li>
+      <li>MinimumBias/</li>
+      <li>QCD/</li>
+      <li>TopPhysics/</li>
+      </ul>
+    <li>HiggsPhysics/</li>
+      <ul>
+      <li>BeyondStandardModel</li>
+      <li>StandardModel</li>
+      </ul/
+    </ul>
+  </ul>   
    </details>
 Under each subfolder, the json files are stored under the name <code><em>sample_name</em>_<em>recid</em>.json</code>.
 
