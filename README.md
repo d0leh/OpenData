@@ -1,34 +1,35 @@
 <details>
 <summary><h3>2015</h3></summary>
-<p>
-Location of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2015/<em>Section</em>/<em>Subsection</em></code>
+  <p>
+  **Location** of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2015/<em>Section</em>/<em>Subsection</em></code>
 
-e.g.: <code>/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan</code> for all Standard Model Drell-Yan samples
-</p>
+  e.g.: <code>/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan</code> for all Standard Model Drell-Yan samples
+  </p>
 
-<p>
-The Section and Subsection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
-</p>
+  <p>
+  The Section and Subsection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
+  </p>
 
-<p>
-Folder Hierarchy:
+  <p>
+  <details>
+  <summary>Folder Hierarchy:</summary>  
   
-* MC2015/
+  * MC2015/
 
-  * StandardModelPhysics/
+    * StandardModelPhysics/
     
-    * Drell-Yan/
+      * Drell-Yan/
+      * ElectroWeak/
+      * MinimumBias/</code>
+      * QCD/
+      * TopPhysics/
       
-    * ElectroWeak/
-    * MinimumBias/</code>
-    * QCD/
-    * TopPhysics/
-      
-  * HiggsPhysics/
+    * HiggsPhysics/
 
-    * BeyondStandardModel
-    * StandardModel
-   
+      * BeyondStandardModel
+      * StandardModel
+        
+   </details>
 Under each subfolder, the json files are stored under the name <code><em>sample_name</em>_<em>recid</em>.json</code>.
 
 (e.g. <code>DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json</code>)
