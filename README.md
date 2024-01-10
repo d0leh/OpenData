@@ -76,12 +76,13 @@ Use different scripts to process samples for different years.
 
   <details>
     <summary><b>To access stored values (e.g. total cross section, ...):</b></summary>
-      result["<em>column_name</em>"] for value
-      result["<em>column_name_err</em>"] for error
+      <code>result["<em>column_name</em>"]</code> for value
+      <code>result["<em>column_name_err</em>"]</code> for error
   </details>
 
   <details>
     <summary><b>Available column names:</b></summary>
+    
       GenXSecAnalyzer gives outputs in 5 possible formats (some information is not available for some datasets).
 
       Format 1:
