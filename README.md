@@ -20,7 +20,7 @@
     
       * Drell-Yan/
       * ElectroWeak/
-      * MinimumBias/</code>
+      * MinimumBias/
       * QCD/
       * TopPhysics/
       
