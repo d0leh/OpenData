@@ -6,7 +6,7 @@ Use different scripts to process samples from different years.
 <details>
 <summary><h3>2015</h3></summary>
   <p>
-  **Location** of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2015/<em>Section</em>/<em>Subsection</em></code>
+  <b>Location</b> of the json files: <code>/eos/user/s/sxiaohe/OpenData/MC2015/<em>Section</em>/<em>Subsection</em></code>
 
   e.g.: <code>/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan</code> for all Standard Model Drell-Yan samples
   </p>
