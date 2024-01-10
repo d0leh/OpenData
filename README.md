@@ -14,7 +14,7 @@ Use different scripts to process samples from different years.
   <p>
   The Section and Subsection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
   </p>
-
+  <break>
   <p>
   <details>
   <summary> <b>Folder Hierarchy:</b></summary>  
@@ -45,6 +45,7 @@ Under each subfolder, the json files are stored under the name <code><em>sample_
 
 (e.g. <code>DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json</code>)
 </p>
+<break>
 <p>
   
 * Finished Section: StandardModelPhysics
