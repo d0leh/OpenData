@@ -9,8 +9,10 @@ e.g.: <code>/eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan</
 <p>
 The Section and Subsection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
 </p>
+
 <p>
 Folder Hierarchy:
+ 
 * <code>MC2015/</code> 
   * <code>StandardModelPhysics/</code>
     *<code>Drell-Yan/</code>
@@ -18,6 +20,7 @@ Folder Hierarchy:
     *<code>MinimumBias/</code>
     *<code>QCD/</code>
     *<code>TopPhysics/</code>
+    
 Under each subfolder, the json files are stored under the name <sample_name>_<recid>.json. (e.g. DYJetsToLL_M-100to200_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8_16426.json)
 </p>
 <p>
