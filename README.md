@@ -1,14 +1,27 @@
 <details>
 <summary><h3>2015</h3></summary>
-Op
+Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2015/<Section>/<Subsection>/
+(e.g. /eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan for all Standard Model Drell-Yan samples)
+  
+The Section and Susection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
+
+Finished Section: StandardModelPhysics
+Section in progress: HiggsPhysics
+
+</details>
+
+<details>
+<summary><h3>2016</h3></summary>
+Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subsection>/
+  
 </details>
 
 # OpenData
 Runs GenXSecAnalyzer and stores the result in json files
 
-Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2015/<Section>/<Subsection>/
-e.g. /eos/user/s/sxiaohe/OpenData/MC2015/StandardModelPhysics/Drell-Yan for all Standard Model Drell-Yan samples
-The Section and Susection names can be found on Open Data Portal http://opendata.cern.ch/search?page=1&size=20&experiment=CMS&subtype=Simulated&type=Dataset&year=2015
+
+
+
 Under "Filter by category", there is a list of all the sections and subsections for the 2015 MC samples.
 Removing the spaces between words gives the section name. e.g. Standard Model Physics -> StandardModelPhysics
 
