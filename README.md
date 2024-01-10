@@ -1,3 +1,8 @@
+# Overview
+Runs GenXSecAnalyzer and stores the result in json files.
+
+Use different scripts to process samples from different years.
+
 <details>
 <summary><h3>2015</h3></summary>
   <p>
@@ -27,8 +32,8 @@
       </li>
       <li>HiggsPhysics/
         <ul>
-          <li>BeyondStandardModel</li>
-          <li>StandardModel</li>
+          <li>BeyondStandardModel/</li>
+          <li>StandardModel/</li>
         </ul>
       </li>
     </ul>
@@ -56,8 +61,6 @@ Location of the json files: /eos/user/s/sxiaohe/OpenData/MC2016/<Section>/<Subse
   
 </details>
 
-# OpenData
-Runs GenXSecAnalyzer and stores the result in json files
 
 
 ## Access the data in the output files:
