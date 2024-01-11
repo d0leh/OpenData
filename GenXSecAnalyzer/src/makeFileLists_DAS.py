@@ -1,8 +1,10 @@
 # cd ..
-# python src/makeFileLists_DAS.py 2016 StandardModelPhysics Drell-Yan False False
+# python src/makeFileLists_DAS.py 2016 StandardModelPhysics Drell-Yan False False False
 
 # Two debug handles. First one set to True to check which files are missing. Second one set to True to check duplicate sample names.
 # dasgoclient -query="file dataset=/DY1JetsToLL_M-10to50_MatchEWPDG20_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM"
+
+# The last argument: set to True to keep extensions as separate files; set to False to combine them into one single file
 
 import os, sys
 
@@ -11,6 +13,7 @@ section = sys.argv[2]
 process = sys.argv[3]
 check_missing = sys.argv[4]
 check_duplicates = sys.argv[5]
+separate = sys.argv[6]
 
 prefix = "root://cmsxrootd.fnal.gov/"
 
@@ -51,22 +54,27 @@ for sample in samples:
     # fileLists/2016/StandardModelPhysics/Drell-Yan
     sample_name = sample.split("/")[1]
     files = os.listdir("fileLists/{}/{}/{}/".format(year, section, process))
-    triggered = False
-    if('{}.txt'.format(sample_name+'_2') in files):
-        sample_name = sample_name+'_3'
-        triggered = True
-    elif('{}.txt'.format(sample_name+'_1') in files):
-        sample_name = sample_name+'_2'
-        triggered = True
-    elif('{}.txt'.format(sample_name) in files):
-        sample_name = sample_name+'_1'
-        triggered = True
-    if(triggered):
-        print(sample_name)
+    newfile = True
+
+    if('{}.txt'.format(sample_name) in files):
+        # Create separate .txt files for extensions
+        if(separate=="True"):
+            if('{}.txt'.format(sample_name+'_2') in files):
+                sample_name = sample_name+'_3'
+                print(sample_name)
+            elif('{}.txt'.format(sample_name+'_1') in files):
+                sample_name = sample_name+'_2'
+                print(sample_name)
+            else:
+                sample_name = sample_name+'_1'
+                print(sample_name)
+        else:
+            newfile = False
     
     outfile = "fileLists/{}/{}/{}/{}.txt".format(year, section, process, sample_name)
-    with open(outfile, "w") as f:
-        f.write(sample+'\n')
+    if(newfile):
+        with open(outfile, "w") as f:
+            f.write(sample+'\n')
     os.system("dasgoclient -query=\"file dataset={}\" >> {}".format(sample, outfile))
     count+=1
     if (count%10==0): print("Created {} lists.".format(count))

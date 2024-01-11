@@ -22,7 +22,7 @@ if __name__ == "__main__":
     parser.add_option('-y', '--year'   , dest="year", default='',                help='year of the dataset')
     parser.add_option('-s', '--section', dest="sectionName"  , default='',       help='section on Open Data Portal')
     parser.add_option('-p', '--process', dest="processName"  , default='',       help='name of the dataset')
-    parser.add_option('-n', '--events' , dest="events"       , default=int(1e7), help='number of events to calculate the cross section')
+    parser.add_option('-n', '--events' , dest="events"       , default=int(1e8), help='number of events to calculate the cross section')
     parser.add_option('-k', '--skipexisting', dest="skipexisting",  default=False,    help='skipexisting existing output files containing xsec results')
 
     (args, opts) = parser.parse_args(sys.argv)
