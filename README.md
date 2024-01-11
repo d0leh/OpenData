@@ -217,13 +217,15 @@ The workflow and the organization of the folders follow a similar rule as for MC
 
 <b>Running the scripts: </b> 
 
-Create file lists: <code>python src/makeFileLists_DAS.py 2016 StandardModelPhysics Drell-Yan False False</code>
+* Create file lists: <code>python src/makeFileLists_DAS.py 2016 StandardModelPhysics Drell-Yan False False</code>
 
-Run XSecAnalyzer on all the samples: <code>python src/runRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan False</code>
+* Run XSecAnalyzer on all the samples: <code>python src/runRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan False</code>
 
-Turn all the log files into json files: <code>python src/output_to_json_DAS_all.py 2016 StandardModelPhysics Drell-Yan</code>
+* Turn all the log files into json files: <code>python src/output_to_json_DAS_all.py 2016 StandardModelPhysics Drell-Yan</code>
 
-Rerun unsuccessful jobs: <code>python src/rerunRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan False</code>
+* Rerun unsuccessful jobs: <code>python src/rerunRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan False</code>
+
+For descriptions of the arguments, refer to the first few lines of each script.
 
 </details>
 
