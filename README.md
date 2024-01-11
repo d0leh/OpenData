@@ -215,6 +215,16 @@ The workflow and the organization of the folders follow a similar rule as for MC
 * 2016 data are not on Open Data Portal yet. Need to use dasquery to obtain the filelist. Run everything with scripts named after "<code>_DAS.py</code>"
 * Instead of having different formats, all json files have the same columns. If the value for a column does not exist, the column is filled with "-9".
 
+<b>Running the scripts: </b> 
+
+Create file lists: <code>python src/makeFileLists_DAS.py 2016 StandardModelPhysics Drell-Yan False False</code>
+
+Run XSecAnalyzer on all the samples: <code>python src/runRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan False</code>
+
+Turn all the log files into json files: <code>python src/output_to_json_DAS_all.py 2016 StandardModelPhysics Drell-Yan</code>
+
+Rerun unsuccessful jobs: <code>python src/rerunRecursive_DAS.py 2016 StandardModelPhysics Drell-Yan False</code>
+
 </details>
 
 
