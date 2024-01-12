@@ -8,6 +8,7 @@ import sys
 import re
 import datetime
 from time import sleep
+import random
 
 def str_to_bool(s):
     if s == 'True':
@@ -43,6 +44,7 @@ if __name__ == "__main__":
         print("{} existing and NO skipexisting asked, skipping".format(outfileName))
     else:
         filelist = open(inputFilelist, 'r').readlines()[1:]
+        random.shuffle(filelist)
         inputFiles = ""
         for rootfile in filelist:
             if('root' in rootfile):
