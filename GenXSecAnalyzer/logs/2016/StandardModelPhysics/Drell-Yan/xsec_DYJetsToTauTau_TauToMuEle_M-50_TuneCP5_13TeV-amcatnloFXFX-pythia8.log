@@ -1,63 +1,975 @@
-10-Jan-2024 15:32:55 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root
+11-Jan-2024 05:04:45 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root
 Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 15:32:57.833280 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site1.fnal.gov:1093 #0.0] No protocols left to try
-[2024-01-10 15:32:57.833338 +0100][Error  ][AsyncSock         ] [cmsxrootd-site1.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 15:32:57.833393 +0100][Error  ][PostMaster        ] [cmsxrootd-site1.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 15:32:58.183941 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site1.fnal.gov:1093 #0.0] No protocols left to try
-[2024-01-10 15:32:58.183971 +0100][Error  ][AsyncSock         ] [cmsxrootd-site1.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 15:32:58.184013 +0100][Error  ][PostMaster        ] [cmsxrootd-site1.fnal.gov:1093 #0] elapsed = 1, pConnectionWindow = 31 seconds.
-[2024-01-10 15:32:58.184028 +0100][Error  ][PostMaster        ] [cmsxrootd-site1.fnal.gov:1093 #0] Unable to recover: [FATAL] Auth failed.
-[2024-01-10 15:32:58.184037 +0100][Error  ][XRootD            ] [cmsxrootd-site1.fnal.gov:1093] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 15:32:59.089048 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site2.fnal.gov:1093 #0.0] No protocols left to try
-[2024-01-10 15:32:59.089077 +0100][Error  ][AsyncSock         ] [cmsxrootd-site2.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 15:32:59.089117 +0100][Error  ][PostMaster        ] [cmsxrootd-site2.fnal.gov:1093 #0] elapsed = 1, pConnectionWindow = 31 seconds.
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 15:32:59.442305 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site2.fnal.gov:1093 #0.0] No protocols left to try
-[2024-01-10 15:32:59.442334 +0100][Error  ][AsyncSock         ] [cmsxrootd-site2.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 15:32:59.442375 +0100][Error  ][PostMaster        ] [cmsxrootd-site2.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
-[2024-01-10 15:32:59.442379 +0100][Error  ][PostMaster        ] [cmsxrootd-site2.fnal.gov:1093 #0] Unable to recover: [FATAL] Auth failed.
-[2024-01-10 15:32:59.442384 +0100][Error  ][XRootD            ] [cmsxrootd-site2.fnal.gov:1093] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root?tried=cmsxrootd-site1.fnal.gov, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 15:33:00.364947 +0100][Error  ][XRootDTransport   ] [cmssrv608.fnal.gov:1093 #0.0] No protocols left to try
-[2024-01-10 15:33:00.364979 +0100][Error  ][AsyncSock         ] [cmssrv608.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 15:33:00.365009 +0100][Error  ][PostMaster        ] [cmssrv608.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 15:33:00.696622 +0100][Error  ][XRootDTransport   ] [cmssrv608.fnal.gov:1093 #0.0] No protocols left to try
-[2024-01-10 15:33:00.696665 +0100][Error  ][AsyncSock         ] [cmssrv608.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 15:33:00.696703 +0100][Error  ][PostMaster        ] [cmssrv608.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
-[2024-01-10 15:33:00.696712 +0100][Error  ][PostMaster        ] [cmssrv608.fnal.gov:1093 #0] Unable to recover: [FATAL] Auth failed.
-[2024-01-10 15:33:00.696716 +0100][Error  ][XRootD            ] [cmssrv608.fnal.gov:1093] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root?tried=cmsxrootd-site1.fnal.gov,cmsxrootd-site2.fnal.gov, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 15:33:01.577609 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site3.fnal.gov:1093 #0.0] No protocols left to try
-[2024-01-10 15:33:01.577655 +0100][Error  ][AsyncSock         ] [cmsxrootd-site3.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 15:33:01.577698 +0100][Error  ][PostMaster        ] [cmsxrootd-site3.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 15:33:01.915776 +0100][Error  ][XRootDTransport   ] [cmsxrootd-site3.fnal.gov:1093 #0.0] No protocols left to try
-[2024-01-10 15:33:01.915809 +0100][Error  ][AsyncSock         ] [cmsxrootd-site3.fnal.gov:1093 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 15:33:01.915849 +0100][Error  ][PostMaster        ] [cmsxrootd-site3.fnal.gov:1093 #0] elapsed = 0, pConnectionWindow = 31 seconds.
-[2024-01-10 15:33:01.915857 +0100][Error  ][PostMaster        ] [cmsxrootd-site3.fnal.gov:1093 #0] Unable to recover: [FATAL] Auth failed.
-[2024-01-10 15:33:01.915862 +0100][Error  ][XRootD            ] [cmsxrootd-site3.fnal.gov:1093] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root?tried=cmsxrootd-site1.fnal.gov,cmsxrootd-site2.fnal.gov,cmssrv608.fnal.gov, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
-%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 15:35:55 CET pre-events
-Failed to open file at URL root://cmsxrootd.fnal.gov:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root.
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:04:50 CET pre-events
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
 %MSG
-%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 15:38:54 CET pre-events
-Failed to open file at URL root://cmsxrootd.fnal.gov:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root?tried=.
+11-Jan-2024 05:04:54 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 1st record. Run 1, Event 6622287, LumiSection 2472 on stream 0 at 11-Jan-2024 05:05:37.888 CET
+11-Jan-2024 05:05:43 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root
+11-Jan-2024 05:05:43 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/EF276BF7-3AA8-C449-A2DE-E94BAD75FF24.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:05:47 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
 %MSG
------ Begin Fatal Exception 10-Jan-2024 15:38:54 CET-----------------------
+11-Jan-2024 05:05:48 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/EF276BF7-3AA8-C449-A2DE-E94BAD75FF24.root
+11-Jan-2024 05:05:56 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/EF276BF7-3AA8-C449-A2DE-E94BAD75FF24.root
+11-Jan-2024 05:05:56 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/58BC198B-4045-CC44-8501-5D667FCA8E6A.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:05:59 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:06:00 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/58BC198B-4045-CC44-8501-5D667FCA8E6A.root
+11-Jan-2024 05:06:22 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/58BC198B-4045-CC44-8501-5D667FCA8E6A.root
+11-Jan-2024 05:06:22 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A0124E5B-EC96-9E4D-857E-1269D82D7EBE.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:06:27 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:06:28 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A0124E5B-EC96-9E4D-857E-1269D82D7EBE.root
+11-Jan-2024 05:06:34 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A0124E5B-EC96-9E4D-857E-1269D82D7EBE.root
+11-Jan-2024 05:06:34 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5D7ACCDF-4E59-674B-8972-6E036B1A00B4.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:06:37 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:06:37 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5D7ACCDF-4E59-674B-8972-6E036B1A00B4.root
+Begin processing the 100001st record. Run 1, Event 5491339, LumiSection 2050 on stream 0 at 11-Jan-2024 05:07:31.091 CET
+11-Jan-2024 05:07:32 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5D7ACCDF-4E59-674B-8972-6E036B1A00B4.root
+11-Jan-2024 05:07:32 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E37E64A2-4C7B-F04C-8D24-343E905F3FE8.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:07:35 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:07:36 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E37E64A2-4C7B-F04C-8D24-343E905F3FE8.root
+11-Jan-2024 05:07:50 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E37E64A2-4C7B-F04C-8D24-343E905F3FE8.root
+11-Jan-2024 05:07:50 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/22249441-02EF-0C44-A0A6-769BC62E4BB0.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:07:53 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:07:54 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/22249441-02EF-0C44-A0A6-769BC62E4BB0.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 200001st record. Run 1, Event 14794779, LumiSection 5521 on stream 0 at 11-Jan-2024 05:08:22.640 CET
+11-Jan-2024 05:08:23 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/22249441-02EF-0C44-A0A6-769BC62E4BB0.root
+11-Jan-2024 05:08:23 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4F3EA9BF-C1F8-0740-8746-3CFA5CF0C4E1.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:08:25 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:08:26 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4F3EA9BF-C1F8-0740-8746-3CFA5CF0C4E1.root
+11-Jan-2024 05:09:07 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4F3EA9BF-C1F8-0740-8746-3CFA5CF0C4E1.root
+11-Jan-2024 05:09:07 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3AFC0E76-11FF-1C4D-B8E4-AE30638F3123.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:09:38 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:09:39 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3AFC0E76-11FF-1C4D-B8E4-AE30638F3123.root
+Begin processing the 300001st record. Run 1, Event 41768399, LumiSection 15586 on stream 0 at 11-Jan-2024 05:10:12.387 CET
+11-Jan-2024 05:10:13 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3AFC0E76-11FF-1C4D-B8E4-AE30638F3123.root
+11-Jan-2024 05:10:13 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B6F5BB6D-1CBD-2743-891F-9A95759CF92C.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:10:15 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:10:16 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B6F5BB6D-1CBD-2743-891F-9A95759CF92C.root
+11-Jan-2024 05:10:39 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B6F5BB6D-1CBD-2743-891F-9A95759CF92C.root
+11-Jan-2024 05:10:39 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/26D1D3EE-F2BA-8B40-A04D-801A812C2FAF.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:10:41 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:10:42 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/26D1D3EE-F2BA-8B40-A04D-801A812C2FAF.root
+Begin processing the 400001st record. Run 1, Event 55129171, LumiSection 20571 on stream 0 at 11-Jan-2024 05:10:57.037 CET
+11-Jan-2024 05:10:57 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/26D1D3EE-F2BA-8B40-A04D-801A812C2FAF.root
+11-Jan-2024 05:10:57 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9CE2169A-60E6-9B48-A89B-8C324A448832.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:11:00 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:11:00 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9CE2169A-60E6-9B48-A89B-8C324A448832.root
+11-Jan-2024 05:11:26 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9CE2169A-60E6-9B48-A89B-8C324A448832.root
+11-Jan-2024 05:11:26 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/930DE3B8-2B54-9548-BF69-12BCEF04B82A.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:11:28 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:11:29 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/930DE3B8-2B54-9548-BF69-12BCEF04B82A.root
+Begin processing the 500001st record. Run 1, Event 32944542, LumiSection 12293 on stream 0 at 11-Jan-2024 05:11:51.415 CET
+11-Jan-2024 05:11:52 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/930DE3B8-2B54-9548-BF69-12BCEF04B82A.root
+11-Jan-2024 05:11:52 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/075D771C-A925-3B41-A09B-F710CAFD1BE3.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:11:55 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:11:57 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/075D771C-A925-3B41-A09B-F710CAFD1BE3.root
+11-Jan-2024 05:12:29 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/075D771C-A925-3B41-A09B-F710CAFD1BE3.root
+11-Jan-2024 05:12:29 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B231776-4205-B34F-9A90-3BC437C471FC.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:12:30 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:12:31 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B231776-4205-B34F-9A90-3BC437C471FC.root
+Begin processing the 600001st record. Run 1, Event 74008559, LumiSection 27616 on stream 0 at 11-Jan-2024 05:13:06.590 CET
+11-Jan-2024 05:13:06 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B231776-4205-B34F-9A90-3BC437C471FC.root
+11-Jan-2024 05:13:06 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B8AA321D-520E-0649-BCC1-D8FBE19E3FFE.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:13:09 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:13:10 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B8AA321D-520E-0649-BCC1-D8FBE19E3FFE.root
+11-Jan-2024 05:13:17 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B8AA321D-520E-0649-BCC1-D8FBE19E3FFE.root
+11-Jan-2024 05:13:17 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/22C85771-6B98-074D-B46E-F221D651D80C.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:13:19 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:13:20 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/22C85771-6B98-074D-B46E-F221D651D80C.root
+11-Jan-2024 05:13:24 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/22C85771-6B98-074D-B46E-F221D651D80C.root
+11-Jan-2024 05:13:24 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/EBD184D3-6C6A-AD4F-A716-0A3EEC6D12B7.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:13:28 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:13:29 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/EBD184D3-6C6A-AD4F-A716-0A3EEC6D12B7.root
+11-Jan-2024 05:13:42 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/EBD184D3-6C6A-AD4F-A716-0A3EEC6D12B7.root
+11-Jan-2024 05:13:42 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ACE152C4-28E1-F74E-BF36-928F01A38B37.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:13:45 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:13:46 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ACE152C4-28E1-F74E-BF36-928F01A38B37.root
+Begin processing the 700001st record. Run 1, Event 54553013, LumiSection 20356 on stream 0 at 11-Jan-2024 05:13:56.410 CET
+11-Jan-2024 05:13:57 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ACE152C4-28E1-F74E-BF36-928F01A38B37.root
+11-Jan-2024 05:13:57 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/99CD28A2-3443-4044-8189-3FF5DC7CB6C3.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:14:00 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:14:00 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/99CD28A2-3443-4044-8189-3FF5DC7CB6C3.root
+11-Jan-2024 05:14:05 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/99CD28A2-3443-4044-8189-3FF5DC7CB6C3.root
+11-Jan-2024 05:14:05 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A94B5D54-71B2-914C-88C3-1A3756DE286A.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:14:10 CET PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:14:11 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A94B5D54-71B2-914C-88C3-1A3756DE286A.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+11-Jan-2024 05:14:33 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A94B5D54-71B2-914C-88C3-1A3756DE286A.root
+11-Jan-2024 05:14:33 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/41CF9C8C-5398-CA4D-9A29-967671DEBDE2.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:14:37 CET PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:14:38 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/41CF9C8C-5398-CA4D-9A29-967671DEBDE2.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 800001st record. Run 1, Event 51392703, LumiSection 19177 on stream 0 at 11-Jan-2024 05:15:02.081 CET
+11-Jan-2024 05:15:02 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/41CF9C8C-5398-CA4D-9A29-967671DEBDE2.root
+11-Jan-2024 05:15:02 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/80B13D9C-864D-6246-A2A4-40F91D2115ED.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:15:05 CET PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:15:06 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/80B13D9C-864D-6246-A2A4-40F91D2115ED.root
+11-Jan-2024 05:15:26 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/80B13D9C-864D-6246-A2A4-40F91D2115ED.root
+11-Jan-2024 05:15:26 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/82B2342D-4FA7-964C-BE45-9C68332A03C2.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:15:29 CET PostProcessEvent
+Data is served from T2_US_MIT instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:15:30 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/82B2342D-4FA7-964C-BE45-9C68332A03C2.root
+11-Jan-2024 05:15:37 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/82B2342D-4FA7-964C-BE45-9C68332A03C2.root
+11-Jan-2024 05:15:37 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/AF10BE78-5EEA-CE4A-888F-2A93CFBE7A71.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:15:40 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:15:40 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/AF10BE78-5EEA-CE4A-888F-2A93CFBE7A71.root
+Begin processing the 900001st record. Run 1, Event 7041791, LumiSection 2628 on stream 0 at 11-Jan-2024 05:15:51.813 CET
+11-Jan-2024 05:15:52 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/AF10BE78-5EEA-CE4A-888F-2A93CFBE7A71.root
+11-Jan-2024 05:15:52 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/24EA077D-EAE1-9744-9FEF-DB1AE86D66E7.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:15:55 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:15:56 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/24EA077D-EAE1-9744-9FEF-DB1AE86D66E7.root
+11-Jan-2024 05:16:08 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/24EA077D-EAE1-9744-9FEF-DB1AE86D66E7.root
+11-Jan-2024 05:16:08 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F03C911D-ABFE-3E41-BA67-4AF6474A37F5.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:16:12 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:16:13 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F03C911D-ABFE-3E41-BA67-4AF6474A37F5.root
+Begin processing the 1000001st record. Run 1, Event 49555630, LumiSection 18491 on stream 0 at 11-Jan-2024 05:16:24.199 CET
+11-Jan-2024 05:16:24 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F03C911D-ABFE-3E41-BA67-4AF6474A37F5.root
+11-Jan-2024 05:16:24 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6BE8046A-032E-B14F-BB2B-849919977E71.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:16:27 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:16:28 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6BE8046A-032E-B14F-BB2B-849919977E71.root
+11-Jan-2024 05:16:41 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6BE8046A-032E-B14F-BB2B-849919977E71.root
+11-Jan-2024 05:16:41 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9106D031-4137-CD4B-8D68-735D4EAF166A.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:16:44 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:16:45 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9106D031-4137-CD4B-8D68-735D4EAF166A.root
+Begin processing the 1100001st record. Run 1, Event 52588187, LumiSection 19623 on stream 0 at 11-Jan-2024 05:16:57.304 CET
+11-Jan-2024 05:16:57 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9106D031-4137-CD4B-8D68-735D4EAF166A.root
+11-Jan-2024 05:16:57 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E4C81913-9082-EB45-AA90-0EC9EECB7B5A.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:17:01 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:17:01 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E4C81913-9082-EB45-AA90-0EC9EECB7B5A.root
+11-Jan-2024 05:17:16 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E4C81913-9082-EB45-AA90-0EC9EECB7B5A.root
+11-Jan-2024 05:17:16 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/933E764D-B33B-DF48-BA97-DD59AD422099.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:17:18 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:17:19 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/933E764D-B33B-DF48-BA97-DD59AD422099.root
+Begin processing the 1200001st record. Run 1, Event 51962273, LumiSection 19389 on stream 0 at 11-Jan-2024 05:17:31.391 CET
+11-Jan-2024 05:17:31 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/933E764D-B33B-DF48-BA97-DD59AD422099.root
+11-Jan-2024 05:17:31 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1EED063F-675F-4341-B343-C9EE234EF22B.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:17:35 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:17:35 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1EED063F-675F-4341-B343-C9EE234EF22B.root
+11-Jan-2024 05:17:50 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1EED063F-675F-4341-B343-C9EE234EF22B.root
+11-Jan-2024 05:17:50 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E809E872-EFCC-3E40-83AF-151EB5820D77.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:17:52 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:17:53 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E809E872-EFCC-3E40-83AF-151EB5820D77.root
+Begin processing the 1300001st record. Run 1, Event 63696705, LumiSection 23768 on stream 0 at 11-Jan-2024 05:18:05.934 CET
+11-Jan-2024 05:18:06 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E809E872-EFCC-3E40-83AF-151EB5820D77.root
+11-Jan-2024 05:18:06 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A97F1DBF-3B73-874A-8430-BBF00442B1C2.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:18:09 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:18:09 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A97F1DBF-3B73-874A-8430-BBF00442B1C2.root
+11-Jan-2024 05:18:21 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/A97F1DBF-3B73-874A-8430-BBF00442B1C2.root
+11-Jan-2024 05:18:21 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2BB70A47-6730-1E4C-B9BB-5718E26EEA69.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:18:23 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:18:24 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2BB70A47-6730-1E4C-B9BB-5718E26EEA69.root
+Begin processing the 1400001st record. Run 1, Event 77368388, LumiSection 28869 on stream 0 at 11-Jan-2024 05:18:36.277 CET
+11-Jan-2024 05:18:36 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2BB70A47-6730-1E4C-B9BB-5718E26EEA69.root
+11-Jan-2024 05:18:36 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1AA21B7D-BE81-724B-9AF1-27CA4D0D61E5.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:18:38 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:18:39 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1AA21B7D-BE81-724B-9AF1-27CA4D0D61E5.root
+11-Jan-2024 05:18:52 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1AA21B7D-BE81-724B-9AF1-27CA4D0D61E5.root
+11-Jan-2024 05:18:52 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/12F73CEC-0623-9F4D-83A5-BDB3E9C91107.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:18:55 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:18:55 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/12F73CEC-0623-9F4D-83A5-BDB3E9C91107.root
+Begin processing the 1500001st record. Run 1, Event 80591917, LumiSection 30072 on stream 0 at 11-Jan-2024 05:19:08.740 CET
+11-Jan-2024 05:19:08 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/12F73CEC-0623-9F4D-83A5-BDB3E9C91107.root
+11-Jan-2024 05:19:08 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/CBDD84A6-75A7-AC41-8B30-29719F17597B.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:19:11 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:19:12 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/CBDD84A6-75A7-AC41-8B30-29719F17597B.root
+11-Jan-2024 05:19:24 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/CBDD84A6-75A7-AC41-8B30-29719F17597B.root
+11-Jan-2024 05:19:24 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/957429C7-82FA-5A4A-B162-D1CFA27B145A.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:19:26 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:19:27 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/957429C7-82FA-5A4A-B162-D1CFA27B145A.root
+11-Jan-2024 05:19:39 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/957429C7-82FA-5A4A-B162-D1CFA27B145A.root
+11-Jan-2024 05:19:39 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C06F719D-4308-174A-A568-008658D2B9C5.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:19:41 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:19:42 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C06F719D-4308-174A-A568-008658D2B9C5.root
+Begin processing the 1600001st record. Run 1, Event 12490096, LumiSection 4661 on stream 0 at 11-Jan-2024 05:19:53.956 CET
+11-Jan-2024 05:19:55 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C06F719D-4308-174A-A568-008658D2B9C5.root
+11-Jan-2024 05:19:55 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D11A8A3B-1957-B148-AB9A-03247885DFDF.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:19:58 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:19:59 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D11A8A3B-1957-B148-AB9A-03247885DFDF.root
+11-Jan-2024 05:20:11 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D11A8A3B-1957-B148-AB9A-03247885DFDF.root
+11-Jan-2024 05:20:11 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/717AD35F-90D6-7E40-B0D9-568D31E6A26B.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:20:13 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:20:14 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/717AD35F-90D6-7E40-B0D9-568D31E6A26B.root
+Begin processing the 1700001st record. Run 1, Event 40463421, LumiSection 15099 on stream 0 at 11-Jan-2024 05:20:25.181 CET
+11-Jan-2024 05:20:26 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/717AD35F-90D6-7E40-B0D9-568D31E6A26B.root
+11-Jan-2024 05:20:26 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7FA34189-8C2E-714B-85F9-59D1BAB9211F.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:20:28 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:20:29 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7FA34189-8C2E-714B-85F9-59D1BAB9211F.root
+11-Jan-2024 05:20:41 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7FA34189-8C2E-714B-85F9-59D1BAB9211F.root
+11-Jan-2024 05:20:41 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6BFDD18E-425B-EE41-8A52-E04E2538CFA5.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:20:43 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:20:44 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6BFDD18E-425B-EE41-8A52-E04E2538CFA5.root
+Begin processing the 1800001st record. Run 1, Event 88508852, LumiSection 33026 on stream 0 at 11-Jan-2024 05:20:53.600 CET
+11-Jan-2024 05:20:53 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6BFDD18E-425B-EE41-8A52-E04E2538CFA5.root
+11-Jan-2024 05:20:53 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3305A976-3831-FE45-B133-AB9B4181A90A.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:20:56 CET PostProcessEvent
+Data is served from T2_US_Nebraska instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:20:56 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3305A976-3831-FE45-B133-AB9B4181A90A.root
+11-Jan-2024 05:21:01 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3305A976-3831-FE45-B133-AB9B4181A90A.root
+11-Jan-2024 05:21:01 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DEB164EF-6BDD-5F40-ACE2-91C5EB1DD7C7.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:21:05 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:21:05 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DEB164EF-6BDD-5F40-ACE2-91C5EB1DD7C7.root
+11-Jan-2024 05:21:18 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DEB164EF-6BDD-5F40-ACE2-91C5EB1DD7C7.root
+11-Jan-2024 05:21:18 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C3F3764C-9848-2C44-B891-ED22253296F9.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:21:21 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:21:22 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C3F3764C-9848-2C44-B891-ED22253296F9.root
+11-Jan-2024 05:21:36 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C3F3764C-9848-2C44-B891-ED22253296F9.root
+11-Jan-2024 05:21:36 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/95AAD11A-6909-484C-A16E-2B1C8A891120.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:21:39 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:21:39 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/95AAD11A-6909-484C-A16E-2B1C8A891120.root
+Begin processing the 1900001st record. Run 1, Event 15469290, LumiSection 5773 on stream 0 at 11-Jan-2024 05:21:48.319 CET
+11-Jan-2024 05:21:49 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/95AAD11A-6909-484C-A16E-2B1C8A891120.root
+11-Jan-2024 05:21:49 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2D48045E-4804-3344-9D43-83BAA294862C.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:21:51 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:21:52 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2D48045E-4804-3344-9D43-83BAA294862C.root
+11-Jan-2024 05:22:02 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2D48045E-4804-3344-9D43-83BAA294862C.root
+11-Jan-2024 05:22:02 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/34AEB25D-03F6-B547-8071-9017CF57C790.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:22:04 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:22:05 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/34AEB25D-03F6-B547-8071-9017CF57C790.root
+Begin processing the 2000001st record. Run 1, Event 54226331, LumiSection 20234 on stream 0 at 11-Jan-2024 05:22:15.797 CET
+11-Jan-2024 05:22:16 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/34AEB25D-03F6-B547-8071-9017CF57C790.root
+11-Jan-2024 05:22:16 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C060C2FD-3D41-C04F-B892-CD6C2554B7D8.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:22:18 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:22:19 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C060C2FD-3D41-C04F-B892-CD6C2554B7D8.root
+11-Jan-2024 05:22:30 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C060C2FD-3D41-C04F-B892-CD6C2554B7D8.root
+11-Jan-2024 05:22:30 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D065EC74-A1FC-F849-BDA2-D48EAA28383E.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:22:34 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:22:34 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D065EC74-A1FC-F849-BDA2-D48EAA28383E.root
+Begin processing the 2100001st record. Run 1, Event 83043204, LumiSection 30987 on stream 0 at 11-Jan-2024 05:22:44.955 CET
+11-Jan-2024 05:22:45 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D065EC74-A1FC-F849-BDA2-D48EAA28383E.root
+11-Jan-2024 05:22:45 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/965088EE-04CD-4741-9DD9-258CF9A07A9B.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:22:48 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:22:48 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/965088EE-04CD-4741-9DD9-258CF9A07A9B.root
+11-Jan-2024 05:22:57 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/965088EE-04CD-4741-9DD9-258CF9A07A9B.root
+11-Jan-2024 05:22:57 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ADFB746A-88DD-D44F-BE97-98599329C975.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:23:00 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:23:01 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ADFB746A-88DD-D44F-BE97-98599329C975.root
+Begin processing the 2200001st record. Run 1, Event 53330246, LumiSection 19900 on stream 0 at 11-Jan-2024 05:23:09.451 CET
+11-Jan-2024 05:23:09 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ADFB746A-88DD-D44F-BE97-98599329C975.root
+11-Jan-2024 05:23:09 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DA4718D9-BFBC-624F-B5BD-0F64AC3D75A2.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:23:12 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:23:13 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DA4718D9-BFBC-624F-B5BD-0F64AC3D75A2.root
+11-Jan-2024 05:23:25 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DA4718D9-BFBC-624F-B5BD-0F64AC3D75A2.root
+11-Jan-2024 05:23:25 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C8E3F85E-D07A-A545-9B10-AE9D0B33F1BB.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:23:28 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:23:28 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C8E3F85E-D07A-A545-9B10-AE9D0B33F1BB.root
+11-Jan-2024 05:23:37 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C8E3F85E-D07A-A545-9B10-AE9D0B33F1BB.root
+11-Jan-2024 05:23:37 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E3B1D050-DB10-A249-875F-FDC16DD9F629.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:23:40 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:23:41 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E3B1D050-DB10-A249-875F-FDC16DD9F629.root
+Begin processing the 2300001st record. Run 1, Event 3483247, LumiSection 1300 on stream 0 at 11-Jan-2024 05:23:50.972 CET
+11-Jan-2024 05:23:52 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E3B1D050-DB10-A249-875F-FDC16DD9F629.root
+11-Jan-2024 05:23:52 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/798220A3-2D44-FE45-B311-4F32E2A404F5.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:23:55 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:23:56 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/798220A3-2D44-FE45-B311-4F32E2A404F5.root
+Begin processing the 2400001st record. Run 1, Event 90592544, LumiSection 33804 on stream 0 at 11-Jan-2024 05:24:08.412 CET
+11-Jan-2024 05:24:08 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/798220A3-2D44-FE45-B311-4F32E2A404F5.root
+11-Jan-2024 05:24:08 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/89ED44E1-7C98-5B47-977A-26F6DD6F728C.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:24:10 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:24:11 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/89ED44E1-7C98-5B47-977A-26F6DD6F728C.root
+11-Jan-2024 05:24:19 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/89ED44E1-7C98-5B47-977A-26F6DD6F728C.root
+11-Jan-2024 05:24:19 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/34A299D7-504A-764A-B332-6C8F098E5659.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:24:22 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:24:22 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/34A299D7-504A-764A-B332-6C8F098E5659.root
+11-Jan-2024 05:24:31 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/34A299D7-504A-764A-B332-6C8F098E5659.root
+11-Jan-2024 05:24:31 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4BC70832-304B-604A-AF5C-268435D6FB20.root
+%MSG-w XrdAdaptorInternal:  file_open 11-Jan-2024 05:24:33 CET PostProcessEvent
+Failed to open file at URL root://eos-c01.cms.rcac.purdue.edu:1101//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4BC70832-304B-604A-AF5C-268435D6FB20.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+aDgSV9tjCxf+ZWCwb4b7lgpn8RCfB5rT2s7AHqnPzGJRktUJoFblTg9GOBGeRMtz0g8byOe9DQ3ouBX3oIKgySgT+lJQSWlRS0U9VVr9Nj/lnf8ups/hYG4jdzimWV3tSqPJ66nDVj6DU7XhMgsF7in2UXWOweqWdnj3VGZw/LLliYr8jQmlzQFvApA8po+2suxWNcmXJD3gJD3IANYOGsXFgzPsRsZPpG3qo3y86LYJbz1HFH1Dx9A+1/wI+9Rpddy46UBKYYLv55+lkakgW4iIdKuOEMc9S/udL/OYUHhuaBHpbteBAjmsx5cxLWeJtVZhaEU1C5f8ZwgXprfou+02uFLW6c0L3kO4+FBs+6ybrjf1JzC+mZc8IZj9lIWLbnGKW1SFuwepUR86flQEKyfuSv/zWVyabvflaWKk9Zbi1/NOUIfjTzHQzdQDI2W8/BCMFQt6YSq7HGNgnR092aFBy6+V1fUJFa7eJxMY0m+xvugC7Wzxjw61Oyemthk/vaJ0caAQ54LYBZ1aDjHz+dnP/imvf1RMVv17iWZp2KS/TpIwlocSE15ULkwUcRaPdz1izjPsJTS0dZv5xAFvjlwSCHDTJuovia0IziMph+vOhwcN2cOLMS4PLWxahu3NTz9GDTMIKNEk4+h7zTG44dsdzwt8vTnY8yZEL1NjYNfxYVOpIUJek+0IX+28ezvB9t74MvftpJCo10AYCoZ3kCpBrxxVHHY7TcJwPLjOsamw+hVa5kQmnZ38hF7oASBRQ==&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nBXIUQrEIAxF0a3MBhoU5mMQspg2eVKhrRINZXbf+nfurQ1XssGBvr9PqWm7uVx5qssO5TA5/g28ec4w6BzNSmVFXv0Ys99dDDIYtS8SIsnZyWQVam7qIKinGEN8AIeuJuQ=&mgm.blockchecksum=ignore&mgm.id=001193dd&mgm.logid=5215e8ee-b039-11ee-b5b2-5c6f69a9c0f0&mgm.mtime=1670180982&mgm.replicahead=0&mgm.replicaindex=0.
+%MSG
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:24:35 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:24:35 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4BC70832-304B-604A-AF5C-268435D6FB20.root
+Begin processing the 2500001st record. Run 1, Event 6610167, LumiSection 2467 on stream 0 at 11-Jan-2024 05:24:42.371 CET
+11-Jan-2024 05:24:43 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4BC70832-304B-604A-AF5C-268435D6FB20.root
+11-Jan-2024 05:24:43 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C4F6EF99-879E-704C-90B6-A252018244E2.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:24:46 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:24:46 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C4F6EF99-879E-704C-90B6-A252018244E2.root
+11-Jan-2024 05:24:55 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C4F6EF99-879E-704C-90B6-A252018244E2.root
+11-Jan-2024 05:24:55 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F789BF58-33CC-D049-9602-24FFF301663E.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:24:58 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:24:59 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F789BF58-33CC-D049-9602-24FFF301663E.root
+Begin processing the 2600001st record. Run 1, Event 46119919, LumiSection 17209 on stream 0 at 11-Jan-2024 05:25:07.558 CET
+11-Jan-2024 05:25:08 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F789BF58-33CC-D049-9602-24FFF301663E.root
+11-Jan-2024 05:25:08 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/15B07E61-DB93-9144-B86A-BCBC1D3099CF.root
+%MSG-w XrdAdaptorInternal:  file_open 11-Jan-2024 05:25:09 CET PostProcessEvent
+Failed to open file at URL root://eos-c01.cms.rcac.purdue.edu:1101//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/15B07E61-DB93-9144-B86A-BCBC1D3099CF.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+aDgSV9tjCxf+ZWCwb4b7lgpn8RCfB5rT2s7AHqnPzGJRktUJoFblTg9GOBGeRMtz0g8byOe9DQ3ouBX3oIKgySgT+lJQSWlRS0U9VVr9Nj/lnf8ups/hYG4jdzimWV3tSqPJ66nDVj6M5AQUJHFj0//CV8nR6PQp42zNPfuMdfyjWkRfe3p9Qe8ai7xtVxoDDYQCTweP8G15UwEAAWSZb63hT6a1TisKAR5NEf+Od5oGUxU64MduOXunn8Im6IymLvilz6gaSMMErR5u9fvXmt+FdATyX8PBd3eAFWRptrS5yaYnX+oejzabdjDnUVHHE1h6/O1JbxLZv1/O+dhAfFmJ5a9oabQ45TVIBseUewILhvmG19vFdz0TjeTrjYdQZ968tguB0jsY7CEDVuNzPfxMaLf2ZBfZI2QyWV7tKLo2Rr5GzzhDMoNEt0sFUcYHDZ1Yq6j57dxUWXpFEQzRk5eD3xI7Vo0xL420YCEKeyLPAsFa85D0QZbq+m2ztDx87r9bkuWuu/PP9cPemrelA55XdnNmA7KGP+aDNytOExvzbN5wsoKStuyTQJ+/+4qdZ73e8Ham5hoMArC26P7gDv5koLwqcPGzB+d33dOjMAHvvuyfP/FKn6ji7pRGI8b67h9yYXgVskWEC0+8qpdO9mtJdudojrVatqt8IXcQxDrYLd5Dig3PwXXOU+zg6YvEZUeeArK3lFZr7gDiLIyVw5XpnDrFlyw33WvkGz0w0iXYjLPjz9nswahqs6vTI6Riw==&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nBXIUQrEIAxF0a3MBhoU5mMQspg2eVKhrRINZXbf+nfurQ1XssGBvr9PqWm7uVx5qssO5TA5/g28ec4w6BzNSmVFXv0Ys99dDDIYtS8SIsnZyWQVam7qIKinGEN8AIeuJuQ=&mgm.blockchecksum=ignore&mgm.id=001190ad&mgm.logid=67cce7a0-b039-11ee-a499-5c6f69a9c0f0&mgm.mtime=1670180457&mgm.replicahead=1&mgm.replicaindex=1.
+%MSG
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:25:11 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:25:11 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/15B07E61-DB93-9144-B86A-BCBC1D3099CF.root
+11-Jan-2024 05:25:16 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/15B07E61-DB93-9144-B86A-BCBC1D3099CF.root
+11-Jan-2024 05:25:16 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C021C667-46E7-6948-9378-C5A7BEA58F32.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:25:20 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:25:20 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C021C667-46E7-6948-9378-C5A7BEA58F32.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+11-Jan-2024 05:25:29 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C021C667-46E7-6948-9378-C5A7BEA58F32.root
+11-Jan-2024 05:25:29 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/62F7D661-FDDD-7740-B582-39D3FA1011FD.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:25:32 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:25:33 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/62F7D661-FDDD-7740-B582-39D3FA1011FD.root
+Begin processing the 2700001st record. Run 1, Event 55302124, LumiSection 20636 on stream 0 at 11-Jan-2024 05:25:48.429 CET
+11-Jan-2024 05:25:49 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/62F7D661-FDDD-7740-B582-39D3FA1011FD.root
+11-Jan-2024 05:25:49 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/86408802-3D3B-7C4F-895C-9FF1B71749FE.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:25:51 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:25:51 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/86408802-3D3B-7C4F-895C-9FF1B71749FE.root
+11-Jan-2024 05:26:05 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/86408802-3D3B-7C4F-895C-9FF1B71749FE.root
+11-Jan-2024 05:26:05 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2C899C0F-7E97-064E-8C53-9561BDB32334.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:26:08 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:26:09 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2C899C0F-7E97-064E-8C53-9561BDB32334.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+11-Jan-2024 05:26:27 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/2C899C0F-7E97-064E-8C53-9561BDB32334.root
+11-Jan-2024 05:26:27 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/38683B85-2346-E645-8451-1E462FAAF898.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:26:29 CET PostProcessEvent
+Data is served from fnal.gov instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:26:30 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/38683B85-2346-E645-8451-1E462FAAF898.root
+Begin processing the 2800001st record. Run 1, Event 14477812, LumiSection 5403 on stream 0 at 11-Jan-2024 05:26:41.871 CET
+11-Jan-2024 05:26:42 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/38683B85-2346-E645-8451-1E462FAAF898.root
+11-Jan-2024 05:26:42 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8F8F79EE-E398-E243-8B95-65C277A6E386.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:26:45 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:26:46 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8F8F79EE-E398-E243-8B95-65C277A6E386.root
+11-Jan-2024 05:26:53 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8F8F79EE-E398-E243-8B95-65C277A6E386.root
+11-Jan-2024 05:26:53 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3F964E06-746D-924E-BED0-5F6BC084729B.root
+%MSG-w XrdAdaptorInternal:  file_open 11-Jan-2024 05:26:54 CET PostProcessEvent
+Failed to open file at URL root://eos-c01.cms.rcac.purdue.edu:1101//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3F964E06-746D-924E-BED0-5F6BC084729B.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+aDgSV9tjCxf+ZWCwb4b7lgpn8RCfB5rT2s7AHqnPzGJRktUJoFblTg9GOBGeRMtz0g8byOe9DQ3ouBX3oIKgySgT+lJQSWlRS0U9VVr9Nj/lnf8ups/hYG4jdzimWV3tSqPJ66nDVj6O7kEtBkS6h6ntR3XznUKhngVwI1yOcvKW8+3CJ4AQ98QKTOacvJWmlZslTW8pbOXD+TGHZfj1/1iqzCmI/uxikIGBuDuE6JoPUslyNSGU6gSuFNezCKzAgJskHTtEzVdWBMB510gIScco4Ar1fmSuaFeHHw08ZB1bTb6OpyetaeYYHYQoimWmldtbj4MNZyukiA5jFRGMMSs03hM8yhioE5YzxW/w4Wix+/b9b++h3MdT9dSthKk6XKYyc/BTdgyO/d3LD3k6owsiv7TtMl6owjjcZhtHnoDVXIc93+u4Q+kouJz2BtEZuH0zrSR5OhI619EpL3sJReK2HFcVhIi2Ur5eXjKdi7K8ns2s5FqydYKRwKYFRNrRWf0OxGDUwajf2H1OG75yvlIUsybx7GDu7/f9wGrsaWUBJjkHqd38y++fekM22KrVPUJD4abpLJzyHBB8Q68ahuFXoXX0nLFoPsjEUNgyfecUFtXVSa5poxpb11Fqwk0OOpct/HZJwa8TCtmCwFIqV55tGDS/vt+2+9dfDs6GKMWNx1uFo41MlaK116b2e/qvg5mxvn8ynLgaWtgTYJ7u6DWHeMh4gr72ghNUUV6peJHyrYgL2lS3KM4uFFqzd1EVg==&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nBXIUQrEIAxF0a3MBhqUgfkQspg2eVKhrRINZXbf+nfurQ1XssGBvr9PqWm7uVx5qssO5TA5/g28ec4w6BzNSmVFXv0Ys99dDDIYtS8SIsnZyWQVam7qIKinGEN8AIaBJuE=&mgm.blockchecksum=ignore&mgm.id=001192f8&mgm.logid=a67acd00-b039-11ee-97b9-5c6f69a9c0f0&mgm.mtime=1670181108&mgm.replicahead=1&mgm.replicaindex=1.
+%MSG
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:26:56 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:26:57 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3F964E06-746D-924E-BED0-5F6BC084729B.root
+Begin processing the 2900001st record. Run 1, Event 6521131, LumiSection 2434 on stream 0 at 11-Jan-2024 05:27:04.013 CET
+11-Jan-2024 05:27:05 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3F964E06-746D-924E-BED0-5F6BC084729B.root
+11-Jan-2024 05:27:05 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9074AC0D-EABC-D741-A177-F2C907037A50.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:27:08 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:27:08 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9074AC0D-EABC-D741-A177-F2C907037A50.root
+11-Jan-2024 05:27:19 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9074AC0D-EABC-D741-A177-F2C907037A50.root
+11-Jan-2024 05:27:19 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/88C048CD-ACAD-2C43-A31E-27C138A05440.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:27:22 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:27:22 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/88C048CD-ACAD-2C43-A31E-27C138A05440.root
+Begin processing the 3000001st record. Run 1, Event 5813433, LumiSection 2170 on stream 0 at 11-Jan-2024 05:27:29.504 CET
+11-Jan-2024 05:27:30 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/88C048CD-ACAD-2C43-A31E-27C138A05440.root
+11-Jan-2024 05:27:30 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3174A6EF-FBBD-0146-99FF-E04C865B73C4.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:27:33 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:27:33 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3174A6EF-FBBD-0146-99FF-E04C865B73C4.root
+11-Jan-2024 05:27:45 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3174A6EF-FBBD-0146-99FF-E04C865B73C4.root
+11-Jan-2024 05:27:45 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/FAD4F040-A9B8-0E49-82A8-365A651EF29E.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:27:48 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:27:49 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/FAD4F040-A9B8-0E49-82A8-365A651EF29E.root
+Begin processing the 3100001st record. Run 1, Event 5776328, LumiSection 2156 on stream 0 at 11-Jan-2024 05:27:58.958 CET
+11-Jan-2024 05:28:01 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/FAD4F040-A9B8-0E49-82A8-365A651EF29E.root
+11-Jan-2024 05:28:01 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/269910EB-01C6-D54C-AED0-6EF7EA7D8D32.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:28:03 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:28:04 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/269910EB-01C6-D54C-AED0-6EF7EA7D8D32.root
+Begin processing the 3200001st record. Run 1, Event 7341884, LumiSection 2740 on stream 0 at 11-Jan-2024 05:28:13.245 CET
+11-Jan-2024 05:28:15 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/269910EB-01C6-D54C-AED0-6EF7EA7D8D32.root
+11-Jan-2024 05:28:15 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B99B83C6-F978-3B46-8AC5-B3B293B85BCB.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:28:17 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:28:18 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B99B83C6-F978-3B46-8AC5-B3B293B85BCB.root
+11-Jan-2024 05:28:26 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/B99B83C6-F978-3B46-8AC5-B3B293B85BCB.root
+11-Jan-2024 05:28:26 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9E13F5B7-33C4-DB48-8860-83800B8662CA.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:28:29 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:28:29 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9E13F5B7-33C4-DB48-8860-83800B8662CA.root
+Begin processing the 3300001st record. Run 1, Event 35281496, LumiSection 13165 on stream 0 at 11-Jan-2024 05:28:37.381 CET
+11-Jan-2024 05:28:38 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9E13F5B7-33C4-DB48-8860-83800B8662CA.root
+11-Jan-2024 05:28:38 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7E8FEB43-9583-294C-A376-7B49CFA7B5F2.root
+[2024-01-11 05:28:40.073017 +0100][Error  ][AsyncSock         ] [xrootd.cmsaf.mit.edu:1094 #0.0] Socket error encountered: [ERROR] Internal error
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:28:41 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:28:42 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7E8FEB43-9583-294C-A376-7B49CFA7B5F2.root
+Begin processing the 3400001st record. Run 1, Event 29450253, LumiSection 10989 on stream 0 at 11-Jan-2024 05:28:51.814 CET
+11-Jan-2024 05:28:52 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7E8FEB43-9583-294C-A376-7B49CFA7B5F2.root
+11-Jan-2024 05:28:52 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D9DFD17E-B6DE-9541-B18A-34CDC5EA71FD.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:28:54 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:28:55 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D9DFD17E-B6DE-9541-B18A-34CDC5EA71FD.root
+Begin processing the 3500001st record. Run 1, Event 92173335, LumiSection 34394 on stream 0 at 11-Jan-2024 05:29:06.562 CET
+11-Jan-2024 05:29:06 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D9DFD17E-B6DE-9541-B18A-34CDC5EA71FD.root
+11-Jan-2024 05:29:06 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/30D5D877-2A5E-394F-9D1E-A0675E2AB636.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:29:09 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:29:09 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/30D5D877-2A5E-394F-9D1E-A0675E2AB636.root
+11-Jan-2024 05:29:20 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/30D5D877-2A5E-394F-9D1E-A0675E2AB636.root
+11-Jan-2024 05:29:20 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3D5E1D72-844C-8343-AC1F-60A089BFFB86.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:29:23 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:29:24 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3D5E1D72-844C-8343-AC1F-60A089BFFB86.root
+Begin processing the 3600001st record. Run 1, Event 22432954, LumiSection 8371 on stream 0 at 11-Jan-2024 05:29:31.386 CET
+11-Jan-2024 05:29:32 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3D5E1D72-844C-8343-AC1F-60A089BFFB86.root
+11-Jan-2024 05:29:32 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/10FC9CA9-C9DB-B440-A7A9-7D9649653D79.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:29:35 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:29:36 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/10FC9CA9-C9DB-B440-A7A9-7D9649653D79.root
+Begin processing the 3700001st record. Run 1, Event 93065297, LumiSection 34726 on stream 0 at 11-Jan-2024 05:29:48.603 CET
+11-Jan-2024 05:29:48 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/10FC9CA9-C9DB-B440-A7A9-7D9649653D79.root
+11-Jan-2024 05:29:48 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ED25D8DD-0540-CF46-8A5F-E4C1C31E817D.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:29:51 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:29:52 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ED25D8DD-0540-CF46-8A5F-E4C1C31E817D.root
+11-Jan-2024 05:30:02 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/ED25D8DD-0540-CF46-8A5F-E4C1C31E817D.root
+11-Jan-2024 05:30:02 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/459ED9C1-D42E-334F-92EC-B0D6F45732B4.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:30:04 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:30:05 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/459ED9C1-D42E-334F-92EC-B0D6F45732B4.root
+Begin processing the 3800001st record. Run 1, Event 28524738, LumiSection 10644 on stream 0 at 11-Jan-2024 05:30:13.363 CET
+11-Jan-2024 05:30:15 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/459ED9C1-D42E-334F-92EC-B0D6F45732B4.root
+11-Jan-2024 05:30:15 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1D1F03A1-3E67-CC44-98F0-64B801C789F5.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:30:17 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:30:18 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1D1F03A1-3E67-CC44-98F0-64B801C789F5.root
+Begin processing the 3900001st record. Run 1, Event 93048666, LumiSection 34720 on stream 0 at 11-Jan-2024 05:30:26.614 CET
+11-Jan-2024 05:30:26 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1D1F03A1-3E67-CC44-98F0-64B801C789F5.root
+11-Jan-2024 05:30:26 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1A647E65-6071-6F4F-941D-3DF8AA7655E0.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:30:29 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:30:29 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1A647E65-6071-6F4F-941D-3DF8AA7655E0.root
+11-Jan-2024 05:30:40 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1A647E65-6071-6F4F-941D-3DF8AA7655E0.root
+11-Jan-2024 05:30:40 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C70A61CB-705B-EE46-A56E-B4F19A3F74FC.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:30:42 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:30:43 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C70A61CB-705B-EE46-A56E-B4F19A3F74FC.root
+Begin processing the 4000001st record. Run 1, Event 49713093, LumiSection 18550 on stream 0 at 11-Jan-2024 05:30:55.596 CET
+11-Jan-2024 05:30:56 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C70A61CB-705B-EE46-A56E-B4F19A3F74FC.root
+11-Jan-2024 05:30:56 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/043323F3-A9CC-4747-8042-E71B6DCBA7AB.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:30:58 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:30:59 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/043323F3-A9CC-4747-8042-E71B6DCBA7AB.root
+11-Jan-2024 05:31:08 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/043323F3-A9CC-4747-8042-E71B6DCBA7AB.root
+11-Jan-2024 05:31:08 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C927FD39-ED7B-8B4D-920F-60C9DBDBD3BD.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:31:11 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:31:12 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C927FD39-ED7B-8B4D-920F-60C9DBDBD3BD.root
+Begin processing the 4100001st record. Run 1, Event 43493854, LumiSection 16230 on stream 0 at 11-Jan-2024 05:31:22.139 CET
+11-Jan-2024 05:31:24 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C927FD39-ED7B-8B4D-920F-60C9DBDBD3BD.root
+11-Jan-2024 05:31:24 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6765484B-4B5B-3247-A6C6-FE4BB41A594F.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:31:27 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:31:27 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6765484B-4B5B-3247-A6C6-FE4BB41A594F.root
+Begin processing the 4200001st record. Run 1, Event 27148870, LumiSection 10131 on stream 0 at 11-Jan-2024 05:31:46.003 CET
+11-Jan-2024 05:31:48 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6765484B-4B5B-3247-A6C6-FE4BB41A594F.root
+11-Jan-2024 05:31:48 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D0AE0922-DAB7-0C46-AA53-6D049C931063.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:31:50 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:31:51 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D0AE0922-DAB7-0C46-AA53-6D049C931063.root
+Begin processing the 4300001st record. Run 1, Event 69390028, LumiSection 25892 on stream 0 at 11-Jan-2024 05:31:59.627 CET
+11-Jan-2024 05:32:01 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D0AE0922-DAB7-0C46-AA53-6D049C931063.root
+11-Jan-2024 05:32:01 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/53076075-B04C-514F-8E9B-5C1E23529507.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:32:03 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:32:04 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/53076075-B04C-514F-8E9B-5C1E23529507.root
+Begin processing the 4400001st record. Run 1, Event 51735566, LumiSection 19305 on stream 0 at 11-Jan-2024 05:32:14.044 CET
+11-Jan-2024 05:32:14 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/53076075-B04C-514F-8E9B-5C1E23529507.root
+11-Jan-2024 05:32:14 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9AC694FF-1AB6-744D-AD4A-BB6AEA825816.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:32:17 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:32:17 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9AC694FF-1AB6-744D-AD4A-BB6AEA825816.root
+11-Jan-2024 05:32:28 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9AC694FF-1AB6-744D-AD4A-BB6AEA825816.root
+11-Jan-2024 05:32:28 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C2D60427-C4A0-6444-AC72-BB255A9055D9.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:32:31 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:32:31 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C2D60427-C4A0-6444-AC72-BB255A9055D9.root
+Begin processing the 4500001st record. Run 1, Event 13239914, LumiSection 4941 on stream 0 at 11-Jan-2024 05:32:39.400 CET
+11-Jan-2024 05:32:42 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/C2D60427-C4A0-6444-AC72-BB255A9055D9.root
+11-Jan-2024 05:32:42 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6E53C766-1D3E-BE49-AC8C-B85E1367323F.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:32:45 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:32:45 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6E53C766-1D3E-BE49-AC8C-B85E1367323F.root
+Begin processing the 4600001st record. Run 1, Event 50841209, LumiSection 18971 on stream 0 at 11-Jan-2024 05:32:52.785 CET
+11-Jan-2024 05:32:53 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6E53C766-1D3E-BE49-AC8C-B85E1367323F.root
+11-Jan-2024 05:32:53 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8282AC05-5DDE-C148-AFC2-E7ED7926CEB4.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:32:56 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:32:56 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8282AC05-5DDE-C148-AFC2-E7ED7926CEB4.root
+Begin processing the 4700001st record. Run 1, Event 85559025, LumiSection 31926 on stream 0 at 11-Jan-2024 05:33:06.498 CET
+11-Jan-2024 05:33:06 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8282AC05-5DDE-C148-AFC2-E7ED7926CEB4.root
+11-Jan-2024 05:33:06 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E5ADC9B4-024E-104A-9C50-A46C66381379.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:33:09 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:33:10 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E5ADC9B4-024E-104A-9C50-A46C66381379.root
+11-Jan-2024 05:33:22 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E5ADC9B4-024E-104A-9C50-A46C66381379.root
+11-Jan-2024 05:33:22 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/656895B5-58C1-2049-912C-ABDAEEB554D9.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:33:24 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:33:25 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/656895B5-58C1-2049-912C-ABDAEEB554D9.root
+Begin processing the 4800001st record. Run 1, Event 70892598, LumiSection 26453 on stream 0 at 11-Jan-2024 05:33:34.237 CET
+11-Jan-2024 05:33:34 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/656895B5-58C1-2049-912C-ABDAEEB554D9.root
+11-Jan-2024 05:33:34 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/02A35400-8744-AA48-B800-C10B2D6A3B36.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:33:37 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:33:37 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/02A35400-8744-AA48-B800-C10B2D6A3B36.root
+11-Jan-2024 05:33:47 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/02A35400-8744-AA48-B800-C10B2D6A3B36.root
+11-Jan-2024 05:33:47 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F1A33F56-44F6-6E4F-A6F2-A967CC7DAC5B.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:33:50 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:33:51 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F1A33F56-44F6-6E4F-A6F2-A967CC7DAC5B.root
+Begin processing the 4900001st record. Run 1, Event 4979256, LumiSection 1858 on stream 0 at 11-Jan-2024 05:33:58.566 CET
+11-Jan-2024 05:34:01 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F1A33F56-44F6-6E4F-A6F2-A967CC7DAC5B.root
+11-Jan-2024 05:34:01 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/87B0B2F9-BB94-A146-AF71-25975A79CBAD.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:34:03 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:34:04 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/87B0B2F9-BB94-A146-AF71-25975A79CBAD.root
+Begin processing the 5000001st record. Run 1, Event 55534794, LumiSection 20722 on stream 0 at 11-Jan-2024 05:34:11.886 CET
+11-Jan-2024 05:34:13 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/87B0B2F9-BB94-A146-AF71-25975A79CBAD.root
+11-Jan-2024 05:34:13 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/BF34CFCC-BA25-F742-A9B6-2332ACE2682E.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:34:16 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:34:17 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/BF34CFCC-BA25-F742-A9B6-2332ACE2682E.root
+Begin processing the 5100001st record. Run 1, Event 70818878, LumiSection 26425 on stream 0 at 11-Jan-2024 05:34:27.779 CET
+11-Jan-2024 05:34:28 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/BF34CFCC-BA25-F742-A9B6-2332ACE2682E.root
+11-Jan-2024 05:34:28 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/14E28998-E089-9F42-9DEB-8069B126940B.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:34:30 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:34:31 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/14E28998-E089-9F42-9DEB-8069B126940B.root
+11-Jan-2024 05:34:41 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/14E28998-E089-9F42-9DEB-8069B126940B.root
+11-Jan-2024 05:34:41 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DD684555-DD2A-9B4D-8598-4392C48B800A.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:34:43 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:34:44 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DD684555-DD2A-9B4D-8598-4392C48B800A.root
+Begin processing the 5200001st record. Run 1, Event 43027856, LumiSection 16056 on stream 0 at 11-Jan-2024 05:34:51.658 CET
+11-Jan-2024 05:34:52 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/DD684555-DD2A-9B4D-8598-4392C48B800A.root
+11-Jan-2024 05:34:52 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5C680CDE-82A3-C84C-BEC5-426528085238.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:34:55 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:34:55 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5C680CDE-82A3-C84C-BEC5-426528085238.root
+11-Jan-2024 05:35:03 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5C680CDE-82A3-C84C-BEC5-426528085238.root
+11-Jan-2024 05:35:03 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/63AE93D0-8E75-1A4B-BAF7-DBFC13B937F3.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:35:06 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:35:06 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/63AE93D0-8E75-1A4B-BAF7-DBFC13B937F3.root
+Begin processing the 5300001st record. Run 1, Event 43894597, LumiSection 16379 on stream 0 at 11-Jan-2024 05:35:15.570 CET
+11-Jan-2024 05:35:17 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/63AE93D0-8E75-1A4B-BAF7-DBFC13B937F3.root
+11-Jan-2024 05:35:17 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D27D00C7-8B94-1648-BA41-E9E49E50CDC9.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:35:19 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:35:20 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D27D00C7-8B94-1648-BA41-E9E49E50CDC9.root
+11-Jan-2024 05:35:28 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/D27D00C7-8B94-1648-BA41-E9E49E50CDC9.root
+11-Jan-2024 05:35:28 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/228DE9F3-3641-344A-8D4B-7738EDFE1C47.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:35:30 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:35:31 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/228DE9F3-3641-344A-8D4B-7738EDFE1C47.root
+Begin processing the 5400001st record. Run 1, Event 21161720, LumiSection 7897 on stream 0 at 11-Jan-2024 05:35:39.855 CET
+11-Jan-2024 05:35:41 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/228DE9F3-3641-344A-8D4B-7738EDFE1C47.root
+11-Jan-2024 05:35:41 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/CAF135DF-1CAA-794F-BA7D-4CBF53547F50.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:35:44 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:35:44 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/CAF135DF-1CAA-794F-BA7D-4CBF53547F50.root
+11-Jan-2024 05:35:52 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/CAF135DF-1CAA-794F-BA7D-4CBF53547F50.root
+11-Jan-2024 05:35:52 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/67974778-511E-E64D-9F3D-69387D2EA28E.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:35:55 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:35:55 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/67974778-511E-E64D-9F3D-69387D2EA28E.root
+Begin processing the 5500001st record. Run 1, Event 19862074, LumiSection 7412 on stream 0 at 11-Jan-2024 05:36:02.908 CET
+11-Jan-2024 05:36:04 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/67974778-511E-E64D-9F3D-69387D2EA28E.root
+11-Jan-2024 05:36:04 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/908D04BE-92EB-C94B-9C3B-EDF71AB69936.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:36:06 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:36:07 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/908D04BE-92EB-C94B-9C3B-EDF71AB69936.root
+11-Jan-2024 05:36:16 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/908D04BE-92EB-C94B-9C3B-EDF71AB69936.root
+11-Jan-2024 05:36:16 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/215DA2EE-583B-A447-9540-F5FBD778543E.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:36:19 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:36:20 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/215DA2EE-583B-A447-9540-F5FBD778543E.root
+Begin processing the 5600001st record. Run 1, Event 5004298, LumiSection 1868 on stream 0 at 11-Jan-2024 05:36:27.112 CET
+11-Jan-2024 05:36:29 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/215DA2EE-583B-A447-9540-F5FBD778543E.root
+11-Jan-2024 05:36:29 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/767573C6-2DF8-A84D-9184-16781B44085B.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:36:32 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:36:32 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/767573C6-2DF8-A84D-9184-16781B44085B.root
+Begin processing the 5700001st record. Run 1, Event 66478456, LumiSection 24806 on stream 0 at 11-Jan-2024 05:36:40.502 CET
+11-Jan-2024 05:36:41 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/767573C6-2DF8-A84D-9184-16781B44085B.root
+11-Jan-2024 05:36:41 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/516A67F7-0CA9-2A41-A2AA-3C11FCC43F43.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:36:43 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:36:44 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/516A67F7-0CA9-2A41-A2AA-3C11FCC43F43.root
+11-Jan-2024 05:36:55 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/516A67F7-0CA9-2A41-A2AA-3C11FCC43F43.root
+11-Jan-2024 05:36:55 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5CDF19BE-E17D-9D4E-B845-43C1A95A03DC.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:36:58 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:36:59 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5CDF19BE-E17D-9D4E-B845-43C1A95A03DC.root
+Begin processing the 5800001st record. Run 1, Event 75969433, LumiSection 28347 on stream 0 at 11-Jan-2024 05:37:06.976 CET
+11-Jan-2024 05:37:07 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/5CDF19BE-E17D-9D4E-B845-43C1A95A03DC.root
+11-Jan-2024 05:37:07 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6F3500A8-A24E-E945-9386-BB93CBDC37C1.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:37:09 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:37:10 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6F3500A8-A24E-E945-9386-BB93CBDC37C1.root
+11-Jan-2024 05:37:19 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/6F3500A8-A24E-E945-9386-BB93CBDC37C1.root
+11-Jan-2024 05:37:19 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/922F4CDE-1A4C-1D42-8CAE-DEBE91E4105E.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:37:22 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:37:23 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/922F4CDE-1A4C-1D42-8CAE-DEBE91E4105E.root
+Begin processing the 5900001st record. Run 1, Event 87128376, LumiSection 32511 on stream 0 at 11-Jan-2024 05:37:30.110 CET
+11-Jan-2024 05:37:30 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/922F4CDE-1A4C-1D42-8CAE-DEBE91E4105E.root
+11-Jan-2024 05:37:30 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/506E057F-E5A6-1248-A4B7-714970ABDE76.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:37:32 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:37:33 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/506E057F-E5A6-1248-A4B7-714970ABDE76.root
+11-Jan-2024 05:37:43 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/506E057F-E5A6-1248-A4B7-714970ABDE76.root
+11-Jan-2024 05:37:43 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/BD3AD78A-66EC-614E-8DE3-37AAFC6120C1.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:37:45 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:37:46 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/BD3AD78A-66EC-614E-8DE3-37AAFC6120C1.root
+11-Jan-2024 05:37:52 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/BD3AD78A-66EC-614E-8DE3-37AAFC6120C1.root
+11-Jan-2024 05:37:52 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E6408DCF-FAFE-B844-BD31-C217531BBAB0.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:37:55 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:37:55 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E6408DCF-FAFE-B844-BD31-C217531BBAB0.root
+Begin processing the 6000001st record. Run 1, Event 17858659, LumiSection 6664 on stream 0 at 11-Jan-2024 05:38:04.796 CET
+11-Jan-2024 05:38:07 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/E6408DCF-FAFE-B844-BD31-C217531BBAB0.root
+11-Jan-2024 05:38:07 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7E5002D0-79D5-8740-BC9A-032D8E4259AA.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:38:10 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:38:10 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7E5002D0-79D5-8740-BC9A-032D8E4259AA.root
+Begin processing the 6100001st record. Run 1, Event 25554245, LumiSection 9536 on stream 0 at 11-Jan-2024 05:38:18.972 CET
+11-Jan-2024 05:38:21 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/7E5002D0-79D5-8740-BC9A-032D8E4259AA.root
+11-Jan-2024 05:38:21 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8E5CD251-C86C-AE46-AFBB-42D16EB82F64.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:38:23 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:38:24 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8E5CD251-C86C-AE46-AFBB-42D16EB82F64.root
+Begin processing the 6200001st record. Run 1, Event 78811800, LumiSection 29408 on stream 0 at 11-Jan-2024 05:38:31.841 CET
+11-Jan-2024 05:38:32 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8E5CD251-C86C-AE46-AFBB-42D16EB82F64.root
+11-Jan-2024 05:38:32 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1581FA36-C267-6E47-B447-DD0FE9099DF7.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:38:34 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:38:35 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1581FA36-C267-6E47-B447-DD0FE9099DF7.root
+11-Jan-2024 05:38:47 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/1581FA36-C267-6E47-B447-DD0FE9099DF7.root
+11-Jan-2024 05:38:47 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/49157F8E-6CE5-E74E-B018-2F7142D9A508.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:38:50 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:38:51 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/49157F8E-6CE5-E74E-B018-2F7142D9A508.root
+Begin processing the 6300001st record. Run 1, Event 56104655, LumiSection 20935 on stream 0 at 11-Jan-2024 05:38:58.961 CET
+11-Jan-2024 05:38:59 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/49157F8E-6CE5-E74E-B018-2F7142D9A508.root
+11-Jan-2024 05:38:59 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F6972511-CDDD-5743-A869-8623F3467E98.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:39:02 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:39:02 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F6972511-CDDD-5743-A869-8623F3467E98.root
+11-Jan-2024 05:39:10 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/F6972511-CDDD-5743-A869-8623F3467E98.root
+11-Jan-2024 05:39:10 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/563B6EEE-9767-AD42-BD78-E17E5100F6CA.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:39:12 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:39:13 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/563B6EEE-9767-AD42-BD78-E17E5100F6CA.root
+Begin processing the 6400001st record. Run 1, Event 65563106, LumiSection 24464 on stream 0 at 11-Jan-2024 05:39:19.924 CET
+11-Jan-2024 05:39:20 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/563B6EEE-9767-AD42-BD78-E17E5100F6CA.root
+11-Jan-2024 05:39:20 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/244546BD-003B-6C4C-BCCE-7D9D47280A70.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:39:25 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:39:26 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/244546BD-003B-6C4C-BCCE-7D9D47280A70.root
+11-Jan-2024 05:39:35 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/244546BD-003B-6C4C-BCCE-7D9D47280A70.root
+11-Jan-2024 05:39:35 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9C6F9FF5-5783-D642-8FB7-95ABF4833272.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:39:38 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:39:38 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9C6F9FF5-5783-D642-8FB7-95ABF4833272.root
+Begin processing the 6500001st record. Run 1, Event 38562225, LumiSection 14389 on stream 0 at 11-Jan-2024 05:39:48.834 CET
+11-Jan-2024 05:39:50 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/9C6F9FF5-5783-D642-8FB7-95ABF4833272.root
+11-Jan-2024 05:39:50 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/FBE01A7E-FEB0-564B-B668-F97766685B88.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:39:53 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:39:53 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/FBE01A7E-FEB0-564B-B668-F97766685B88.root
+Begin processing the 6600001st record. Run 1, Event 87067719, LumiSection 32488 on stream 0 at 11-Jan-2024 05:40:02.148 CET
+11-Jan-2024 05:40:02 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/FBE01A7E-FEB0-564B-B668-F97766685B88.root
+11-Jan-2024 05:40:02 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8ABF9214-C189-C846-9133-A639F99F65C8.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:40:05 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:40:05 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8ABF9214-C189-C846-9133-A639F99F65C8.root
+11-Jan-2024 05:40:13 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8ABF9214-C189-C846-9133-A639F99F65C8.root
+11-Jan-2024 05:40:13 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4348257D-0A00-2E49-990D-1D23FDC8F193.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:40:16 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:40:17 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4348257D-0A00-2E49-990D-1D23FDC8F193.root
+Begin processing the 6700001st record. Run 1, Event 65232863, LumiSection 24341 on stream 0 at 11-Jan-2024 05:40:44.232 CET
+11-Jan-2024 05:40:44 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4348257D-0A00-2E49-990D-1D23FDC8F193.root
+11-Jan-2024 05:40:44 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8FE16FA6-83BD-EF4E-9E86-2B65060FEB05.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:40:46 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:40:47 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8FE16FA6-83BD-EF4E-9E86-2B65060FEB05.root
+11-Jan-2024 05:40:59 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/8FE16FA6-83BD-EF4E-9E86-2B65060FEB05.root
+11-Jan-2024 05:40:59 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/84A7E8D9-2043-1948-A1D2-14AB27FC9DDA.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 05:41:02 CET PostProcessEvent
+Data is served from cms.rcac.purdue.edu instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 05:41:03 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/84A7E8D9-2043-1948-A1D2-14AB27FC9DDA.root
+Begin processing the 6800001st record. Run 1, Event 66684784, LumiSection 24883 on stream 0 at 11-Jan-2024 05:41:10.554 CET
+11-Jan-2024 05:41:11 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/84A7E8D9-2043-1948-A1D2-14AB27FC9DDA.root
+11-Jan-2024 05:41:11 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B8E0F1C-D4B8-5F4C-9679-B729310E4747.root
+%MSG-w XrdAdaptorInternal:  file_open 11-Jan-2024 05:41:12 CET PostProcessEvent
+Failed to open file at URL root://eos-c01.cms.rcac.purdue.edu:1102//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B8E0F1C-D4B8-5F4C-9679-B729310E4747.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+aDgSV9tjCxf+ZWCwb4b7lgpn8RCfB5rT2s7AHqnPzGJRktUJoFblTg9GOBGeRMtz0g8byOe9DQ3ouBX3oIKgySgT+lJQSWlRS0U9VVr9Nj/lnf8ups/hYG4jdzimWV3tSqPJ66nDVj6DU7XhMgsF7ivth+p2dHpJpMZcJwelRDM6E68uT1ZDMAzMkGTIKBYf2ld2un9r387mayRek0gZuq/J+fXqQgr77aB9bi3gBD84nBlmPisZSOrHMdna1n7pna+TWoJeJ+2QEY8NiwczGLUspRHnX2pjhRT+mmb/2q+VXZzWur1J096FYb4bNpnKtY0agNwrIn+Rn4qLcnG9TasJP9RX1hxRdWBmVwbN5qiq3PFP2Ze1QcNfdL/yq2V+R5/WpoUAUzuu1Ml5fhSMekHFvq8ghZYTspBfQ/jz1SwnlYYTA/J2kpTjKGMiYBc5TQ8sv31AdKcU1wzynEBbx6Y+S+WvTthfZIVFPwaJ5VJvruVQpfvuWeyy7/PXHNm1MU+RKBMJ6l+fomzQIPgED78mSkjGGvfggLsp+3f1nExIsNAbA7hnk1SEN1DxQstKTIGgPK1B0VK+jJ/FLa0kA1M6U/29dsiZglKY3JXfHGh8vF/hKTDDAK16ihT9PBjVpHrT3ICGrePiqM8zYoJkhS9KlBEJKwOEvRSQC6Eo11FKRIDxSQkfBBPenkUio6/cvR/c8qqIJhD1riTI+KRXbpXBlVpWXyk0Fnj6qCDCg+L8LEURNND5NZ5WnC/FuzO+w==&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nBXIQQ7DIAwF0avkArEg6QrJh0nsj4rUBmSwqt4+YfdmasOVbHCg/bWUms4flytPdXlDOUyOfwOfnjMMOkezUlmRD/+M2c8uBhmM2lcJkeTbyeQQam7qIKinGMN2A4W6JuA=&mgm.blockchecksum=ignore&mgm.id=001193c6&mgm.logid=a5b9b8de-b03b-11ee-a218-5c6f69a9c0f0&mgm.mtime=1670181086&mgm.replicahead=1&mgm.replicaindex=1.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-Jan-2024 05:41:13 CET PostProcessEvent
+Failed to open file at URL root://eos-c01.cms.rcac.purdue.edu:1102//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B8E0F1C-D4B8-5F4C-9679-B729310E4747.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+aDgSV9tjCxf+ZWCwb4b7lgpn8RCfB5rT2s7AHqnPzGJRktUJoFblTg9GOBGeRMtz0g8byOe9DQ3ouBX3oIKgySgT+lJQSWlRS0U9VVr9Nj/lnf8ups/hYG4jdzimWV3tSqPJ66nDVj6DU7XhMgsF7ivth+p2dHpJpMZcJwelRDM6E68uT1ZDMAzMkGTIKBYf2ld2un9r387mayRek0gZuq/J+fXqQgr77aB9bi3gBD84nBlmPisZSOrHMdna1n7pna+TWoJeJ+2QEY8NiwczGLUspRHnX2pjhRT+mmb/2q+VXZzWur1J096FYb4bNpnKtY0agNwrIn+Rn4qLcnG9TasJP9RX1hxRdWBmVwbN5qiq3PFP2Ze1QcNfdL/yq2V+R5/WpoUAUzuu1Ml5fhSMekHFvq8ghZYTspBfQ/jz1SwnlYYTA/J2kpTjKGMiYBc5TQ8sv31AdKcU1wzynEBbx6Y+S+WvTthfZIVFPwaJ5VJvruVQpfvuWeyy7/PXHNm1MU+RKBMJ6l+fomzQIPgED78mSkjGGvfggLsp+3f1nExIsNAbA7hnk1SEN1DxQstKTIGgPK1B0VK+jJ/FLa0kA1M6U/29dsiZglKY3JXfHGh8vF/hKTDDAK16ihT9PBjVpHrT3ICGrePiqM8zYoJkhS9KlBEJKwOEvRSQC6Eo11FKRIDxSQkfBBPenkUio6/cvR/c8qqIJhD1riTI+KRXbpXBlVpWXyk0Fnj6qCDCg+L8LEURNND5NZ5WnC/FuzO+w==&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nB3IQQrDMAwF0avkAhF2ycqgwyTSNzW0sZEtQm+fuLuZVxvOZIMDbWEpNR0XlzPP6vKG8h/Hr4EPzxkGndCsVFbk3T9j/sPFIINR+yohknw7mexCzU0dBPUUY3jdhI8m3Q==&mgm.blockchecksum=ignore&mgm.id=001193c6&mgm.logid=a5ff4430-b03b-11ee-a218-5c6f69a9c0f0&mgm.mtime=1670181086&mgm.replicahead=1&mgm.replicaindex=1&tried=.
+%MSG
+----- Begin Fatal Exception 11-Jan-2024 05:41:13 CET-----------------------
 An exception of category 'FileOpenError' occurred while
-   [0] Constructing the EventProcessor
-   [1] Constructing input source of type PoolSource
-   [2] Calling RootFileSequenceBase::initTheFile()
-   [3] Calling StorageFactory::open()
-   [4] Calling XrdFile::open()
+   [0] Calling InputSource::readFile_
+   [1] Calling RootFileSequenceBase::initTheFile()
+   [2] Calling StorageFactory::open()
+   [3] Calling XrdFile::open()
 Exception Message:
-Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root'
+Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B8E0F1C-D4B8-5F4C-9679-B729310E4747.root'
    Additional Info:
-      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root could not be opened.
-      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root', flags=0x10, permissions=0660) => error '[ERROR] Operation expired' (errno=0, code=206). No additional data servers were found.
-      [c] Last URL tried: root://cmsxrootd.fnal.gov:1094//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/3218ABCE-37AD-BC48-8F80-103091A59613.root?tried=
-      [d] Problematic data server: cmsxrootd.fnal.gov:1094
-      [e] Disabled source: cmsxrootd.fnal.gov:1094
+      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B8E0F1C-D4B8-5F4C-9679-B729310E4747.root could not be opened.
+      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B8E0F1C-D4B8-5F4C-9679-B729310E4747.root', flags=0x10, permissions=0660) => error '[ERROR] Server responded with an error: [3000] Unable to open - cannot determine the prefix path to use for the given filesystem id /store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B8E0F1C-D4B8-5F4C-9679-B729310E4747.root; invalid argument
+' (errno=3000, code=400). No additional data servers were found.
+      [c] Last URL tried: root://eos-c01.cms.rcac.purdue.edu:1102//store/mc/RunIISummer20UL16MiniAODv2/DYJetsToTauTau_TauToMuEle_M-50_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/230000/4B8E0F1C-D4B8-5F4C-9679-B729310E4747.root?cap.msg=d9J3goYSFLAUInNxGNsU1Ur8UvaMAWcICOqppuMfSEMFeKsPR13YF75ampMwWejEWI8etKZol8+oA+H+obcH5TGaX0yfZ/NsHRxUtflYCTIMpJzw/i596JPUcq7bbf8aPm5NO9L9TpZoTa53+Arr+aDgSV9tjCxf+ZWCwb4b7lgpn8RCfB5rT2s7AHqnPzGJRktUJoFblTg9GOBGeRMtz0g8byOe9DQ3ouBX3oIKgySgT+lJQSWlRS0U9VVr9Nj/lnf8ups/hYG4jdzimWV3tSqPJ66nDVj6DU7XhMgsF7ivth+p2dHpJpMZcJwelRDM6E68uT1ZDMAzMkGTIKBYf2ld2un9r387mayRek0gZuq/J+fXqQgr77aB9bi3gBD84nBlmPisZSOrHMdna1n7pna+TWoJeJ+2QEY8NiwczGLUspRHnX2pjhRT+mmb/2q+VXZzWur1J096FYb4bNpnKtY0agNwrIn+Rn4qLcnG9TasJP9RX1hxRdWBmVwbN5qiq3PFP2Ze1QcNfdL/yq2V+R5/WpoUAUzuu1Ml5fhSMekHFvq8ghZYTspBfQ/jz1SwnlYYTA/J2kpTjKGMiYBc5TQ8sv31AdKcU1wzynEBbx6Y+S+WvTthfZIVFPwaJ5VJvruVQpfvuWeyy7/PXHNm1MU+RKBMJ6l+fomzQIPgED78mSkjGGvfggLsp+3f1nExIsNAbA7hnk1SEN1DxQstKTIGgPK1B0VK+jJ/FLa0kA1M6U/29dsiZglKY3JXfHGh8vF/hKTDDAK16ihT9PBjVpHrT3ICGrePiqM8zYoJkhS9KlBEJKwOEvRSQC6Eo11FKRIDxSQkfBBPenkUio6/cvR/c8qqIJhD1riTI+KRXbpXBlVpWXyk0Fnj6qCDCg+L8LEURNND5NZ5WnC/FuzO+w==&cap.sym=xU6mGpv9T0+hMNHFH2SXcWOdliY=&eos.clientinfo=zbase64:MDAwMDAwNmZ4nB3IQQrDMAwF0avkAhF2ycqgwyTSNzW0sZEtQm+fuLuZVxvOZIMDbWEpNR0XlzPP6vKG8h/Hr4EPzxkGndCsVFbk3T9j/sPFIINR+yohknw7mexCzU0dBPUUY3jdhI8m3Q==&mgm.blockchecksum=ignore&mgm.id=001193c6&mgm.logid=a5ff4430-b03b-11ee-a218-5c6f69a9c0f0&mgm.mtime=1670181086&mgm.replicahead=1&mgm.replicaindex=1&tried=
+      [d] Problematic data server: eos-c01.cms.rcac.purdue.edu:1102
+      [e] Disabled source: eos-c01.cms.rcac.purdue.edu:1102
 ----- End Fatal Exception -------------------------------------------------
+   2066.584600      4.340364   8726.865100             0
+   1201.030500      3.896797   8726.865100             1
+    573.586300      3.650748   8726.865100             2
+ 
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		2.067e+03 +/- 4.340e+00		4519005	4079115	439890	5144362	4698695	445667	1.768e+03 +/- 3.731e+00		85.6 +/- 0.0	87.8 +/- 0.0
+1		1.201e+03 +/- 3.897e+00		1454874	1069648	385226	6936821	4707723	2229098	3.316e+02 +/- 1.198e+00		27.6 +/- 0.0	21.0 +/- 0.0
+2		5.736e+02 +/- 3.651e+00		847133	554048	293085	5880177	3537268	2342909	1.253e+02 +/- 9.006e-01		21.8 +/- 0.1	14.4 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		3.841e+03 +/- 6.881e+00		6821012	5702811	1118201	17961360	12943686	5017674	2.222e+03 +/- 4.123e+00		57.8 +/- 0.0	38.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 3.841e+03 +- 6.881e+00 pb
+After matching: total cross section = 2.222e+03 +- 4.123e+00 pb
+Matching efficiency = 0.4 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (4.00093e+10) / (4.00093e+10) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (6.82101e+06) / (6.82101e+06) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 2.222e+03 +- 4.123e+00 pb
+After filter: final fraction of events with negative weights = 1.639e-01 +- 9.409e-06
+After filter: final equivalent lumi for 1M events (1/fb) = 2.033e-01 +- 2.882e-04
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      17       17
+    2 XrdAdaptor           -w file_open                            134      134
+    3 XrdAdaptorInternal   -w file_open                              5        5
+    4 Fatal Exception      -s AfterFile                              1        1
+    5 fileAction           -s file_close                           134      134
+    6 fileAction           -s file_open                            269      269
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 XrdAdaptorInternal   PostProcessEvent PostProcessEvent PostProcessEvent
+    4 Fatal Exception      PostProcessEvent                  
+    5 fileAction           PostProcessEvent PostProcessEvent PostProcessEvent
+    6 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning               156                 156
+System                404                 404
+
+dropped waiting message count 0

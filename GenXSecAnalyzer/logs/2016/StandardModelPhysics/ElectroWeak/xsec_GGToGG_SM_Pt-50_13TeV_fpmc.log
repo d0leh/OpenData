@@ -1,0 +1,53 @@
+11-Jan-2024 10:09:24 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/GGToGG_SM_Pt-50_13TeV_fpmc/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/F78DF777-EB5D-B840-9A27-29609BFA5469.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 10:09:28 CET pre-events
+Data is served from T2_US_MIT instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 10:09:32 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/GGToGG_SM_Pt-50_13TeV_fpmc/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/F78DF777-EB5D-B840-9A27-29609BFA5469.root
+Begin processing the 1st record. Run 1, Event 10, LumiSection 1 on stream 0 at 11-Jan-2024 10:09:39.948 CET
+11-Jan-2024 10:09:44 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/GGToGG_SM_Pt-50_13TeV_fpmc/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/120000/F78DF777-EB5D-B840-9A27-29609BFA5469.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		4.821e-06 +/- 6.919e-01		0	0	0	0	0	0	0.000e+00 +/- 0.000e+00		-100.0 +/- -100.0	-100.0 +/- -100.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		4.821e-06 +/- 6.919e-01		0	0	0	0	0	0	-4.821e-06 +/- 0.000e+00		-100.0 +/- -100.0	-100.0 +/- -100.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 4.821e-06 +- 6.919e-01 pb
+After matching: total cross section = -4.821e-06 +- 0.000e+00 pb
+Matching efficiency = -1.0 +/- -1.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (100000) / (100000) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (100000) / (100000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 0.000e+00 +- 0.000e+00 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 0.000e+00 +- 0.000e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      15       15
+    2 XrdAdaptor           -w file_open                              1        1
+    3 fileAction           -s file_close                             1        1
+    4 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events                        
+    3 fileAction           PostGlobalEndRun                  
+    4 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                16                  16
+System                  3                   3
+
+dropped waiting message count 0

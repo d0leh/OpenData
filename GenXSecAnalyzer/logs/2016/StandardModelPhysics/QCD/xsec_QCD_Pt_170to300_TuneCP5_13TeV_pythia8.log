@@ -1,0 +1,83 @@
+12-Jan-2024 14:38:25 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/FA7CA243-C2EA-B34A-B85A-6DC850F8C212.root
+%MSG-w XrdAdaptor:  file_open 12-Jan-2024 14:38:29 CET pre-events
+Data is served from T2_US_Florida instead of original site US-Regional-Nebraska
+%MSG
+12-Jan-2024 14:38:33 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/FA7CA243-C2EA-B34A-B85A-6DC850F8C212.root
+Begin processing the 1st record. Run 1, Event 780017, LumiSection 781 on stream 0 at 12-Jan-2024 14:38:39.685 CET
+12-Jan-2024 14:38:41 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/FA7CA243-C2EA-B34A-B85A-6DC850F8C212.root
+12-Jan-2024 14:38:41 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/582659C9-5DEA-6B42-B425-2E4DCA81D8C3.root
+%MSG-w XrdAdaptor:  file_open 12-Jan-2024 14:38:45 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+12-Jan-2024 14:38:46 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/582659C9-5DEA-6B42-B425-2E4DCA81D8C3.root
+Begin processing the 100001st record. Run 1, Event 22600008, LumiSection 22601 on stream 0 at 12-Jan-2024 14:39:56.816 CET
+12-Jan-2024 14:39:58 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/582659C9-5DEA-6B42-B425-2E4DCA81D8C3.root
+12-Jan-2024 14:39:58 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/4D8C7385-B23C-2442-8589-F593FE7021AC.root
+%MSG-w XrdAdaptor:  file_open 12-Jan-2024 14:40:01 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+12-Jan-2024 14:40:01 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/4D8C7385-B23C-2442-8589-F593FE7021AC.root
+Begin processing the 200001st record. Run 1, Event 22008006, LumiSection 22009 on stream 0 at 12-Jan-2024 14:40:13.987 CET
+12-Jan-2024 14:40:15 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/4D8C7385-B23C-2442-8589-F593FE7021AC.root
+12-Jan-2024 14:40:15 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/B7740C36-2E77-8947-904D-3DCDFC698A05.root
+%MSG-w XrdAdaptorInternal:  file_open 12-Jan-2024 14:43:11 CET PostProcessEvent
+Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/B7740C36-2E77-8947-904D-3DCDFC698A05.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 12-Jan-2024 14:46:06 CET PostProcessEvent
+Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/B7740C36-2E77-8947-904D-3DCDFC698A05.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,.
+%MSG
+----- Begin Fatal Exception 12-Jan-2024 14:46:06 CET-----------------------
+An exception of category 'FileOpenError' occurred while
+   [0] Calling InputSource::readFile_
+   [1] Calling RootFileSequenceBase::initTheFile()
+   [2] Calling StorageFactory::open()
+   [3] Calling XrdFile::open()
+Exception Message:
+Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/B7740C36-2E77-8947-904D-3DCDFC698A05.root'
+   Additional Info:
+      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/B7740C36-2E77-8947-904D-3DCDFC698A05.root could not be opened.
+      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/B7740C36-2E77-8947-904D-3DCDFC698A05.root', flags=0x10, permissions=0660) => error '[ERROR] Operation expired' (errno=0, code=206). No additional data servers were found.
+      [c] Last URL tried: root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/QCD_Pt_170to300_TuneCP5_13TeV_pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/280000/B7740C36-2E77-8947-904D-3DCDFC698A05.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,
+      [d] Problematic data server: cms-xrd-global.cern.ch:1094
+      [e] Disabled source: cms-xrd-global.cern.ch:1094
+----- End Fatal Exception -------------------------------------------------
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+Before Filter: total cross section = 1.037e+05 +- 1.047e+02 pb
+Filter efficiency (taking into account weights)= (234000) / (234000) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (234000) / (234000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 1.037e+05 +- 1.047e+02 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 9.645e-03 +- 1.371e-05
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                       7        7
+    2 XrdAdaptor           -w file_open                              3        3
+    3 XrdAdaptorInternal   -w file_open                              2        2
+    4 Fatal Exception      -s AfterFile                              1        1
+    5 fileAction           -s file_close                             3        3
+    6 fileAction           -s file_open                              7        7
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 XrdAdaptorInternal   PostProcessEvent PostProcessEvent 
+    4 Fatal Exception      PostProcessEvent                  
+    5 fileAction           PostProcessEvent PostProcessEvent PostProcessEvent
+    6 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                12                  12
+System                 11                  11
+
+dropped waiting message count 0

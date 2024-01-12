@@ -1,33 +1,61 @@
-10-Jan-2024 16:01:04 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 16:01:06.206126 +0100][Error  ][XRootDTransport   ] [xrootd-redir.ultralight.org:1094 #0.0] No protocols left to try
-[2024-01-10 16:01:06.206172 +0100][Error  ][AsyncSock         ] [xrootd-redir.ultralight.org:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 16:01:06.206230 +0100][Error  ][PostMaster        ] [xrootd-redir.ultralight.org:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
-Unable to load sec.protocol plugin libXrdSecztn.so
-[2024-01-10 16:01:06.836575 +0100][Error  ][XRootDTransport   ] [xrootd-redir.ultralight.org:1094 #0.0] No protocols left to try
-[2024-01-10 16:01:06.836603 +0100][Error  ][AsyncSock         ] [xrootd-redir.ultralight.org:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
-[2024-01-10 16:01:06.836658 +0100][Error  ][PostMaster        ] [xrootd-redir.ultralight.org:1094 #0] elapsed = 0, pConnectionWindow = 31 seconds.
-[2024-01-10 16:01:06.836674 +0100][Error  ][PostMaster        ] [xrootd-redir.ultralight.org:1094 #0] Unable to recover: [FATAL] Auth failed.
-[2024-01-10 16:01:06.836687 +0100][Error  ][XRootD            ] [xrootd-redir.ultralight.org:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
-%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 16:04:01 CET pre-events
-Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,xrootd-redir.ultralight.org.
+11-Jan-2024 15:36:22 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 15:36:27 CET pre-events
+Data is served from T2_US_Caltech instead of original site US-Regional-FNAL
 %MSG
-%MSG-w XrdAdaptorInternal:  file_open 10-Jan-2024 16:06:56 CET pre-events
-Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,xrootd-redir.ultralight.org.
+11-Jan-2024 15:36:31 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root
+Begin processing the 1st record. Run 1, Event 2013, LumiSection 3 on stream 0 at 11-Jan-2024 15:36:38.175 CET
+11-Jan-2024 15:36:38 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root
+11-Jan-2024 15:36:38 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/2CAEE042-E660-F544-B54C-ACA0FACCFF8B.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 15:36:41 CET PostProcessEvent
+Data is served from T2_US_Caltech instead of original site US-Regional-FNAL
 %MSG
------ Begin Fatal Exception 10-Jan-2024 16:06:56 CET-----------------------
-An exception of category 'FileOpenError' occurred while
-   [0] Constructing the EventProcessor
-   [1] Constructing input source of type PoolSource
-   [2] Calling RootFileSequenceBase::initTheFile()
-   [3] Calling StorageFactory::open()
-   [4] Calling XrdFile::open()
-Exception Message:
-Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root'
-   Additional Info:
-      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root could not be opened.
-      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root', flags=0x10, permissions=0660) => error '[ERROR] Operation expired' (errno=0, code=206). No additional data servers were found.
-      [c] Last URL tried: root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/5408BA4B-A333-D841-B94C-02AD4B97B209.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,xrootd-redir.ultralight.org
-      [d] Problematic data server: cms-xrd-global.cern.ch:1094
-      [e] Disabled source: cms-xrd-global.cern.ch:1094
------ End Fatal Exception -------------------------------------------------
+11-Jan-2024 15:36:42 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/2CAEE042-E660-F544-B54C-ACA0FACCFF8B.root
+      0.000003      0.000000      1.000000         10011
+ 
+11-Jan-2024 15:36:47 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/DYToEE_M-3500To4500_TuneCP5_13TeV-powheg-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v1/70000/2CAEE042-E660-F544-B54C-ACA0FACCFF8B.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		3.414e-06 +/- 7.453e-10		2500	2500	0	2500	2500	0	3.414e-06 +/- 7.453e-10		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		3.414e-06 +/- 7.453e-10		2500	2500	0	2500	2500	0	3.414e-06 +/- 7.453e-10		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 3.414e-06 +- 7.453e-10 pb
+After matching: total cross section = 3.414e-06 +- 7.453e-10 pb
+Matching efficiency = 1.0 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (0.00853622) / (0.00853622) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (2500) / (2500) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 3.414e-06 +- 7.453e-10 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 2.929e+08 +- 2.998e+05
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      15       15
+    2 XrdAdaptor           -w file_open                              2        2
+    3 fileAction           -s file_close                             2        2
+    4 fileAction           -s file_open                              4        4
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent 
+    3 fileAction           PostProcessEvent PostGlobalEndRun 
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                17                  17
+System                  6                   6
+
+dropped waiting message count 0

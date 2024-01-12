@@ -1,0 +1,103 @@
+11-Jan-2024 15:08:33 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/F578062F-6695-C94E-BE50-D054EEC22E0E.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 15:08:37 CET pre-events
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 15:08:45 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/F578062F-6695-C94E-BE50-D054EEC22E0E.root
+Begin processing the 1st record. Run 1, Event 10008005, LumiSection 10009 on stream 0 at 11-Jan-2024 15:08:52.538 CET
+11-Jan-2024 15:08:54 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/F578062F-6695-C94E-BE50-D054EEC22E0E.root
+11-Jan-2024 15:08:54 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/372689A7-7BC6-2E4B-ABE3-467FB952C793.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 15:08:57 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 15:08:58 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/372689A7-7BC6-2E4B-ABE3-467FB952C793.root
+Begin processing the 100001st record. Run 1, Event 10702008, LumiSection 10703 on stream 0 at 11-Jan-2024 15:09:08.120 CET
+11-Jan-2024 15:09:10 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/372689A7-7BC6-2E4B-ABE3-467FB952C793.root
+11-Jan-2024 15:09:10 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/AC57E067-63BA-2247-A7FF-7382904EAFDB.root
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 15:09:12 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 15:09:13 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/AC57E067-63BA-2247-A7FF-7382904EAFDB.root
+Begin processing the 200001st record. Run 1, Event 10421008, LumiSection 10422 on stream 0 at 11-Jan-2024 15:09:22.716 CET
+11-Jan-2024 15:09:24 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/AC57E067-63BA-2247-A7FF-7382904EAFDB.root
+11-Jan-2024 15:09:24 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/178A149E-F7AD-D44A-A5E9-1BBAD4C05067.root
+[2024-01-11 15:10:02.706834 +0100][Error  ][AsyncSock         ] [xrootd-se4-vanderbilt.sites.opensciencegrid.org:1094 #0.0] Socket error while handshaking: [ERROR] Socket timeout
+[2024-01-11 15:10:02.706951 +0100][Error  ][PostMaster        ] [xrootd-se4-vanderbilt.sites.opensciencegrid.org:1094 #0] elapsed = 45, pConnectionWindow = 31 seconds.
+%MSG-w XrdAdaptor:  file_open 11-Jan-2024 15:10:04 CET PostProcessEvent
+Data is served from T2_US_Vanderbilt instead of original site US-Regional-Nebraska
+%MSG
+11-Jan-2024 15:10:05 CET  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/178A149E-F7AD-D44A-A5E9-1BBAD4C05067.root
+Begin processing the 300001st record. Run 1, Event 11453014, LumiSection 11454 on stream 0 at 11-Jan-2024 15:10:14.505 CET
+11-Jan-2024 15:10:15 CET  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/178A149E-F7AD-D44A-A5E9-1BBAD4C05067.root
+11-Jan-2024 15:10:15 CET  Initiating request to open file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/E7FB3FB6-6C7F-0544-85FB-E00578DD4EB5.root
+%MSG-w XrdAdaptorInternal:  file_open 11-Jan-2024 15:13:11 CET PostProcessEvent
+Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/E7FB3FB6-6C7F-0544-85FB-E00578DD4EB5.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-Jan-2024 15:16:06 CET PostProcessEvent
+Failed to open file at URL root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/E7FB3FB6-6C7F-0544-85FB-E00578DD4EB5.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,.
+%MSG
+----- Begin Fatal Exception 11-Jan-2024 15:16:06 CET-----------------------
+An exception of category 'FileOpenError' occurred while
+   [0] Calling InputSource::readFile_
+   [1] Calling RootFileSequenceBase::initTheFile()
+   [2] Calling StorageFactory::open()
+   [3] Calling XrdFile::open()
+Exception Message:
+Failed to open the file 'root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/E7FB3FB6-6C7F-0544-85FB-E00578DD4EB5.root'
+   Additional Info:
+      [a] Input file root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/E7FB3FB6-6C7F-0544-85FB-E00578DD4EB5.root could not be opened.
+      [b] XrdCl::File::Open(name='root://cmsxrootd.fnal.gov//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/E7FB3FB6-6C7F-0544-85FB-E00578DD4EB5.root', flags=0x10, permissions=0660) => error '[ERROR] Operation expired' (errno=0, code=206). No additional data servers were found.
+      [c] Last URL tried: root://cms-xrd-global.cern.ch:1094//store/mc/RunIISummer20UL16MiniAODv2/ST_t-channel_antitop_4f_InclusiveDecays_TuneCP5up_13TeV-powheg-madspin-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v3/120000/E7FB3FB6-6C7F-0544-85FB-E00578DD4EB5.root?tried=+1213cmsxrootd2.fnal.gov1213xrootd.unl.edu,
+      [d] Problematic data server: cms-xrd-global.cern.ch:1094
+      [e] Disabled source: cms-xrd-global.cern.ch:1094
+----- End Fatal Exception -------------------------------------------------
+     67.926793      0.447927      1.000000         10000
+ 
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		6.793e+01 +/- 4.479e-01		613000	595021	17979	613000	595021	17979	6.793e+01 +/- 4.479e-01		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 6.793e+01 +- 4.479e-01 pb
+After matching: total cross section = 6.793e+01 +- 4.479e-01 pb
+Matching efficiency = 1.0 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (1.96303e+07) / (1.96303e+07) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (307000) / (307000) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 6.793e+01 +- 4.479e-01 pb
+After filter: final fraction of events with negative weights = 2.933e-02 +- 2.207e-06
+After filter: final equivalent lumi for 1M events (1/fb) = 1.305e+01 +- 8.190e-02
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      14       14
+    2 XrdAdaptor           -w file_open                              4        4
+    3 XrdAdaptorInternal   -w file_open                              2        2
+    4 Fatal Exception      -s AfterFile                              1        1
+    5 fileAction           -s file_close                             4        4
+    6 fileAction           -s file_open                              9        9
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 XrdAdaptorInternal   PostProcessEvent PostProcessEvent 
+    4 Fatal Exception      PostProcessEvent                  
+    5 fileAction           PostProcessEvent PostProcessEvent PostProcessEvent
+    6 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                20                  20
+System                 14                  14
+
+dropped waiting message count 0
