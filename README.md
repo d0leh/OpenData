@@ -253,15 +253,14 @@ Available column names:
 * "equivalent_lumi" : "Final equivalent lumi for 1M events (1/fb)",
 * "equivalent_lumi_uncertainty" : "(+-) Error of final equivalent lumi for 1M events (1/fb)"
 
-</details>
-
-Anything that was run after <code>Thu Jan 11 23:43:23 CET 2024</code> has maximum number of event increased from 1e7 to 1e8.
-
 For samples with extensions (e.g. ext1-v1), extensions and original sample are combined and shuffled to feed to the GenXSecAnalyzer together, resulting in one shared output (named after the original sample).
 
 .json files for the extensions are created as the last step, using <code>python create_jsons_extensions.py 2016 StandardModelPhysics Drell-Yan</code>.
 
 Needs update: output_to_json_DAS.py
+</details>
+
+
 
 
 
