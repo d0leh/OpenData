@@ -43,7 +43,7 @@ if(check_duplicates=="True"):
     count = 0
     files = os.listdir("fileLists/{}/{}/{}/".format(year, section, process))
     for sample in samples:
-        #print(sample == samples)
+         #print(sample == samples)
         if (sum(sample==samples))!=1:
             print(sample==samples)
         #exit()
@@ -71,6 +71,10 @@ for sample in samples:
         else:
             newfile = False
     
+    if("RunIISummer20UL16MiniAODv2-106X" in sample_name):
+        print(sample)
+        exit()
+
     outfile = "fileLists/{}/{}/{}/{}.txt".format(year, section, process, sample_name)
     if(newfile):
         with open(outfile, "w") as f:

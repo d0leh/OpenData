@@ -27,10 +27,12 @@ if (count=="True"):
     print("Missing {} files.".format(N_missing))
 else:
     for txtfile in files:
+        print(txtfile)
         dname = txtfile.split('.')[0]
+        print(dname)
         if os.path.isfile('/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}.json'.format(year, section, process, dname)):
             pass
         else:
-            cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f {} -y {} -s {} -p {} -n 10000000 -k {}".format(dname, year, section, process, skipexisting)
+            cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f {} -y {} -s {} -p {} -n 100000000 -k {}".format(dname, year, section, process, skipexisting)
             print(cmd)
             os.system(cmd)
