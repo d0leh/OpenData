@@ -229,27 +229,49 @@ For descriptions of the arguments, refer to the first few lines of each script.
 
 Available column names:
 "Dataset":"Name (and location) of the dataset",
+
 "xsec_before_matching" : "Total cross section before matching (pb)",
+
 "xsec_before_matching_uncertainty": "(+-) Error of total cross section before matching (pb)",
+
 "xsec_after_matching": "Total cross section after matching (pb)",
+
 "xsec_after_matching_uncertainty": "(+-) Error of total cross section after matching (pb)",
+
 "xsec_before_filter" : "Total cross section before filter (pb)",
+
 "xsec_before_filter_uncertainty" : "(+-) Error of total cross section before filter (pb)",
-"total_value" : "Final total cross section (pb)", # to display                          
+
+"total_value" : "Final total cross section (pb)", # to display             
+
 "total_value_uncertainty" : "(+-) Error of final total cross section (pb)", # to display
+
 "matching_efficiency" : "Matching efficiency",
+
 "matching_efficiency_uncertainty" : "(+-) Error of matching efficiency",
+
 "HepMC_filter_efficiency" : "HepMC filter efficiency (taking into account weights)",
+
 "HepMC_filter_efficiency_uncertainty" : "(+-) Error of HepMC filter efficiency (taking into account weights)",
+
 "HepMC_filter_efficiency_evt" : "HepMC filter efficiency (event-level)",
+
 "HepMC_filter_efficiency_evt_uncertainty" : "(+-) Error of HepMC filter efficiency (event-level)",
+
 "filter_efficiency" : "Filter efficiency (taking into account weights)", # to display
+
 "filter_efficiency_uncertainty" : "(+-) Error of filter efficiency (taking into account weights)",
+
 "filter_efficiency_evt" : "Filter efficiency (event-level)",
+
 "filter_efficiency_evt_uncertainty" : "(+-) Error of filter efficiency (event-level)",
+
 "neg_weight_fraction":"Final fraction of events with negative weights after filter", # to display
+
 "neg_weight_fraction_uncertainty" : "(+-) Error of final fraction of events with negative weights after filter",
+
 "equivalent_lumi" : "Final equivalent lumi for 1M events (1/fb)",
+
 "equivalent_lumi_uncertainty" : "(+-) Error of final equivalent lumi for 1M events (1/fb)"
 
 </details>
