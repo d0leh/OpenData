@@ -262,7 +262,8 @@ Needs update: output_to_json_DAS.py
 
 
 Some root files have duplicate events. Some root files cannot be opened.
-Lists of such files can be found in /eos/user/s/sxiaohe/OpenData/flagged/
+Lists of such files can be found in `/eos/user/s/sxiaohe/OpenData/flagged/`
+Lists created by running `flag_rootfiles.py`.
 
 
 
