@@ -2,7 +2,8 @@
 
 import os, sys
 import json
-import StandardModelPhysics2016
+#import StandardModelPhysics2016
+import HiggsPhysics2016
 
 year    = sys.argv[1]
 section = sys.argv[2]

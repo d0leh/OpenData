@@ -4,7 +4,8 @@
 # if count = False, reruns the missing jobs
 
 import os, sys
-import StandardModelPhysics2016
+#import StandardModelPhysics2016
+import HiggsPhysics2016
 
 year    = sys.argv[1]
 section = sys.argv[2]
@@ -33,6 +34,6 @@ else:
         if os.path.isfile('/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}.json'.format(year, section, process, dname)):
             pass
         else:
-            cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f {} -y {} -s {} -p {} -n 100000000 -k {}".format(dname, year, section, process, skipexisting)
+            cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f {} -y {} -s {} -p {} -n 10000000 -k {}".format(dname, year, section, process, skipexisting)
             print(cmd)
             os.system(cmd)

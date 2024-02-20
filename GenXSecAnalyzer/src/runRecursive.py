@@ -1,5 +1,5 @@
 # cd ..
-# python runRecursive.py StandardModelPhysics Drell-Yan
+# python runRecursive.py 2015 StandardModelPhysics Drell-Yan
 
 import os, sys
 
@@ -9,17 +9,17 @@ process = sys.argv[3]
 skipexisting = False
 
 if (section == "StandardModelPhysics"):
-    import StandardModelPhysics
-    samples = StandardModelPhysics.sampleInfo[process]
+    import StandardModelPhysics2015
+    samples = StandardModelPhysics2015.sampleInfo[process]
 
 if (section == "HiggsPhysics"):
-    import HiggsPhysics
-    samples = HiggsPhysics.sampleInfo[process]
+    import HiggsPhysics2015
+    samples = HiggsPhysics2015.sampleInfo[process]
 
 count = 0
-for sample in samples:
-    sample_name = 
-    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f {}.txt -s {} -p {} -n 10000000 -k {}".format(recid, section, process, skipexisting)
+for recid in samples:
+    #sample_name = samples[recid].split('/')[1]
+    cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f {} -y {} -s {} -p {} -n 10000000 -k {}".format(recid, year, section, process, skipexisting)
     print(cmd)
     os.system(cmd)
     count+=1
