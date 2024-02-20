@@ -22,11 +22,11 @@ range_lo = 20*(batch-1)
 range_hi = 20*batch
 for recid in samples:
     #sample_name = samples[recid].split('/')[1]
-    if count>=range_lo and count<range_hi:
+    count+=1
+    if count>range_lo and count<=range_hi:
         cmd = "./src/calculateXSectionAndFilterEfficiency.sh -f {} -y {} -s {} -p {} -n 10000000 -k {}".format(recid, year, section, process, skipexisting)
         print(cmd)
         os.system(cmd)
-        count+=1
         print("Processed {} samples.".format(count))
 
 print("Finished running all the samples.")    
