@@ -2,12 +2,18 @@
 
 import os, sys
 import json
-#import StandardModelPhysics2016
-import HiggsPhysics2016
 
 year    = sys.argv[1]
 section = sys.argv[2]
 process = sys.argv[3]
+
+if (year == "2015"):
+    if (section == "StandardModelPhysics"):
+        import StandardModelPhysics2015
+        samples = StandardModelPhysics2015.sampleInfo[process]
+    if (section == "HiggsPhysics"):
+        import HiggsPhysics2015
+        samples = HiggsPhysics2015.sampleInfo[process]
 
 directory = 'logs/{}/{}/{}/'.format(year, section, process)
 for fname in os.listdir(directory):
@@ -125,7 +131,11 @@ for fname in os.listdir(directory):
                 print("Unexpected output in log file. Failed saving {} to json".format(fpath))
             else:
                 metadata.append(data)
-                outfile = '/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}.json'.format(year, section, process, dname)
+                
+                if(year=="2016"):
+                    outfile = '/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}.json'.format(year, section, process, dname)
+                elif(year=="2015"):
+                    outfile = '/eos/user/s/sxiaohe/OpenData/MC{}/{}/{}/{}_{}.json'.format(year, section, process, samples[dname].split('/')[1], dname)
                 with open(outfile, 'w') as jsonfile:
                     json.dump(metadata, jsonfile)
                 print("Saved to {}".format(outfile))

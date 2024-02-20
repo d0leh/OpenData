@@ -1,5 +1,5 @@
+# Handles DAS samples with same names for 2016 or newer (no recid assigned yet)
 # python create_jsons_extensions.py 2016 StandardModelPhysics Drell-Yan
-
 # copies the original json into json files for extensions
 
 import os, sys
@@ -28,5 +28,3 @@ for sample in samples:
 
         print("Creating json file: {}".format(outfile))
         os.system("cp {} {}".format(infile, outfile))
-        
-        

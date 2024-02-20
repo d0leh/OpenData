@@ -29,14 +29,6 @@ if __name__ == "__main__":
     (args, opts) = parser.parse_args(sys.argv)
 
     inputFilelist = "fileLists/{}/{}/{}/{}.txt".format(args.year, args.sectionName, args.processName, args.inputFilelist)
-    #if(args.year=="2015"):
-    #    label = args.inputFilelist.split('_')[1].split('.')[0]
-    #elif(args.year=="2016"):
-    #    label = args.inputFilelist.split('.')[0]
-    #else:
-    #    print("invalid year")
-    #print(label)
-
     outfileName = "logs/{}/{}/{}/xsec_{}.log".format(args.year, args.sectionName, args.processName, args.inputFilelist)
     skipexisting = str_to_bool(str(args.skipexisting))
 

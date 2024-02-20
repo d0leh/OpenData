@@ -8,13 +8,13 @@ section = sys.argv[2]
 process = sys.argv[3]
 skipexisting = False
 
-if (section == "StandardModelPhysics"):
-    import StandardModelPhysics2015
-    samples = StandardModelPhysics2015.sampleInfo[process]
-
-if (section == "HiggsPhysics"):
-    import HiggsPhysics2015
-    samples = HiggsPhysics2015.sampleInfo[process]
+if year == "2015":
+    if (section == "StandardModelPhysics"):
+        import StandardModelPhysics2015
+        samples = StandardModelPhysics2015.sampleInfo[process]
+    if (section == "HiggsPhysics"):
+        import HiggsPhysics2015
+        samples = HiggsPhysics2015.sampleInfo[process]
 
 count = 0
 for recid in samples:
