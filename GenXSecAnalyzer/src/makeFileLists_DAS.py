@@ -18,12 +18,12 @@ separate = sys.argv[6]
 prefix = "root://cmsxrootd.fnal.gov/"
 
 if (section == "StandardModelPhysics"):
-    import StandardModelPhysics2017
-    samples = StandardModelPhysics2017.sampleInfo[process]
+    import StandardModelPhysics2016
+    samples = StandardModelPhysics2016.sampleInfo[process]
 
 if (section == "HiggsPhysics"):
-    import HiggsPhysics2017
-    samples = HiggsPhysics2017.sampleInfo[process]
+    import HiggsPhysics2016
+    samples = HiggsPhysics2016.sampleInfo[process]
 
 if(check_missing=="True"):
     count = 0
