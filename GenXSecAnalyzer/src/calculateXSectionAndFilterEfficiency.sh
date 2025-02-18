@@ -10,8 +10,8 @@ do
     esac
 done
 
-echo "python src/compute_cross_section.py -f '${FILE}' -y '${YEAR}' -s '${SECTIONNAME}' -p '${PROCESSNAME}' -n '${EVENTS}' -k '${SKIPEXISTING}'"
-output="$(python src/compute_cross_section.py -f "${FILE}"  -y "${YEAR}" -s "${SECTIONNAME}" -p "${PROCESSNAME}" -n "${EVENTS}" -k "${SKIPEXISTING}")"
+echo "python3 src/compute_cross_section.py -f '${FILE}' -y '${YEAR}' -s '${SECTIONNAME}' -p '${PROCESSNAME}' -n '${EVENTS}' -k '${SKIPEXISTING}'"
+output="$(python3 src/compute_cross_section.py -f "${FILE}"  -y "${YEAR}" -s "${SECTIONNAME}" -p "${PROCESSNAME}" -n "${EVENTS}" -k "${SKIPEXISTING}")"
 output="${output#*.txt}"
 output="${output#*.txt}"
 
