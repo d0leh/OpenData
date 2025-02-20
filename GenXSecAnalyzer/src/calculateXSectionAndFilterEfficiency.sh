@@ -10,8 +10,8 @@ do
     esac
 done
 
-echo "python3 src/compute_cross_section.py -f '${FILE}' -y '${YEAR}' -s '${SECTIONNAME}' -p '${PROCESSNAME}' -n '${EVENTS}' -k '${SKIPEXISTING}'"
-output="$(python3 src/compute_cross_section.py -f "${FILE}"  -y "${YEAR}" -s "${SECTIONNAME}" -p "${PROCESSNAME}" -n "${EVENTS}" -k "${SKIPEXISTING}")"
+echo "python src/compute_cross_section.py -f '${FILE}' -y '${YEAR}' -s '${SECTIONNAME}' -p '${PROCESSNAME}' -n '${EVENTS}' -k '${SKIPEXISTING}'"
+output="$(python src/compute_cross_section.py -f "${FILE}"  -y "${YEAR}" -s "${SECTIONNAME}" -p "${PROCESSNAME}" -n "${EVENTS}" -k "${SKIPEXISTING}")"
 output="${output#*.txt}"
 output="${output#*.txt}"
 
@@ -22,4 +22,4 @@ else
 fi
 echo ""
 
-#python3 src/output_to_json_DAS.py "${FILE}" "${YEAR}" "${SECTIONNAME}" "${PROCESSNAME}"
+#python2 src/output_to_json_DAS.py "${FILE}" "${YEAR}" "${SECTIONNAME}" "${PROCESSNAME}"

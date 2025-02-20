@@ -1,8 +1,5 @@
 # cd ..
-# python src/makeFileLists_DAS.py 2016 StandardModelPhysics Drell-Yan False False False
-
-# Two debug handles. First one set to True to check which files are missing. Second one set to True to check duplicate sample names.
-# dasgoclient -query="file dataset=/DY1JetsToLL_M-10to50_MatchEWPDG20_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM"
+# python src/makeFileLists_DAS.py 2017 StandardModelPhysics Drell-Yan False False False
 
 # The last argument: set to True to keep extensions as separate files; set to False to combine them into one single file
 
@@ -18,12 +15,12 @@ separate = sys.argv[6]
 prefix = "root://cmsxrootd.fnal.gov/"
 
 if (section == "StandardModelPhysics"):
-    import StandardModelPhysics2016
-    samples = StandardModelPhysics2016.sampleInfo[process]
+    import StandardModelPhysics2017
+    samples = StandardModelPhysics2017.sampleInfo[process]
 
 if (section == "HiggsPhysics"):
-    import HiggsPhysics2016
-    samples = HiggsPhysics2016.sampleInfo[process]
+    import HiggsPhysics2017
+    samples = HiggsPhysics2017.sampleInfo[process]
 
 if(check_missing=="True"):
     count = 0
@@ -51,7 +48,7 @@ if(check_duplicates=="True"):
 
 count = 0
 for sample in samples:
-    # fileLists/2016/StandardModelPhysics/Drell-Yan
+    # fileLists/2017/StandardModelPhysics/Drell-Yan
     sample_name = sample.split("/")[1]
     files = os.listdir("fileLists/{}/{}/{}/".format(year, section, process))
     newfile = True
@@ -71,9 +68,9 @@ for sample in samples:
         else:
             newfile = False
     
-    if("RunIISummer20UL16MiniAODv2-106X" in sample_name):
-        print(sample)
-        exit()
+    # if("RunIISummer20UL17MiniAODv2-106X" in sample_name):
+    #     print(sample)
+    #     exit()
 
     outfile = "fileLists/{}/{}/{}/{}.txt".format(year, section, process, sample_name)
     if(newfile):
