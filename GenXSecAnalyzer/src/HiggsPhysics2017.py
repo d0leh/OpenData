@@ -1,10 +1,10 @@
 import numpy as np
 import json
 
-with open('matches.txt') as f:
+with open('src/matches.txt') as f:
   matches2017 = f.read().splitlines()
 
-json_file_path = "CMS-2017-mc-datasets.json"
+json_file_path = "src/CMS-2017-mc-datasets.json"
 with open(json_file_path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
