@@ -2,7 +2,7 @@
 # python src/runRecursive_DAS.py 2017 StandardModelPhysics Drell-Yan
 
 import os, sys
-#import StandardModelPhysics2016
+import StandardModelPhysics2017
 # import HiggsPhysics2016
 
 year    = sys.argv[1]
