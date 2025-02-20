@@ -3,7 +3,7 @@
 
 import os, sys
 import StandardModelPhysics2017
-# import HiggsPhysics2016
+import HiggsPhysics2017
 
 year    = sys.argv[1]
 section = sys.argv[2]
